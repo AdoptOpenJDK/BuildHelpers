@@ -1,0 +1,11 @@
+hg diff src/share/classes/com/oracle/net/Sdp.java > Sdp.patch
+hg diff src/share/classes/com/sun/java/browser/dom/DOMService.java  > DOMService.patch
+hg diff src/share/classes/com/sun/rowset/CachedRowSetImpl.java  > CachedRowSetImpl.patch
+hg diff src/share/classes/com/sun/rowset/internal/SyncResolverImpl.java  > SyncResolverImpl.patch
+hg diff src/share/classes/com/sun/tools/example/debug/expr/ExpressionParserTokenManager.java  > ExpressionParserTokenManager.patch
+hg diff src/share/classes/javax/sql/rowset/BaseRowSet.java  > BaseRowSet.patch
+hg diff src/share/classes/sun/audio/AudioStream.java  > AudioStream.patch
+hg diff src/share/classes/sun/java2d/pisces/PiscesRenderingEngine.java  > PiscesRenderingEngine.patch
+hg diff src/share/classes/sunw/io/Serializable.java  > Serializable.patch
+hg diff src/share/classes/sunw/util/EventListener.java  > EventListener.patch
+hg diff src/share/classes/sunw/util/EventObject.java  > EventObject.patch
