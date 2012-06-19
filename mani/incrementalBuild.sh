@@ -14,7 +14,7 @@
 # Everyone is permitted to copy and distribute verbatim copies of this license
 # document, but changing it is not allowed.
 # 
-# Copyright (c) 2012, Mani Sarkar <sadhak001@gmail.com>, Mike Barker <mike.barker@gmail.com>, Martijn Verburg <martijn.verburg@gmail.com> All rights reserved.
+# Copyright (c) 2012, Mike Barker <mike.barker@gmail.com>, Martijn Verburg <martijn.verburg@gmail.com>, Mani Sarkar <sadhak001@gmail.com>. All rights reserved.
 # 
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
 #
