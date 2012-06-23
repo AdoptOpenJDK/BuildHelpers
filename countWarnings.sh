@@ -1,17 +1,9 @@
 #!/bin/bash
-# 
-# The GNU General Public License (GPL)
 
-# Version 2, June 1991
-
-# Copyright (C) 1989, 1991 Free Software Foundation, Inc.
-# 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
-
-# Everyone is permitted to copy and distribute verbatim copies of this license
-# document, but changing it is not allowed.
-# 
 #
-# Copyright (c) 2012 <Author Unknwon>. All rights reserved.
+# countWarnings.sh - displays a table of statistics of the pending number of warnings when building the OpenJDK.
+#
+# Copyright (c) 2012, Martijn Verburg <martijn.verburg@gmail.com>, Mani Sarkar <sadhak001@gmail.com>. All rights reserved.
 # 
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
 #

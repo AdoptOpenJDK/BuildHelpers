@@ -1,18 +1,9 @@
 #!/bin/bash
 
-# 
+# updateOpenJDKSource.sh - purges the current local mercurial repository and fetches all files from remote repository.
+#
 # Originally incepted by Mike Barker and Martijn Verburg as wiki instructions for the participants of the OpenJDK hackathon sessions
 # Compiled into bash script files by Mani Sarkar.
-#
-# The GNU General Public License (GPL)
-#
-# Version 2, June 1991
-
-# Copyright (C) 1989, 1991 Free Software Foundation, Inc.
-# 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
-
-# Everyone is permitted to copy and distribute verbatim copies of this license
-# document, but changing it is not allowed.
 # 
 # Copyright (c) 2012, Mike Barker <mike.barker@gmail.com>, Martijn Verburg <martijn.verburg@gmail.com>, Mani Sarkar <sadhak001@gmail.com> All rights reserved.
 # 
