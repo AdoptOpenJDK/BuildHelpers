@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/sh
+
+set -eu
 
 #
 # createPatches.sh - generates one or more .patch files from the changed .java files in the local mercurial repository.
@@ -33,7 +35,14 @@ getChangedFiles=$(echo $getChangedFiles | tr -s " ?" " ")
 # Loop through the list of fullpath filenames  
 for javaFullPath in $getChangedFiles 
 do
-   homeDir="$HOME/sources/jdk"
+   homeDir="~/sources/jdk8_tl/jdk"
+   echo "This script assumes you are running from $homeDir if you want to change $homeDir please pass it in as the first argument"
+
+   # Set home directory to another folder as passed in by the user  
+   if [ $1 -eq 0 ]
+   then
+     homeDir=$1
+   fi
    
    # save full path name into a working variable
    javaFullPathElements=$javaFullPath
