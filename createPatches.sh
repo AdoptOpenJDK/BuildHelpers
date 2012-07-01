@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/sh
+
+set -eu
 
 #
 # createPatches.sh - generates one or more .patch files from the changed .java files in the local mercurial repository.

@@ -1,7 +1,9 @@
-#!/bin/bash
+#!/bin/sh
+
+set -eu
 
 #
-# runTestRigTests.sh - runs JTRigTests given a valid package / group name.
+# runJtregTests.sh - runs JTregTests given a valid package / group name.
 #
 # Copyright (c) 2012, Mani Sarkar <sadhak001@gmail.com> All rights reserved.
 # 
@@ -27,10 +29,10 @@
 # function to display Usage message
 displayUsageMessage() {
   echo ""
-  echo "'runTestRigTests' has been invoked with any parameters."
+  echo "'runJtregTests.sh' has been invoked with any parameters."
   echo "" 
-  echo "Usage: runTestRigTests <group/package name>"
-  echo "e.g. runTestRigTests jdk_awt     ----- to run tests on the awt package"
+  echo "Usage: runJtregTests.sh <group/package name>"
+  echo "e.g. runJtregTests.sh jdk_awt     ----- to run tests on the awt package"
   echo ""
 
   echo "Below is a list of packages to help with the usage"
