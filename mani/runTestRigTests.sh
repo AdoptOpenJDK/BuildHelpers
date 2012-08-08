@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#
 # runTestRigTests.sh - runs JTRigTests given a valid package / group name.
 #
 # Copyright (c) 2012, Mani Sarkar <sadhak001@gmail.com> All rights reserved.

@@ -1,7 +1,4 @@
 #!/bin/bash
-
-#
-# cleanBuild.sh - performs a clean build (full make) of the openJDK.
 # 
 # Originally incepted by Mike Barker and Martijn Verburg as wiki instructions for the participants of the OpenJDK hackathon sessions
 # Compiled into bash script files by Mani Sarkar.

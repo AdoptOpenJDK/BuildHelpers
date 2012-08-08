@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#
 # updateOpenJDKSource.sh - purges the current local mercurial repository and fetches all files from remote repository.
 #
 # Originally incepted by Mike Barker and Martijn Verburg as wiki instructions for the participants of the OpenJDK hackathon sessions
