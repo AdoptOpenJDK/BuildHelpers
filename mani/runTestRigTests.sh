@@ -93,8 +93,8 @@ then
    exit
 fi
 
-# Run this script to setup the environment variables before performing any openJDK activities.
-. $HOME/sources/jdk/jdk8-env.sh
+  # Run this script to setup the environment variables before performing any openJDK activities.
+  . $HOME/sources/jdk/jdk8-env.sh
 
 # Perform the action by running the test for the inut package name 
 echo "Tests for package [$1] are being performed. Results are recorded in the [$1.log] file stored locally..."
