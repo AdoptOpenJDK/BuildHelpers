@@ -1,7 +1,10 @@
-#!/bin/bash
+#!/bin/sh
+
+set -eu
 
 #
-# executePartialBuild.sh - performs a partial or incremental build (not full make) of the openJDK, depending on the changes to the source.
+# executePartialBuild.sh - performs a partial or incremental build (not full make) of 
+# the openJDK, depending on the changes to the source.
 # 
 # Copyright (c) 2012 Martijn Verburg <martijn.verburg@gmail.com>. All rights reserved.
 # 
