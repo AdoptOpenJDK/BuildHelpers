@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="${jmx.demo.classes}" path="${jmx.demo.src}"/>
+	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="/home/openjdk/sources/jdk8_tl/jdk/dist/lib/jmx.jar"/>
+	<classpathentry kind="con" path="/home/openjdk/sources/jdk8_tl/jdk/build/linux-i586/classes"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

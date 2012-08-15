@@ -5,6 +5,6 @@ your system with openJDK installed:
 
 ~/sources/jdk8_tl/
 
-which can expand to
+which expands to
 
 /home/openjdk/sources/jdk8_tl/
