@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="classes" path="jaxws_classes"/>
+	<classpathentry kind="src" output="classes" path="jaf_classes"/>
+	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
+	<classpathentry kind="con" path="/home/openjdk/sources/jdk8_tl/jaxws/build/classes"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/java-6-openjdk-amd64/lib/tools.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
