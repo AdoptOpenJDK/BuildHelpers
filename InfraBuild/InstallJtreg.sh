@@ -43,7 +43,7 @@ echo "Exporting environment variables in .bashrc"
 echo "************************************************************"
 
  echo "export JT_HOME=/home/openjdk/jtreg" >> ~/.bashrc
- echo "export PRODUCT_HOME=/home/openjdk/sources/jdk8_tl/build/linux-x64-normal-server-release/jdk" >> ~/.bashrc
+ echo "export PRODUCT_HOME=/home/openjdk/sources/jdk8_tl/build/linux-x64-normal-server-release/images/j2sdk-image" >> ~/.bashrc
 
  unset ALT_BOOTDIR;
  unset ALT_JDK_IMPORT_PATH;
