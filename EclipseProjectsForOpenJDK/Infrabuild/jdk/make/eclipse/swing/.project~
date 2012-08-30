@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project [
+    <!ENTITY properties SYSTEM "../../common/properties.ent">
+    <!ENTITY share-sources SYSTEM "../../common/share-sources.ent">
+    <!ENTITY demo-sources SYSTEM "../../common/demo-sources.ent">
+    <!ENTITY build-folder SYSTEM "../../common/build-folder.ent">
+    <!ENTITY standard-bindings SYSTEM "../../common/standard-bindings.ent">
+    <!ENTITY share-view SYSTEM "../../common/share-view.ent">
+    <!ENTITY demo-view SYSTEM "../../common/demo-view.ent">
+    <!ENTITY file-view SYSTEM "../../common/file-view.ent">
+    <!ENTITY standard-actions SYSTEM "../../common/standard-actions.ent">
+    <!ENTITY java-data-no-native SYSTEM "../../common/java-data-no-native.ent">
+]>
+
+<projectDescription>
+	<name>openjdk8-swing</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<properties>
+	   <property name="name">swing</property> <!-- Customized -->
+	   &properties;
+	</properties>
+    	<folders>
+        	&share-sources;
+        	&demo-sources;
+        	&build-folder;
+    	</folders>
+
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
