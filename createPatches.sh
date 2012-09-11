@@ -35,15 +35,6 @@ getChangedFiles=$(echo $getChangedFiles | tr -s " ?" " ")
 # Loop through the list of fullpath filenames  
 for javaFullPath in $getChangedFiles 
 do
-<<<<<<< HEAD:mani/createPatches.sh
-  homeDir="$HOME/sources/jdk"
-
-  # set home directory to another folder as passed in by the user  
-  if [ $1 -eq 0 ]
-  then
-    homeDir=$1
-  fi
-=======
    homeDir="~/sources/jdk8_tl/jdk"
    echo "This script assumes you are running from $homeDir if you want to change $homeDir please pass it in as the first argument"
 
@@ -52,8 +43,7 @@ do
    then
      homeDir=$1
    fi
->>>>>>> upstream/master:createPatches.sh
-   
+      
    # save full path name into a working variable
    javaFullPathElements=$javaFullPath
    # extract .java file name from the full path name (working variable)
