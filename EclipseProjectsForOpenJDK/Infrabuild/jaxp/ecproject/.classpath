@@ -3,6 +3,6 @@
 	<classpathentry kind="src" output="classes" path="src"/>
 	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
 	<classpathentry kind="con" path="/home/openjdk/sources/jdk8_tl/jaxp/build/classes"/>
-	<classpathentry kind="lib" path="/usr/lib/jvm/java-6-openjdk-amd64/lib/tools.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
