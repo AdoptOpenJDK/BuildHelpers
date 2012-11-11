@@ -32,25 +32,21 @@ echo "************************************************************"
 echo "Creating folder, downloading jtreg and expanding into folder"
 echo "************************************************************"
 
- mkdir ~/sources ;
+ if [ ! -d "sources" ]; then
+    mkdir ~/sources ;
+ fi
  cd ~/sources ;
  sudo apt-get install git-core ;
  sudo apt-get install mercurial ;
- hg clone http://hg.openjdk.java.net/jdk8/tl jdk8_tl ;
- cd jdk8_tl/ ;
- chmod u+x get_source.sh ;
- ./get_source.sh ;
 
-echo "************************************************************"
-echo "Running configure command"
-echo "************************************************************"
+ if [ ! -d "jdk9_tl" ]; then
+    hg clone http://hg.openjdk.java.net/jdk8/tl jdk8_tl ;
+    cd jdk8_tl/ ;
+    chmod u+x get_source.sh ;
+    ./get_source.sh ;
+ if
 
-# To execute the new build-infras build, run the following:
- cd ~/sources/jdk8_tl/common/makefiles ;
- sh ../autoconf/configure ;
-
-
-echo "************************************************************"
+echo "*********** *************************************************"
 echo "Getting and installing essential bits for OpenJDK"
 echo "************************************************************"
 
@@ -83,12 +79,17 @@ echo "************************************************************"
  chmod u+x createPatches.sh ;
 
 echo "************************************************************"
+echo "Running configure command"
+echo "************************************************************"
+
+# To execute the new build-infras build, run the following:
+ cd ~/sources/jdk8_tl/common/makefiles
+ bash ../autoconf/configure ;
+
+echo "************************************************************"
 echo "Creating folder, downloading jtreg and expanding into folder"
 echo "************************************************************"
- 
-#Once all of the packages are installed, run:
- cd ~/sources/jdk8_tl/common/makefiles
- sh ../autoconf/configure ;
+
 
 echo "************************************************************"
 echo "Create JDK and J2SE images like the old build system"
@@ -104,3 +105,4 @@ echo "************************************************************"
  
 # Make verbose infra build of OpenJDK 
 make VERBOSE="-d -p" &> infrabuildVerboseBuild.log
+
