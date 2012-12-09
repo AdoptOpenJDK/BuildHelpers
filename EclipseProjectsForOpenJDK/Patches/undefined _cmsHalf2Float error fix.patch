@@ -1,0 +1,32 @@
+# HG changeset patch
+# User ohrstrom
+# Date 1352373915 -3600
+# Node ID 1e79fec4a01f4fda2bb9b35fb5f0e33bfe4563b9
+# Parent 3717bcf9d7a7aa4afad96cefb705d942ccece84b
+8003161: small fixes to re-enable new build system
+Reviewed-by: dholmes, alanb, erikj
+
+--- a/makefiles/CompileNativeLibraries.gmk	Wed Nov 07 23:12:45 2012 -0500
++++ b/makefiles/CompileNativeLibraries.gmk	Thu Nov 08 12:25:15 2012 +0100
+@@ -1242,7 +1242,7 @@ ifdef OPENJDK
+ 		INCLUDE_FILES:=cmscam02.c cmscgats.c cmscnvrt.c cmserr.c \
+ 			       cmsgamma.c cmsgmt.c cmsintrp.c cmsio0.c \
+ 			       cmsio1.c cmslut.c cmsmd5.c cmsmtrx.c \
+-			       cmsnamed.c cmsopt.c cmspack.c cmspcs.c \
++			       cmsnamed.c cmsopt.c cmshalf.c cmspack.c cmspcs.c \
+ 			       cmsplugin.c cmsps2.c cmssamp.c cmssm.c \
+ 			       cmstypes.c cmsvirt.c cmswtpnt.c cmsxform.c \
+ 			       LCMS.c,\
+--- a/makefiles/CreateJars.gmk	Wed Nov 07 23:12:45 2012 -0500
++++ b/makefiles/CreateJars.gmk	Thu Nov 08 12:25:15 2012 +0100
+@@ -271,7 +271,7 @@ endif
+ 
+ ifeq ($(OPENJDK_TARGET_OS), macosx)
+         RT_JAR_EXCLUDES += com/sun/nio/sctp \
+-                           sun/nio/ch/sctp \
++                           sun/nio/ch/sctp
+ endif
+ 
+ # Find all files in the classes dir to use as dependencies. This could be more fine granular.
+
+

@@ -1,0 +1,30 @@
+# HG changeset patch
+# User ohrstrom
+# Date 1352373875 -3600
+# Node ID 8bbc72864a416c26f743a69b59563f1781b1ca5c
+# Parent 1c8370a55b305d35353346202bde042ba9e8a9fd
+8003161: small fixes to re-enable new build system
+Reviewed-by: dholmes, alanb, erikj
+
+--- a/common/makefiles/JavaCompilation.gmk	Wed Nov 07 15:32:13 2012 -0800
++++ b/common/makefiles/JavaCompilation.gmk	Thu Nov 08 12:24:35 2012 +0100
+@@ -111,7 +111,7 @@ define SetupArchive
+         ifeq ($$(word 20,$$($1_GREP_INCLUDE_PATTERNS)),)
+             $1_GREP_INCLUDES:=| $(GREP) $$(patsubst %,$(SPACE)-e$(SPACE)$(DQUOTE)%$(DQUOTE),$$($1_GREP_INCLUDE_PATTERNS))
+         else
+-            $$(shell $(RM) $$($1_BIN)/_the.$$($1_JARNAME)_include)
++            $$(shell $(MKDIR) -p $$($1_BIN) && $(RM) $$($1_BIN)/_the.$$($1_JARNAME)_include)
+             $$(eval $$(call ListPathsSafelyNow,$1_GREP_INCLUDE_PATTERNS,\n, \
+ 			>> $$($1_BIN)/_the.$$($1_JARNAME)_include))
+             $1_GREP_INCLUDES:=| $(GREP) -f $$($1_BIN)/_the.$$($1_JARNAME)_include
+@@ -124,7 +124,7 @@ define SetupArchive
+         ifeq ($$(word 20,$$($1_GREP_EXCLUDE_PATTERNS)),)
+             $1_GREP_EXCLUDES:=| $(GREP) -v $$(patsubst %,$(SPACE)-e$(SPACE)$(DQUOTE)%$(DQUOTE),$$($1_GREP_EXCLUDE_PATTERNS))
+         else
+-            $$(shell $(RM) $$($1_BIN)/_the.$$($1_JARNAME)_exclude)
++            $$(shell $(MKDIR) -p $$($1_BIN) && $(RM) $$($1_BIN)/_the.$$($1_JARNAME)_exclude)
+             $$(eval $$(call ListPathsSafelyNow,$1_GREP_EXCLUDE_PATTERNS,\n, \
+ 			>> $$($1_BIN)/_the.$$($1_JARNAME)_exclude))
+             $1_GREP_EXCLUDES:=| $(GREP) -v -f $$($1_BIN)/_the.$$($1_JARNAME)_exclude
+
+
