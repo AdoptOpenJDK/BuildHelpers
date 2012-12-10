@@ -45,6 +45,7 @@ echo "************************************************************"
     chmod u+x get_source.sh ;
     ./get_source.sh ;
  fi
+
 echo "************************************************************"
 echo "Running configure command"
 echo "************************************************************"
@@ -54,7 +55,7 @@ echo "************************************************************"
  bash ../autoconf/configure ;
 
 
-echo "************************************************************"
+echo "*********** *************************************************"
 echo "Getting and installing essential bits for OpenJDK"
 echo "************************************************************"
 
@@ -69,7 +70,7 @@ echo "************************************************************"
 sudo apt-get install g++-4.7-multilib
 
 echo "************************************************************"
-echo "Creating folder, downloading countWarning.awk"
+echo "Creating folder, downloading jtreg and expanding into folder"
 echo "************************************************************"
 
 # Install countWarnings.awk script
@@ -89,8 +90,8 @@ echo "************************************************************"
 echo "************************************************************"
 echo "Running configure command"
 echo "************************************************************"
- 
-#Once all of the packages are installed, run:
+
+# To execute the new build-infras build, run the following:
  cd ~/sources/jdk8_tl/common/makefiles
  bash ../autoconf/configure ;
 
@@ -107,5 +108,5 @@ echo "Run a complete build in Verbose mode (optional)"
 echo "************************************************************"
  
 # Make verbose infra build of OpenJDK 
-#make VERBOSE="-d -p" &> infrabuildVerboseBuild.log
+make VERBOSE="-d -p" &> infrabuildVerboseBuild.log
 
