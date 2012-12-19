@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -eu
 
@@ -26,6 +26,24 @@ set -eu
 # Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
 #
 
+
+displayUsageMessage(){
+	echo "---------------------------------------------------"
+	echo "Usage : bash createPatches.sh "
+	echo "This script is supposed to be placed in <OpenJdk_Source_Dir>/jdk8_tl/jdk/ "
+	echo "<OpenJdk_Source_Dir>  is the location where you have cloned OpenJdk repository  "		
+	echo "---------------------------------------------------"
+}
+
+
+homeDir=`pwd`
+openJdkBaseDir="jdk8_tl/jdk"
+if [[ "$homeDir" != *jdk8_tl/jdk ]]
+then
+	displayUsageMessage
+	exit
+fi
+
 # Get list of changed files from Mercurial
 getChangedFiles=$(hg status | grep .java)
 
@@ -34,25 +52,14 @@ getChangedFiles=$(echo $getChangedFiles | tr -s " ?" " ")
 
 # Loop through the list of fullpath filenames  
 for javaFullPath in $getChangedFiles 
-do
-   homeDir="~/sources/jdk8_tl/jdk"
-   echo "This script assumes you are running from $homeDir if you want to change $homeDir please pass it in as the first argument"
-
-   # Set home directory to another folder as passed in by the user  
-   if [ $1 -eq 0 ]
-   then
-     homeDir=$1
-   fi
+do  
    
    # save full path name into a working variable
    javaFullPathElements=$javaFullPath
-   # extract .java file name from the full path name (working variable)
-   javaFullPathElements=$(echo $javaFullPathElements | tr "/" " ")
-   
-   for javaFileName in $javaFullPathElements
-   do
-     echo "Class file [$javaFileName] has been changed according to Mercurial."
-   done
+   # break full path to java class name into strings and assign it to array (working variable)
+   javaFullPathElements=($(echo $javaFullPathElements | tr "/" " "))
+   # assign .java file name from javaFullPathElements array to javaFileName (working variable)
+   javaFileName=${javaFullPathElements[${#javaFullPathElements[@]}-1]}
 
    # define the diff output file with the .patch extension 
    javaPatchFileName="$javaFileName.patch"
@@ -66,3 +73,4 @@ do
      echo "Zero byte patch file [$javaPatchFileName] for class [$javaFileName] has been deleted." 
    fi
 done
+
