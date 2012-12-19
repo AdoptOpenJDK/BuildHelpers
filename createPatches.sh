@@ -30,7 +30,7 @@ set -eu
 displayUsageMessage(){
 	echo "---------------------------------------------------"
 	echo "Usage : bash createPatches.sh "
-	echo "This script is supposed to be places in <OpenJdk_Source_Dir>/jdk8_tl/jdk/ "
+	echo "This script is supposed to be placed in <OpenJdk_Source_Dir>/jdk8_tl/jdk/ "
 	echo "<OpenJdk_Source_Dir>  is the location where you have cloned OpenJdk repository  "		
 	echo "---------------------------------------------------"
 }
@@ -40,8 +40,8 @@ homeDir=`pwd`
 openJdkBaseDir="jdk8_tl/jdk"
 if [[ "$homeDir" != *jdk8_tl/jdk ]]
 then
-displayUsageMessage
-exit
+	displayUsageMessage
+	exit
 fi
 
 # Get list of changed files from Mercurial

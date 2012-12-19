@@ -5,7 +5,7 @@ set -eu
 #
 # runJtregTests.sh - runs JTregTests given a valid package / group name.
 #
-# Copyright (c) 2012  Mani Sarkar <sadhak001@gmail.com> All rights reserved.
+# Copyright (c) 2012 Mani Sarkar <sadhak001@gmail.com> All rights reserved.
 # 
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
 #
@@ -54,7 +54,7 @@ function packageNameExists() {
 # function to display Usage message
 displayUsageMessage() {
   echo ""
-  echo ""runJtregTests.sh" has been invoked without a valid parameter."
+  echo "runJtregTests.sh has been invoked without a valid parameter."
   echo "" 
   echo "Usage: runJtregTests.sh <group/package name>"
   echo "e.g. runJtregTests.sh jdk_awt     ----- to run tests on the awt package"
@@ -85,7 +85,7 @@ displayUsageMessage() {
   echo ""
 }
 
-# Display usage details if user calls runTestRigTests without any parameter  and exit the script.
+# Display usage details if user calls runTestRigTests without any parameter and exit the script.
 if [[ $# -eq 0 ]]
 then
   displayUsageMessage
@@ -99,7 +99,7 @@ packageNameExists;
 # check if the package name check fails validity
 if [[ $rtnResult -eq 0 ]];
 then
-   # if no match is found  display error  show the usage message and exit the script
+   # if no match is found display error, show the usage message and exit the script
    echo "[$1] is not a valid OpenJDK test package name. Please refer to the usage message below for a list of valid test package names."
    displayUsageMessage 
    exit
