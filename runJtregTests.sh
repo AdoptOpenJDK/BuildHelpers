@@ -69,7 +69,7 @@ displayUsageMessage() {
   echo "jdk_beans1     - run beans package tests"
   echo "jdk_io         - run io package tests"
   echo "jdk_lang       - run language package tests"
-  echo "jdk_jfr 	   - run jfr package tests"
+  echo "jdk_jfr        - run jfr package tests"
   echo "jdk_math       - run math package tests"
   echo "jdk_misc       - run misc package tests"
   echo "jdk_net        - run net package tests"
