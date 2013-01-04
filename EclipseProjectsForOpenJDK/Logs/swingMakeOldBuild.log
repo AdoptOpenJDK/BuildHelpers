@@ -1,0 +1,936 @@
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+/bin/mkdir -p ../../../build/linux-amd64/classes/javax/swing/text/html
+rm -f ../../../build/linux-amd64/classes/javax/swing/text/html/default.css
+/bin/cp ../../../src/share/classes/javax/swing/text/html/default.css ../../../build/linux-amd64/classes/javax/swing/text/html/default.css
+/bin/mkdir -p ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets
+rm -f ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/NeXT.txt
+/bin/cp ../../../src/share/classes/javax/swing/text/rtf/charsets/NeXT.txt ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/NeXT.txt
+/bin/mkdir -p ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets
+rm -f ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/ansi.txt
+/bin/cp ../../../src/share/classes/javax/swing/text/rtf/charsets/ansi.txt ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/ansi.txt
+/bin/mkdir -p ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets
+rm -f ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/cpg437.txt
+/bin/cp ../../../src/share/classes/javax/swing/text/rtf/charsets/cpg437.txt ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/cpg437.txt
+/bin/mkdir -p ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets
+rm -f ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/cpg850.txt
+/bin/cp ../../../src/share/classes/javax/swing/text/rtf/charsets/cpg850.txt ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/cpg850.txt
+/bin/mkdir -p ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets
+rm -f ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/mac.txt
+/bin/cp ../../../src/share/classes/javax/swing/text/rtf/charsets/mac.txt ../../../build/linux-amd64/classes/javax/swing/text/rtf/charsets/mac.txt
+# Java sources to be compiled: (listed in file ../../../build/linux-amd64/tmp/com/javax.swing/.classes.list)
+../../../src/share/classes/com/sun/java/swing/Painter.java
+../../../src/share/classes/com/sun/java/swing/SwingUtilities3.java
+../../../src/share/classes/javax/swing/AbstractAction.java
+../../../src/share/classes/javax/swing/AbstractButton.java
+../../../src/share/classes/javax/swing/AbstractCellEditor.java
+../../../src/share/classes/javax/swing/AbstractListModel.java
+../../../src/share/classes/javax/swing/AbstractSpinnerModel.java
+../../../src/share/classes/javax/swing/Action.java
+../../../src/share/classes/javax/swing/ActionMap.java
+../../../src/share/classes/javax/swing/ActionPropertyChangeListener.java
+../../../src/share/classes/javax/swing/AncestorNotifier.java
+../../../src/share/classes/javax/swing/ArrayTable.java
+../../../src/share/classes/javax/swing/Autoscroller.java
+../../../src/share/classes/javax/swing/border/AbstractBorder.java
+../../../src/share/classes/javax/swing/border/BevelBorder.java
+../../../src/share/classes/javax/swing/border/Border.java
+../../../src/share/classes/javax/swing/border/CompoundBorder.java
+../../../src/share/classes/javax/swing/border/EmptyBorder.java
+../../../src/share/classes/javax/swing/border/EtchedBorder.java
+../../../src/share/classes/javax/swing/BorderFactory.java
+../../../src/share/classes/javax/swing/border/LineBorder.java
+../../../src/share/classes/javax/swing/border/MatteBorder.java
+../../../src/share/classes/javax/swing/border/SoftBevelBorder.java
+../../../src/share/classes/javax/swing/border/StrokeBorder.java
+../../../src/share/classes/javax/swing/border/TitledBorder.java
+../../../src/share/classes/javax/swing/BoundedRangeModel.java
+../../../src/share/classes/javax/swing/Box.java
+../../../src/share/classes/javax/swing/BoxLayout.java
+../../../src/share/classes/javax/swing/BufferStrategyPaintManager.java
+../../../src/share/classes/javax/swing/ButtonGroup.java
+../../../src/share/classes/javax/swing/ButtonModel.java
+../../../src/share/classes/javax/swing/CellEditor.java
+../../../src/share/classes/javax/swing/CellRendererPane.java
+../../../src/share/classes/javax/swing/ClientPropertyKey.java
+../../../src/share/classes/javax/swing/colorchooser/AbstractColorChooserPanel.java
+../../../src/share/classes/javax/swing/colorchooser/CenterLayout.java
+../../../src/share/classes/javax/swing/colorchooser/ColorChooserComponentFactory.java
+../../../src/share/classes/javax/swing/colorchooser/ColorChooserPanel.java
+../../../src/share/classes/javax/swing/colorchooser/ColorModelCMYK.java
+../../../src/share/classes/javax/swing/colorchooser/ColorModelHSL.java
+../../../src/share/classes/javax/swing/colorchooser/ColorModelHSV.java
+../../../src/share/classes/javax/swing/colorchooser/ColorModel.java
+../../../src/share/classes/javax/swing/colorchooser/ColorPanel.java
+../../../src/share/classes/javax/swing/colorchooser/ColorSelectionModel.java
+../../../src/share/classes/javax/swing/colorchooser/DefaultColorSelectionModel.java
+../../../src/share/classes/javax/swing/colorchooser/DefaultPreviewPanel.java
+../../../src/share/classes/javax/swing/colorchooser/DefaultSwatchChooserPanel.java
+../../../src/share/classes/javax/swing/colorchooser/DiagramComponent.java
+../../../src/share/classes/javax/swing/colorchooser/SlidingSpinner.java
+../../../src/share/classes/javax/swing/colorchooser/SmartGridLayout.java
+../../../src/share/classes/javax/swing/colorchooser/ValueFormatter.java
+../../../src/share/classes/javax/swing/ComboBoxEditor.java
+../../../src/share/classes/javax/swing/ComboBoxModel.java
+../../../src/share/classes/javax/swing/ComponentInputMap.java
+../../../src/share/classes/javax/swing/DebugGraphicsFilter.java
+../../../src/share/classes/javax/swing/DebugGraphicsInfo.java
+../../../src/share/classes/javax/swing/DebugGraphics.java
+../../../src/share/classes/javax/swing/DebugGraphicsObserver.java
+../../../src/share/classes/javax/swing/DefaultBoundedRangeModel.java
+../../../src/share/classes/javax/swing/DefaultButtonModel.java
+../../../src/share/classes/javax/swing/DefaultCellEditor.java
+../../../src/share/classes/javax/swing/DefaultComboBoxModel.java
+../../../src/share/classes/javax/swing/DefaultDesktopManager.java
+../../../src/share/classes/javax/swing/DefaultFocusManager.java
+../../../src/share/classes/javax/swing/DefaultListCellRenderer.java
+../../../src/share/classes/javax/swing/DefaultListModel.java
+../../../src/share/classes/javax/swing/DefaultListSelectionModel.java
+../../../src/share/classes/javax/swing/DefaultRowSorter.java
+../../../src/share/classes/javax/swing/DefaultSingleSelectionModel.java
+../../../src/share/classes/javax/swing/DelegatingDefaultFocusManager.java
+../../../src/share/classes/javax/swing/DesktopManager.java
+../../../src/share/classes/javax/swing/DropMode.java
+../../../src/share/classes/javax/swing/event/AncestorEvent.java
+../../../src/share/classes/javax/swing/event/AncestorListener.java
+../../../src/share/classes/javax/swing/event/CaretEvent.java
+../../../src/share/classes/javax/swing/event/CaretListener.java
+../../../src/share/classes/javax/swing/event/CellEditorListener.java
+../../../src/share/classes/javax/swing/event/ChangeEvent.java
+../../../src/share/classes/javax/swing/event/ChangeListener.java
+../../../src/share/classes/javax/swing/event/DocumentEvent.java
+../../../src/share/classes/javax/swing/event/DocumentListener.java
+../../../src/share/classes/javax/swing/event/EventListenerList.java
+../../../src/share/classes/javax/swing/event/HyperlinkEvent.java
+../../../src/share/classes/javax/swing/event/HyperlinkListener.java
+../../../src/share/classes/javax/swing/event/InternalFrameAdapter.java
+../../../src/share/classes/javax/swing/event/InternalFrameEvent.java
+../../../src/share/classes/javax/swing/event/InternalFrameListener.java
+../../../src/share/classes/javax/swing/event/ListDataEvent.java
+../../../src/share/classes/javax/swing/event/ListDataListener.java
+../../../src/share/classes/javax/swing/event/ListSelectionEvent.java
+../../../src/share/classes/javax/swing/event/ListSelectionListener.java
+../../../src/share/classes/javax/swing/event/MenuDragMouseEvent.java
+../../../src/share/classes/javax/swing/event/MenuDragMouseListener.java
+../../../src/share/classes/javax/swing/event/MenuEvent.java
+../../../src/share/classes/javax/swing/event/MenuKeyEvent.java
+../../../src/share/classes/javax/swing/event/MenuKeyListener.java
+../../../src/share/classes/javax/swing/event/MenuListener.java
+../../../src/share/classes/javax/swing/event/MouseInputAdapter.java
+../../../src/share/classes/javax/swing/event/MouseInputListener.java
+../../../src/share/classes/javax/swing/event/PopupMenuEvent.java
+../../../src/share/classes/javax/swing/event/PopupMenuListener.java
+../../../src/share/classes/javax/swing/event/RowSorterEvent.java
+../../../src/share/classes/javax/swing/event/RowSorterListener.java
+../../../src/share/classes/javax/swing/event/SwingPropertyChangeSupport.java
+../../../src/share/classes/javax/swing/event/TableColumnModelEvent.java
+../../../src/share/classes/javax/swing/event/TableColumnModelListener.java
+../../../src/share/classes/javax/swing/event/TableModelEvent.java
+../../../src/share/classes/javax/swing/event/TableModelListener.java
+../../../src/share/classes/javax/swing/event/TreeExpansionEvent.java
+../../../src/share/classes/javax/swing/event/TreeExpansionListener.java
+../../../src/share/classes/javax/swing/event/TreeModelEvent.java
+../../../src/share/classes/javax/swing/event/TreeModelListener.java
+../../../src/share/classes/javax/swing/event/TreeSelectionEvent.java
+../../../src/share/classes/javax/swing/event/TreeSelectionListener.java
+../../../src/share/classes/javax/swing/event/TreeWillExpandListener.java
+../../../src/share/classes/javax/swing/event/UndoableEditEvent.java
+../../../src/share/classes/javax/swing/event/UndoableEditListener.java
+../../../src/share/classes/javax/swing/filechooser/FileFilter.java
+../../../src/share/classes/javax/swing/filechooser/FileNameExtensionFilter.java
+../../../src/share/classes/javax/swing/filechooser/FileSystemView.java
+../../../src/share/classes/javax/swing/filechooser/FileView.java
+../../../src/share/classes/javax/swing/FocusManager.java
+../../../src/share/classes/javax/swing/GraphicsWrapper.java
+../../../src/share/classes/javax/swing/GrayFilter.java
+../../../src/share/classes/javax/swing/GroupLayout.java
+../../../src/share/classes/javax/swing/Icon.java
+../../../src/share/classes/javax/swing/ImageIcon.java
+../../../src/share/classes/javax/swing/InputMap.java
+../../../src/share/classes/javax/swing/InputVerifier.java
+../../../src/share/classes/javax/swing/InternalFrameFocusTraversalPolicy.java
+../../../src/share/classes/javax/swing/JApplet.java
+../../../src/share/classes/javax/swing/JButton.java
+../../../src/share/classes/javax/swing/JCheckBox.java
+../../../src/share/classes/javax/swing/JCheckBoxMenuItem.java
+../../../src/share/classes/javax/swing/JColorChooser.java
+../../../src/share/classes/javax/swing/JComboBox.java
+../../../src/share/classes/javax/swing/JComponent.java
+../../../src/share/classes/javax/swing/JDesktopPane.java
+../../../src/share/classes/javax/swing/JDialog.java
+../../../src/share/classes/javax/swing/JEditorPane.java
+../../../src/share/classes/javax/swing/JFileChooser.java
+../../../src/share/classes/javax/swing/JFormattedTextField.java
+../../../src/share/classes/javax/swing/JFrame.java
+../../../src/share/classes/javax/swing/JInternalFrame.java
+../../../src/share/classes/javax/swing/JLabel.java
+../../../src/share/classes/javax/swing/JLayeredPane.java
+../../../src/share/classes/javax/swing/JLayer.java
+../../../src/share/classes/javax/swing/JList.java
+../../../src/share/classes/javax/swing/JMenuBar.java
+../../../src/share/classes/javax/swing/JMenuItem.java
+../../../src/share/classes/javax/swing/JMenu.java
+../../../src/share/classes/javax/swing/JOptionPane.java
+../../../src/share/classes/javax/swing/JPanel.java
+../../../src/share/classes/javax/swing/JPasswordField.java
+../../../src/share/classes/javax/swing/JPopupMenu.java
+../../../src/share/classes/javax/swing/JProgressBar.java
+../../../src/share/classes/javax/swing/JRadioButton.java
+../../../src/share/classes/javax/swing/JRadioButtonMenuItem.java
+../../../src/share/classes/javax/swing/JRootPane.java
+../../../src/share/classes/javax/swing/JScrollBar.java
+../../../src/share/classes/javax/swing/JScrollPane.java
+../../../src/share/classes/javax/swing/JSeparator.java
+../../../src/share/classes/javax/swing/JSlider.java
+../../../src/share/classes/javax/swing/JSpinner.java
+../../../src/share/classes/javax/swing/JSplitPane.java
+../../../src/share/classes/javax/swing/JTabbedPane.java
+../../../src/share/classes/javax/swing/JTable.java
+../../../src/share/classes/javax/swing/JTextArea.java
+../../../src/share/classes/javax/swing/JTextField.java
+../../../src/share/classes/javax/swing/JTextPane.java
+../../../src/share/classes/javax/swing/JToggleButton.java
+../../../src/share/classes/javax/swing/JToolBar.java
+../../../src/share/classes/javax/swing/JToolTip.java
+../../../src/share/classes/javax/swing/JTree.java
+../../../src/share/classes/javax/swing/JViewport.java
+../../../src/share/classes/javax/swing/JWindow.java
+../../../src/share/classes/javax/swing/KeyboardManager.java
+../../../src/share/classes/javax/swing/KeyStroke.java
+../../../src/share/classes/javax/swing/LayoutComparator.java
+../../../src/share/classes/javax/swing/LayoutFocusTraversalPolicy.java
+../../../src/share/classes/javax/swing/LayoutStyle.java
+../../../src/share/classes/javax/swing/LegacyGlueFocusTraversalPolicy.java
+../../../src/share/classes/javax/swing/ListCellRenderer.java
+../../../src/share/classes/javax/swing/ListModel.java
+../../../src/share/classes/javax/swing/ListSelectionModel.java
+../../../src/share/classes/javax/swing/LookAndFeel.java
+../../../src/share/classes/javax/swing/MenuElement.java
+../../../src/share/classes/javax/swing/MenuSelectionManager.java
+../../../src/share/classes/javax/swing/MultiUIDefaults.java
+../../../src/share/classes/javax/swing/MutableComboBoxModel.java
+../../../src/share/classes/javax/swing/OverlayLayout.java
+../../../src/share/classes/javax/swing/Painter.java
+../../../src/share/classes/javax/swing/PopupFactory.java
+../../../src/share/classes/javax/swing/Popup.java
+../../../src/share/classes/javax/swing/ProgressMonitorInputStream.java
+../../../src/share/classes/javax/swing/ProgressMonitor.java
+../../../src/share/classes/javax/swing/Renderer.java
+../../../src/share/classes/javax/swing/RepaintManager.java
+../../../src/share/classes/javax/swing/RootPaneContainer.java
+../../../src/share/classes/javax/swing/RowFilter.java
+../../../src/share/classes/javax/swing/RowSorter.java
+../../../src/share/classes/javax/swing/Scrollable.java
+../../../src/share/classes/javax/swing/ScrollPaneConstants.java
+../../../src/share/classes/javax/swing/ScrollPaneLayout.java
+../../../src/share/classes/javax/swing/SingleSelectionModel.java
+../../../src/share/classes/javax/swing/SizeRequirements.java
+../../../src/share/classes/javax/swing/SizeSequence.java
+../../../src/share/classes/javax/swing/SortingFocusTraversalPolicy.java
+../../../src/share/classes/javax/swing/SortOrder.java
+../../../src/share/classes/javax/swing/SpinnerDateModel.java
+../../../src/share/classes/javax/swing/SpinnerListModel.java
+../../../src/share/classes/javax/swing/SpinnerModel.java
+../../../src/share/classes/javax/swing/SpinnerNumberModel.java
+../../../src/share/classes/javax/swing/Spring.java
+../../../src/share/classes/javax/swing/SpringLayout.java
+../../../src/share/classes/javax/swing/SwingConstants.java
+../../../src/share/classes/javax/swing/SwingHeavyWeight.java
+../../../src/share/classes/javax/swing/SwingPaintEventDispatcher.java
+../../../src/share/classes/javax/swing/SwingUtilities.java
+../../../src/share/classes/javax/swing/SwingWorker.java
+../../../src/share/classes/javax/swing/table/AbstractTableModel.java
+../../../src/share/classes/javax/swing/table/DefaultTableCellRenderer.java
+../../../src/share/classes/javax/swing/table/DefaultTableColumnModel.java
+../../../src/share/classes/javax/swing/table/DefaultTableModel.java
+../../../src/share/classes/javax/swing/table/JTableHeader.java
+../../../src/share/classes/javax/swing/TablePrintable.java
+../../../src/share/classes/javax/swing/table/TableCellEditor.java
+../../../src/share/classes/javax/swing/table/TableCellRenderer.java
+../../../src/share/classes/javax/swing/table/TableColumn.java
+../../../src/share/classes/javax/swing/table/TableColumnModel.java
+../../../src/share/classes/javax/swing/table/TableModel.java
+../../../src/share/classes/javax/swing/table/TableRowSorter.java
+../../../src/share/classes/javax/swing/table/TableStringConverter.java
+../../../src/share/classes/javax/swing/text/AbstractDocument.java
+../../../src/share/classes/javax/swing/text/AbstractWriter.java
+../../../src/share/classes/javax/swing/text/AsyncBoxView.java
+../../../src/share/classes/javax/swing/text/AttributeSet.java
+../../../src/share/classes/javax/swing/text/BadLocationException.java
+../../../src/share/classes/javax/swing/text/BoxView.java
+../../../src/share/classes/javax/swing/text/Caret.java
+../../../src/share/classes/javax/swing/text/ChangedCharSetException.java
+../../../src/share/classes/javax/swing/text/ComponentView.java
+../../../src/share/classes/javax/swing/text/CompositeView.java
+../../../src/share/classes/javax/swing/text/DateFormatter.java
+../../../src/share/classes/javax/swing/text/DefaultCaret.java
+../../../src/share/classes/javax/swing/text/DefaultEditorKit.java
+../../../src/share/classes/javax/swing/text/DefaultFormatterFactory.java
+../../../src/share/classes/javax/swing/text/DefaultFormatter.java
+../../../src/share/classes/javax/swing/text/DefaultHighlighter.java
+../../../src/share/classes/javax/swing/text/DefaultStyledDocument.java
+../../../src/share/classes/javax/swing/text/DefaultTextUI.java
+../../../src/share/classes/javax/swing/text/DocumentFilter.java
+../../../src/share/classes/javax/swing/text/Document.java
+../../../src/share/classes/javax/swing/text/EditorKit.java
+../../../src/share/classes/javax/swing/text/ElementIterator.java
+../../../src/share/classes/javax/swing/text/Element.java
+../../../src/share/classes/javax/swing/text/FieldView.java
+../../../src/share/classes/javax/swing/text/FlowView.java
+../../../src/share/classes/javax/swing/text/GapContent.java
+../../../src/share/classes/javax/swing/text/GapVector.java
+../../../src/share/classes/javax/swing/text/GlyphPainter1.java
+../../../src/share/classes/javax/swing/text/GlyphPainter2.java
+../../../src/share/classes/javax/swing/text/GlyphView.java
+../../../src/share/classes/javax/swing/text/Highlighter.java
+../../../src/share/classes/javax/swing/text/html/AccessibleHTML.java
+../../../src/share/classes/javax/swing/text/html/BlockView.java
+../../../src/share/classes/javax/swing/text/html/BRView.java
+../../../src/share/classes/javax/swing/text/html/CommentView.java
+../../../src/share/classes/javax/swing/text/html/CSSBorder.java
+../../../src/share/classes/javax/swing/text/html/CSS.java
+../../../src/share/classes/javax/swing/text/html/CSSParser.java
+../../../src/share/classes/javax/swing/text/html/EditableView.java
+../../../src/share/classes/javax/swing/text/html/FormSubmitEvent.java
+../../../src/share/classes/javax/swing/text/html/FormView.java
+../../../src/share/classes/javax/swing/text/html/FrameSetView.java
+../../../src/share/classes/javax/swing/text/html/FrameView.java
+../../../src/share/classes/javax/swing/text/html/HiddenTagView.java
+../../../src/share/classes/javax/swing/text/html/HRuleView.java
+../../../src/share/classes/javax/swing/text/html/HTMLDocument.java
+../../../src/share/classes/javax/swing/text/html/HTMLEditorKit.java
+../../../src/share/classes/javax/swing/text/html/HTMLFrameHyperlinkEvent.java
+../../../src/share/classes/javax/swing/text/html/HTML.java
+../../../src/share/classes/javax/swing/text/html/HTMLWriter.java
+../../../src/share/classes/javax/swing/text/html/ImageView.java
+../../../src/share/classes/javax/swing/text/html/InlineView.java
+../../../src/share/classes/javax/swing/text/html/IsindexView.java
+../../../src/share/classes/javax/swing/text/html/LineView.java
+../../../src/share/classes/javax/swing/text/html/ListView.java
+../../../src/share/classes/javax/swing/text/html/Map.java
+../../../src/share/classes/javax/swing/text/html/MinimalHTMLWriter.java
+../../../src/share/classes/javax/swing/text/html/MuxingAttributeSet.java
+../../../src/share/classes/javax/swing/text/html/NoFramesView.java
+../../../src/share/classes/javax/swing/text/html/ObjectView.java
+../../../src/share/classes/javax/swing/text/html/OptionComboBoxModel.java
+../../../src/share/classes/javax/swing/text/html/Option.java
+../../../src/share/classes/javax/swing/text/html/OptionListModel.java
+../../../src/share/classes/javax/swing/text/html/ParagraphView.java
+../../../src/share/classes/javax/swing/text/html/parser/AttributeList.java
+../../../src/share/classes/javax/swing/text/html/parser/ContentModel.java
+../../../src/share/classes/javax/swing/text/html/parser/ContentModelState.java
+../../../src/share/classes/javax/swing/text/html/parser/DocumentParser.java
+../../../src/share/classes/javax/swing/text/html/parser/DTDConstants.java
+../../../src/share/classes/javax/swing/text/html/parser/DTD.java
+../../../src/share/classes/javax/swing/text/html/parser/Element.java
+../../../src/share/classes/javax/swing/text/html/parser/Entity.java
+../../../src/share/classes/javax/swing/text/html/parser/ParserDelegator.java
+../../../src/share/classes/javax/swing/text/html/parser/Parser.java
+../../../src/share/classes/javax/swing/text/html/parser/ResourceLoader.java
+../../../src/share/classes/javax/swing/text/html/parser/TagElement.java
+../../../src/share/classes/javax/swing/text/html/parser/TagStack.java
+../../../src/share/classes/javax/swing/text/html/ResourceLoader.java
+../../../src/share/classes/javax/swing/text/html/StyleSheet.java
+../../../src/share/classes/javax/swing/text/html/TableView.java
+../../../src/share/classes/javax/swing/text/html/TextAreaDocument.java
+../../../src/share/classes/javax/swing/text/IconView.java
+../../../src/share/classes/javax/swing/text/InternationalFormatter.java
+../../../src/share/classes/javax/swing/text/JTextComponent.java
+../../../src/share/classes/javax/swing/text/Keymap.java
+../../../src/share/classes/javax/swing/text/LabelView.java
+../../../src/share/classes/javax/swing/text/LayeredHighlighter.java
+../../../src/share/classes/javax/swing/text/LayoutQueue.java
+../../../src/share/classes/javax/swing/text/MaskFormatter.java
+../../../src/share/classes/javax/swing/text/MutableAttributeSet.java
+../../../src/share/classes/javax/swing/text/NavigationFilter.java
+../../../src/share/classes/javax/swing/text/NumberFormatter.java
+../../../src/share/classes/javax/swing/text/ParagraphView.java
+../../../src/share/classes/javax/swing/text/PasswordView.java
+../../../src/share/classes/javax/swing/text/PlainDocument.java
+../../../src/share/classes/javax/swing/text/PlainView.java
+../../../src/share/classes/javax/swing/text/Position.java
+../../../src/share/classes/javax/swing/text/rtf/AbstractFilter.java
+../../../src/share/classes/javax/swing/text/rtf/Constants.java
+../../../src/share/classes/javax/swing/text/rtf/MockAttributeSet.java
+../../../src/share/classes/javax/swing/text/rtf/RTFAttribute.java
+../../../src/share/classes/javax/swing/text/rtf/RTFAttributes.java
+../../../src/share/classes/javax/swing/text/rtf/RTFEditorKit.java
+../../../src/share/classes/javax/swing/text/rtf/RTFGenerator.java
+../../../src/share/classes/javax/swing/text/rtf/RTFParser.java
+../../../src/share/classes/javax/swing/text/rtf/RTFReader.java
+../../../src/share/classes/javax/swing/text/SegmentCache.java
+../../../src/share/classes/javax/swing/text/Segment.java
+../../../src/share/classes/javax/swing/text/SimpleAttributeSet.java
+../../../src/share/classes/javax/swing/text/StateInvariantError.java
+../../../src/share/classes/javax/swing/text/StringContent.java
+../../../src/share/classes/javax/swing/text/StyleConstants.java
+../../../src/share/classes/javax/swing/text/StyleContext.java
+../../../src/share/classes/javax/swing/text/StyledDocument.java
+../../../src/share/classes/javax/swing/text/StyledEditorKit.java
+../../../src/share/classes/javax/swing/text/Style.java
+../../../src/share/classes/javax/swing/text/TabableView.java
+../../../src/share/classes/javax/swing/text/TabExpander.java
+../../../src/share/classes/javax/swing/text/TableView.java
+../../../src/share/classes/javax/swing/text/TabSet.java
+../../../src/share/classes/javax/swing/text/TabStop.java
+../../../src/share/classes/javax/swing/text/TextAction.java
+../../../src/share/classes/javax/swing/text/TextLayoutStrategy.java
+../../../src/share/classes/javax/swing/text/Utilities.java
+../../../src/share/classes/javax/swing/text/ViewFactory.java
+../../../src/share/classes/javax/swing/text/View.java
+../../../src/share/classes/javax/swing/text/WhitespaceBasedBreakIterator.java
+../../../src/share/classes/javax/swing/text/WrappedPlainView.java
+../../../src/share/classes/javax/swing/text/ZoneView.java
+../../../src/share/classes/javax/swing/Timer.java
+../../../src/share/classes/javax/swing/TimerQueue.java
+../../../src/share/classes/javax/swing/ToolTipManager.java
+../../../src/share/classes/javax/swing/TransferHandler.java
+../../../src/share/classes/javax/swing/tree/AbstractLayoutCache.java
+../../../src/share/classes/javax/swing/tree/DefaultMutableTreeNode.java
+../../../src/share/classes/javax/swing/tree/DefaultTreeCellEditor.java
+../../../src/share/classes/javax/swing/tree/DefaultTreeCellRenderer.java
+../../../src/share/classes/javax/swing/tree/DefaultTreeModel.java
+../../../src/share/classes/javax/swing/tree/DefaultTreeSelectionModel.java
+../../../src/share/classes/javax/swing/tree/ExpandVetoException.java
+../../../src/share/classes/javax/swing/tree/FixedHeightLayoutCache.java
+../../../src/share/classes/javax/swing/tree/MutableTreeNode.java
+../../../src/share/classes/javax/swing/tree/RowMapper.java
+../../../src/share/classes/javax/swing/tree/TreeCellEditor.java
+../../../src/share/classes/javax/swing/tree/TreeCellRenderer.java
+../../../src/share/classes/javax/swing/tree/TreeModel.java
+../../../src/share/classes/javax/swing/tree/TreeNode.java
+../../../src/share/classes/javax/swing/tree/TreePath.java
+../../../src/share/classes/javax/swing/tree/TreeSelectionModel.java
+../../../src/share/classes/javax/swing/tree/VariableHeightLayoutCache.java
+../../../src/share/classes/javax/swing/UIDefaults.java
+../../../src/share/classes/javax/swing/UIManager.java
+../../../src/share/classes/javax/swing/undo/AbstractUndoableEdit.java
+../../../src/share/classes/javax/swing/undo/CannotRedoException.java
+../../../src/share/classes/javax/swing/undo/CannotUndoException.java
+../../../src/share/classes/javax/swing/undo/CompoundEdit.java
+../../../src/share/classes/javax/swing/undo/StateEditable.java
+../../../src/share/classes/javax/swing/undo/StateEdit.java
+../../../src/share/classes/javax/swing/undo/UndoableEdit.java
+../../../src/share/classes/javax/swing/undo/UndoableEditSupport.java
+../../../src/share/classes/javax/swing/undo/UndoManager.java
+../../../src/share/classes/javax/swing/UnsupportedLookAndFeelException.java
+../../../src/share/classes/javax/swing/ViewportLayout.java
+../../../src/share/classes/javax/swing/WindowConstants.java
+../../../src/share/classes/sun/swing/AccumulativeRunnable.java
+../../../src/share/classes/sun/swing/BakedArrayList.java
+../../../src/share/classes/sun/swing/CachedPainter.java
+../../../src/share/classes/sun/swing/DefaultLayoutStyle.java
+../../../src/share/classes/sun/swing/DefaultLookup.java
+../../../src/share/classes/sun/swing/FilePane.java
+../../../src/share/classes/sun/swing/icon/SortArrowIcon.java
+../../../src/share/classes/sun/swing/ImageCache.java
+../../../src/share/classes/sun/swing/ImageIconUIResource.java
+../../../src/share/classes/sun/swing/MenuItemCheckIconFactory.java
+../../../src/share/classes/sun/swing/MenuItemLayoutHelper.java
+../../../src/share/classes/sun/swing/PrintColorUIResource.java
+../../../src/share/classes/sun/swing/PrintingStatus.java
+../../../src/share/classes/sun/swing/StringUIClientPropertyKey.java
+../../../src/share/classes/sun/swing/SwingAccessor.java
+../../../src/share/classes/sun/swing/SwingLazyValue.java
+../../../src/share/classes/sun/swing/SwingUtilities2.java
+../../../src/share/classes/sun/swing/table/DefaultTableCellHeaderRenderer.java
+../../../src/share/classes/sun/swing/text/CompoundPrintable.java
+../../../src/share/classes/sun/swing/text/CountingPrintable.java
+../../../src/share/classes/sun/swing/text/html/FrameEditorPaneTag.java
+../../../src/share/classes/sun/swing/text/TextComponentPrintable.java
+../../../src/share/classes/sun/swing/UIAction.java
+../../../src/share/classes/sun/swing/UIClientPropertyKey.java
+../../../src/share/classes/sun/swing/WindowsPlacesBar.java
+# Running javac: 422 files; in /home/openjdk/sources/jdk8_tl/jdk/make/javax/swing
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/com/javax.swing/.classes.list.filtered
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
+../../../src/share/classes/java/awt/Image.java:36: error: package javax.tools.annotation does not exist
+import javax.tools.annotation.GenerateNativeHeader;
+                             ^
+../../../src/share/classes/java/awt/Image.java:48: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/image/ImageObserver.java:39: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/Transparency.java:35: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/lang/reflect/Method.java:38: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/io/PrintStream.java:31: error: cannot find symbol
+import java.nio.charset.IllegalCharsetNameException;
+                       ^
+  symbol:   class IllegalCharsetNameException
+  location: package java.nio.charset
+../../../src/share/classes/java/io/PrintStream.java:32: error: cannot find symbol
+import java.nio.charset.UnsupportedCharsetException;
+                       ^
+  symbol:   class UnsupportedCharsetException
+  location: package java.nio.charset
+../../../src/share/classes/java/io/PrintWriter.java:32: error: cannot find symbol
+import java.nio.charset.IllegalCharsetNameException;
+                       ^
+  symbol:   class IllegalCharsetNameException
+  location: package java.nio.charset
+../../../src/share/classes/java/io/PrintWriter.java:33: error: cannot find symbol
+import java.nio.charset.UnsupportedCharsetException;
+                       ^
+  symbol:   class UnsupportedCharsetException
+  location: package java.nio.charset
+../../../src/share/classes/java/nio/charset/Charset.java:28: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/nio/charset/Charset.java:29: error: cannot find symbol
+import java.nio.CharBuffer;
+               ^
+  symbol:   class CharBuffer
+  location: package java.nio
+../../../src/share/classes/java/nio/charset/Charset.java:45: error: cannot find symbol
+import sun.nio.cs.StandardCharsets;
+                 ^
+  symbol:   class StandardCharsets
+  location: package sun.nio.cs
+../../../src/share/classes/java/awt/geom/PathIterator.java:63: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/color/ColorSpace.java:99: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/lang/ClassLoader.java:863: error: cannot find symbol
+    protected final Class<?> defineClass(String name, java.nio.ByteBuffer b,
+                                                              ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/lang/ClassLoader.java:908: error: cannot find symbol
+    private native Class<?> defineClass2(String name, java.nio.ByteBuffer b,
+                                                              ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/net/URI.java:33: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/net/URI.java:34: error: cannot find symbol
+import java.nio.CharBuffer;
+               ^
+  symbol:   class CharBuffer
+  location: package java.nio
+../../../src/share/classes/java/net/URI.java:35: error: cannot find symbol
+import java.nio.charset.CharsetDecoder;
+                       ^
+  symbol:   class CharsetDecoder
+  location: package java.nio.charset
+../../../src/share/classes/java/net/URI.java:36: error: cannot find symbol
+import java.nio.charset.CharsetEncoder;
+                       ^
+  symbol:   class CharsetEncoder
+  location: package java.nio.charset
+../../../src/share/classes/java/net/URI.java:39: error: cannot find symbol
+import java.nio.charset.CharacterCodingException;
+                       ^
+  symbol:   class CharacterCodingException
+  location: package java.nio.charset
+../../../src/share/classes/java/util/Formatter.java:44: error: cannot find symbol
+import java.nio.charset.IllegalCharsetNameException;
+                       ^
+  symbol:   class IllegalCharsetNameException
+  location: package java.nio.charset
+../../../src/share/classes/java/util/Formatter.java:45: error: cannot find symbol
+import java.nio.charset.UnsupportedCharsetException;
+                       ^
+  symbol:   class UnsupportedCharsetException
+  location: package java.nio.charset
+../../../src/share/classes/java/io/OutputStreamWriter.java:29: error: cannot find symbol
+import java.nio.charset.CharsetEncoder;
+                       ^
+  symbol:   class CharsetEncoder
+  location: package java.nio.charset
+../../../src/share/classes/java/nio/charset/Charset.java:755: error: cannot find symbol
+    public abstract CharsetDecoder newDecoder();
+                    ^
+  symbol:   class CharsetDecoder
+  location: class Charset
+../../../src/share/classes/java/nio/charset/Charset.java:765: error: cannot find symbol
+    public abstract CharsetEncoder newEncoder();
+                    ^
+  symbol:   class CharsetEncoder
+  location: class Charset
+../../../src/share/classes/java/nio/charset/Charset.java:809: error: cannot find symbol
+    public final CharBuffer decode(ByteBuffer bb) {
+                                   ^
+  symbol:   class ByteBuffer
+  location: class Charset
+../../../src/share/classes/java/nio/charset/Charset.java:809: error: cannot find symbol
+    public final CharBuffer decode(ByteBuffer bb) {
+                 ^
+  symbol:   class CharBuffer
+  location: class Charset
+../../../src/share/classes/java/nio/charset/Charset.java:845: error: cannot find symbol
+    public final ByteBuffer encode(CharBuffer cb) {
+                                   ^
+  symbol:   class CharBuffer
+  location: class Charset
+../../../src/share/classes/java/nio/charset/Charset.java:845: error: cannot find symbol
+    public final ByteBuffer encode(CharBuffer cb) {
+                 ^
+  symbol:   class ByteBuffer
+  location: class Charset
+../../../src/share/classes/java/nio/charset/Charset.java:869: error: cannot find symbol
+    public final ByteBuffer encode(String str) {
+                 ^
+  symbol:   class ByteBuffer
+  location: class Charset
+../../../src/share/classes/java/awt/image/ImageConsumer.java:43: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/image/DataBuffer.java:71: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/sun/awt/image/BufImgSurfaceData.java:51: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/DisplayMode.java:50: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/sun/awt/SunHints.java:38: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/sun/misc/Resource.java:35: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/io/OutputStreamWriter.java:148: error: cannot find symbol
+    public OutputStreamWriter(OutputStream out, CharsetEncoder enc) {
+                                                ^
+  symbol:   class CharsetEncoder
+  location: class OutputStreamWriter
+../../../src/share/classes/sun/java2d/SunGraphics2D.java:107: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/color/ICC_Profile.java:94: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/Toolkit.java:63: error: cannot find symbol
+import sun.util.CoreResourceBundleControl;
+               ^
+  symbol:   class CoreResourceBundleControl
+  location: package sun.util
+../../../src/share/classes/java/awt/event/ComponentEvent.java:69: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/event/WindowEvent.java:60: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/event/MouseWheelEvent.java:103: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/peer/ComponentPeer.java:54: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/PopupMenu.java:48: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/event/FocusEvent.java:68: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/event/InputMethodEvent.java:60: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/sun/misc/Resource.java:159: error: cannot find symbol
+    public ByteBuffer getByteBuffer() throws IOException {
+           ^
+  symbol:   class ByteBuffer
+  location: class Resource
+../../../src/share/classes/sun/nio/cs/StreamEncoder.java:73: error: cannot find symbol
+                                                      CharsetEncoder enc)
+                                                      ^
+  symbol:   class CharsetEncoder
+  location: class StreamEncoder
+../../../src/share/classes/java/nio/channels/WritableByteChannel.java:29: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/sun/nio/cs/StreamEncoder.java:82: error: cannot find symbol
+                                           CharsetEncoder enc,
+                                           ^
+  symbol:   class CharsetEncoder
+  location: class StreamEncoder
+../../../src/share/classes/sun/nio/cs/StreamEncoder.java:162: error: cannot find symbol
+    private CharsetEncoder encoder;
+            ^
+  symbol:   class CharsetEncoder
+  location: class StreamEncoder
+../../../src/share/classes/sun/nio/cs/StreamEncoder.java:163: error: cannot find symbol
+    private ByteBuffer bb;
+            ^
+  symbol:   class ByteBuffer
+  location: class StreamEncoder
+../../../src/share/classes/sun/nio/cs/StreamEncoder.java:172: error: cannot find symbol
+    private CharBuffer lcb = null;
+            ^
+  symbol:   class CharBuffer
+  location: class StreamEncoder
+../../../src/share/classes/sun/nio/cs/StreamEncoder.java:181: error: cannot find symbol
+    private StreamEncoder(OutputStream out, Object lock, CharsetEncoder enc) {
+                                                         ^
+  symbol:   class CharsetEncoder
+  location: class StreamEncoder
+../../../src/share/classes/sun/nio/cs/StreamEncoder.java:199: error: cannot find symbol
+    private StreamEncoder(WritableByteChannel ch, CharsetEncoder enc, int mbc) {
+                                                  ^
+  symbol:   class CharsetEncoder
+  location: class StreamEncoder
+../../../src/share/classes/sun/nio/cs/StreamEncoder.java:227: error: cannot find symbol
+    private void flushLeftoverChar(CharBuffer cb, boolean endOfInput)
+                                   ^
+  symbol:   class CharBuffer
+  location: class StreamEncoder
+../../../src/share/classes/java/awt/AlphaComposite.java:354: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/BasicStroke.java:115: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/TextComponent.java:61: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/List.java:111: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/Adjustable.java:40: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/Choice.java:75: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/awt/event/ActionEvent.java:61: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/io/Reader.java:97: error: cannot find symbol
+    public int read(java.nio.CharBuffer target) throws IOException {
+                            ^
+  symbol:   class CharBuffer
+  location: package java.nio
+../../../src/share/classes/java/lang/Readable.java:53: error: cannot find symbol
+    public int read(java.nio.CharBuffer cb) throws IOException;
+                            ^
+  symbol:   class CharBuffer
+  location: package java.nio
+../../../src/share/classes/java/util/zip/ZipCoder.java:28: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/util/zip/ZipCoder.java:29: error: cannot find symbol
+import java.nio.CharBuffer;
+               ^
+  symbol:   class CharBuffer
+  location: package java.nio
+../../../src/share/classes/java/util/zip/ZipCoder.java:32: error: cannot find symbol
+import java.nio.charset.CharsetDecoder;
+                       ^
+  symbol:   class CharsetDecoder
+  location: package java.nio.charset
+../../../src/share/classes/java/util/zip/ZipCoder.java:33: error: cannot find symbol
+import java.nio.charset.CharsetEncoder;
+                       ^
+  symbol:   class CharsetEncoder
+  location: package java.nio.charset
+../../../src/share/classes/java/nio/channels/WritableByteChannel.java:103: error: cannot find symbol
+    public int write(ByteBuffer src) throws IOException;
+                     ^
+  symbol:   class ByteBuffer
+  location: interface WritableByteChannel
+../../../src/share/classes/java/awt/event/AdjustmentEvent.java:61: error: cannot find symbol
+@GenerateNativeHeader
+ ^
+  symbol: class GenerateNativeHeader
+../../../src/share/classes/java/nio/channels/FileChannel.java:29: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/nio/channels/SeekableByteChannel.java:28: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/nio/channels/ReadableByteChannel.java:29: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/nio/channels/GatheringByteChannel.java:29: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/nio/channels/ScatteringByteChannel.java:29: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/nio/channels/AsynchronousFileChannel.java:31: error: cannot find symbol
+import java.nio.ByteBuffer;
+               ^
+  symbol:   class ByteBuffer
+  location: package java.nio
+../../../src/share/classes/java/util/zip/ZipCoder.java:128: error: cannot find symbol
+    private CharsetDecoder dec;
+            ^
+  symbol:   class CharsetDecoder
+  location: class ZipCoder
+../../../src/share/classes/java/util/zip/ZipCoder.java:129: error: cannot find symbol
+    private CharsetEncoder enc;
+            ^
+  symbol:   class CharsetEncoder
+  location: class ZipCoder
+../../../src/share/classes/java/util/zip/ZipCoder.java:142: error: cannot find symbol
+    private CharsetDecoder decoder() {
+            ^
+  symbol:   class CharsetDecoder
+  location: class ZipCoder
+../../../src/share/classes/java/util/zip/ZipCoder.java:151: error: cannot find symbol
+    private CharsetEncoder encoder() {
+            ^
+  symbol:   class CharsetEncoder
+  location: class ZipCoder
+../../../src/share/classes/java/nio/channels/FileChannel.java:348: error: cannot find symbol
+    public abstract int read(ByteBuffer dst) throws IOException;
+                             ^
+  symbol:   class ByteBuffer
+  location: class FileChannel
+../../../src/share/classes/java/nio/channels/FileChannel.java:359: error: cannot find symbol
+    public abstract long read(ByteBuffer[] dsts, int offset, int length)
+                              ^
+  symbol:   class ByteBuffer
+  location: class FileChannel
+../../../src/share/classes/java/nio/channels/FileChannel.java:370: error: cannot find symbol
+    public final long read(ByteBuffer[] dsts) throws IOException {
+                           ^
+  symbol:   class ByteBuffer
+  location: class FileChannel
+../../../src/share/classes/java/nio/channels/FileChannel.java:385: error: cannot find symbol
+    public abstract int write(ByteBuffer src) throws IOException;
+                              ^
+  symbol:   class ByteBuffer
+  location: class FileChannel
+../../../src/share/classes/java/nio/channels/FileChannel.java:399: error: cannot find symbol
+    public abstract long write(ByteBuffer[] srcs, int offset, int length)
+                               ^
+  symbol:   class ByteBuffer
+  location: class FileChannel
+../../../src/share/classes/java/nio/channels/FileChannel.java:413: error: cannot find symbol
+    public final long write(ByteBuffer[] srcs) throws IOException {
+                            ^
+  symbol:   class ByteBuffer
+  location: class FileChannel
+../../../src/share/classes/java/nio/channels/FileChannel.java:733: error: cannot find symbol
+    public abstract int read(ByteBuffer dst, long position) throws IOException;
+                             ^
+  symbol:   class ByteBuffer
+  location: class FileChannel
+../../../src/share/classes/java/nio/channels/FileChannel.java:778: error: cannot find symbol
+    public abstract int write(ByteBuffer src, long position) throws IOException;
+                              ^
+  symbol:   class ByteBuffer
+  location: class FileChannel
+../../../src/share/classes/java/nio/MappedByteBuffer.java:67: error: cannot find symbol
+    extends ByteBuffer
+            ^
+  symbol: class ByteBuffer
+../../../src/share/classes/java/nio/channels/spi/AbstractInterruptibleChannel.java:196: error: cannot find symbol
+        throws AsynchronousCloseException
+               ^
+  symbol:   class AsynchronousCloseException
+  location: class AbstractInterruptibleChannel
+../../../src/share/classes/java/nio/channels/SeekableByteChannel.java:65: error: cannot find symbol
+    int read(ByteBuffer dst) throws IOException;
+             ^
+  symbol:   class ByteBuffer
+  location: interface SeekableByteChannel
+../../../src/share/classes/java/nio/channels/SeekableByteChannel.java:80: error: cannot find symbol
+    int write(ByteBuffer src) throws IOException;
+              ^
+  symbol:   class ByteBuffer
+  location: interface SeekableByteChannel
+../../../src/share/classes/java/nio/channels/ReadableByteChannel.java:106: error: cannot find symbol
+    public int read(ByteBuffer dst) throws IOException;
+                    ^
+  symbol:   class ByteBuffer
+  location: interface ReadableByteChannel
+../../../src/share/classes/java/nio/channels/GatheringByteChannel.java:127: error: cannot find symbol
+    public long write(ByteBuffer[] srcs, int offset, int length)
+                      ^
+  symbol:   class ByteBuffer
+  location: interface GatheringByteChannel
+../../../src/share/classes/java/nio/channels/GatheringByteChannel.java:164: error: cannot find symbol
+    public long write(ByteBuffer[] srcs) throws IOException;
+                      ^
+  symbol:   class ByteBuffer
+  location: interface GatheringByteChannel
+../../../src/share/classes/java/nio/channels/ScatteringByteChannel.java:123: error: cannot find symbol
+    public long read(ByteBuffer[] dsts, int offset, int length)
+                     ^
+  symbol:   class ByteBuffer
+  location: interface ScatteringByteChannel
+../../../src/share/classes/java/nio/channels/ScatteringByteChannel.java:160: error: cannot find symbol
+    public long read(ByteBuffer[] dsts) throws IOException;
+                     ^
+  symbol:   class ByteBuffer
+  location: interface ScatteringByteChannel
+../../../src/share/classes/java/awt/EventDispatchThread.java:123: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                final Method evaluateMethod = Class.forName("sun.lwawt.macosx.EventDispatchAccess").getMethod("evaluate", null);
+                                                                                                                          ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+../../../src/share/classes/java/awt/EventDispatchThread.java:126: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        return ((Boolean)evaluateMethod.invoke(cond, null)).booleanValue();
+                                                                     ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors
+2 warnings
+make: *** [.compile.classlist] Error 1

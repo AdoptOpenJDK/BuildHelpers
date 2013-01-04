@@ -1,0 +1,72 @@
+Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/jarzip/build.xml
+
+-pre-init:
+
+-tstamp:
+
+-first-init:
+
+-warn-about-bootstrap.jdk:
+
+-project-init:
+
+-post-init:
+
+-init:
+
+-pre-compile:
+
+-build-ant:
+
+-pre-init.linux:
+
+-pre-init.solaris:
+
+-pre-init.windows:
+
+-make.init:
+
+-build-make:
+     [echo] Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/zip'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] # Java sources to be compiled: (listed in file ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/.classes.list)
+     [exec] ../../../src/share/classes/java/util/jar/JarFile.java
+     [exec] ../../../src/share/classes/java/util/zip/Adler32.java
+     [exec] ../../../src/share/classes/java/util/zip/CRC32.java
+     [exec] ../../../src/share/classes/java/util/zip/CheckedInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/CheckedOutputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/Checksum.java
+     [exec] ../../../src/share/classes/java/util/zip/DataFormatException.java
+     [exec] ../../../src/share/classes/java/util/zip/Deflater.java
+     [exec] ../../../src/share/classes/java/util/zip/DeflaterInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/DeflaterOutputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/GZIPInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/GZIPOutputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/Inflater.java
+     [exec] ../../../src/share/classes/java/util/zip/InflaterInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/InflaterOutputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/ZStreamRef.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipCoder.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipConstants.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipConstants64.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipEntry.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipError.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipException.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipFile.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipOutputStream.java
+     [exec] # Running javac: 25 files; in /home/openjdk/sources/jdk8_tl/jdk/make/java/zip
+     [exec] /usr/lib/jvm/java-7-openjdk-amd64/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/sun/java.util.zip/zip/.classes.list.filtered
+     [exec] javac: invalid source release: 8
+     [exec] Usage: javac <options> <source files>
+     [exec] use -help for a list of possible options
+     [exec] make: *** [.compile.classlist] Error 2
+
+BUILD FAILED
+/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/jarzip/build.xml:37: The following error occurred while executing this line:
+/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/common/make.xml:61: exec returned: 2
+
+Total time: 1 second

@@ -1,0 +1,56 @@
+Cleaning langtools build artifacts ... done
+Cleaning corba build artifacts ... done
+Cleaning jaxp build artifacts ... done
+Cleaning jaxws build artifacts ... done
+Cleaning hotspot build artifacts ... done
+Cleaning jdk build artifacts ... done
+Cleaning images build artifacts ... done
+Cleaning overlay-images build artifacts ... done
+Cleaning bootcycle-build build artifacts ... done
+Cleaning docs build artifacts ... done
+Cleaning docstemp build artifacts ... done
+Cleaned all build artifacts.
+Building OpenJDK for target 'clean corba' in configuration 'linux-x86_64-normal-server-release'
+
+## Starting langtools
+Compiling 2 files for BUILD_TOOLS
+Compiling 23 properties into resource bundles
+Compiling 677 files for BUILD_BOOTSTRAP_LANGTOOLS
+Creating langtools/dist/bootstrap/lib/javac.jar
+Updating langtools/dist/lib/src.zip
+Creating langtools/dist/bootstrap/lib/javah.jar
+Compiling 680 files for BUILD_FULL_JAVAC
+Creating langtools/dist/bootstrap/lib/javap.jar
+Creating langtools/dist/bootstrap/lib/javadoc.jar
+Creating langtools/dist/lib/classes.jar
+## Finished langtools (build time 00:01:07)
+
+## Starting corba
+Compiling 6 files for BUILD_LOGUTIL
+Creating corba/btjars/logutil.jar
+Compiling 141 files for BUILD_IDLJ
+Note: /home/openjdk/sources/jdk8_tl/corba/src/share/classes/com/sun/tools/corba/se/idl/som/idlemit/MetaPragma.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Creating corba/btjars/idlj.jar
+Compiling 1 files for BUILD_STRIPPROP
+Updating corba/dist/lib/src.zip
+Compiling 1504 files for BUILD_CORBA
+Creating corba/btjars/stripproperties.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Creating corba/dist/lib/classes.jar
+Creating bin.zip
+## Finished corba (build time 00:00:45)
+
+----- Build times -------
+Start 2013-01-03 15:10:31
+End   2013-01-03 15:12:23
+00:00:45 corba
+00:01:07 langtools
+00:01:52 TOTAL
+-------------------------
+Finished building OpenJDK for target 'clean corba'

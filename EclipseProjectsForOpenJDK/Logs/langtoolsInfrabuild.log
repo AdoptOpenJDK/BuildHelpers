@@ -1,0 +1,34 @@
+Cleaning langtools build artifacts ... done
+Cleaning corba build artifacts ... done
+Cleaning jaxp build artifacts ... done
+Cleaning jaxws build artifacts ... done
+Cleaning hotspot build artifacts ... done
+Cleaning jdk build artifacts ... done
+Cleaning images build artifacts ... done
+Cleaning overlay-images build artifacts ... done
+Cleaning bootcycle-build build artifacts ... done
+Cleaning docs build artifacts ... done
+Cleaning docstemp build artifacts ... done
+Cleaned all build artifacts.
+Building OpenJDK for target 'clean langtools' in configuration 'linux-x86_64-normal-server-release'
+
+## Starting langtools
+Compiling 2 files for BUILD_TOOLS
+Compiling 23 properties into resource bundles
+Compiling 677 files for BUILD_BOOTSTRAP_LANGTOOLS
+Creating langtools/dist/bootstrap/lib/javac.jar
+Updating langtools/dist/lib/src.zip
+Creating langtools/dist/bootstrap/lib/javah.jar
+Compiling 680 files for BUILD_FULL_JAVAC
+Creating langtools/dist/bootstrap/lib/javap.jar
+Creating langtools/dist/bootstrap/lib/javadoc.jar
+Creating langtools/dist/lib/classes.jar
+## Finished langtools (build time 00:01:21)
+
+----- Build times -------
+Start 2013-01-03 14:51:32
+End   2013-01-03 14:52:53
+00:01:21 langtools
+00:01:21 TOTAL
+-------------------------
+Finished building OpenJDK for target 'clean langtools'

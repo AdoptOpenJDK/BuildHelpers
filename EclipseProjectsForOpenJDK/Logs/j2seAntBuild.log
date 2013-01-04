@@ -1,0 +1,1170 @@
+Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/j2se/build.xml
+
+-pre-init:
+
+-tstamp:
+
+-first-init:
+
+-warn-about-bootstrap.jdk:
+     [echo] Warning: falling back to building against /usr/lib/jvm/java-7-oracle
+     [echo] Please define bootstrap.jdk=.../recent/jdk7/snapshot in /home/openjdk/.openjdk/build.properties or /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/j2se/nbproject/private/build.properties
+
+-project-init:
+
+-post-init:
+
+-init:
+
+-pre-compile:
+
+-build-ant:
+
+-pre-init.linux:
+
+-pre-init.solaris:
+
+-pre-init.windows:
+
+-make.init:
+
+-build-make:
+     [echo] Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] linux amd64 1.8.0-internal build started: 13-01-04 02:49
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] 
+     [exec] 
+     [exec] Bootstrap Settings:
+     [exec]   BOOTDIR = /usr/lib/jvm/java-7-openjdk-amd64
+     [exec]     ALT_BOOTDIR = /usr/lib/jvm/java-7-openjdk-amd64
+     [exec]   BOOT_VER = 1.7.0 [requires at least 1.7]
+     [exec]   OUTPUTDIR = ./../build/linux-amd64
+     [exec]     ALT_OUTPUTDIR = 
+     [exec]   ABS_OUTPUTDIR = /home/openjdk/sources/jdk8_tl/jdk/build/linux-amd64
+     [exec]  
+     [exec] Build Tool Settings:
+     [exec]   SLASH_JAVA = /NOT-SET
+     [exec]     ALT_SLASH_JAVA = 
+     [exec]   VARIANT = OPT
+     [exec]   JDK_DEVTOOLS_DIR = /NOT-SET/devtools
+     [exec]     ALT_JDK_DEVTOOLS_DIR = 
+     [exec]   ANT_HOME = 
+     [exec]   UNIXCOMMAND_PATH = /bin/
+     [exec]     ALT_UNIXCOMMAND_PATH = 
+     [exec]   COMPILER_PATH = /usr/bin/
+     [exec]     ALT_COMPILER_PATH = 
+     [exec]   DEVTOOLS_PATH = /usr/bin/
+     [exec]     ALT_DEVTOOLS_PATH = 
+     [exec]   UNIXCCS_PATH = /usr/ccs/bin/
+     [exec]     ALT_UNIXCCS_PATH = 
+     [exec]   USRBIN_PATH = /usr/bin/
+     [exec]     ALT_USRBIN_PATH = 
+     [exec]   COMPILER_NAME = GCC4
+     [exec]   COMPILER_VERSION = GCC4
+     [exec]   CC_VER = 4.7 [requires at least 4.3.0]
+     [exec]   ZIP_VER = 3.0 [requires at least 2.2]
+     [exec]   UNZIP_VER = 6.00 [requires at least 5.12]
+     [exec]   ANT_VER = 1.8.2 [requires at least 1.7.1]
+     [exec]   TEMPDIR = ./../build/linux-amd64/tmp
+     [exec]  
+     [exec] Build Directives:
+     [exec]   OPENJDK = true
+     [exec]   USE_HOTSPOT_INTERPRETER_MODE = 
+     [exec]   PEDANTIC = 
+     [exec]   DEV_ONLY = 
+     [exec]   NO_DOCS = 
+     [exec]   NO_DEMOS = 
+     [exec]   NO_SAMPLES = 
+     [exec]   NO_IMAGES = 
+     [exec]   TOOLS_ONLY = 
+     [exec]   INSANE = 
+     [exec]   COMPILE_APPROACH = parallel
+     [exec]   PARALLEL_COMPILE_JOBS = 2
+     [exec]     ALT_PARALLEL_COMPILE_JOBS = 
+     [exec]   FASTDEBUG = 
+     [exec]   COMPILER_WARNINGS_FATAL = false
+     [exec]   COMPILER_WARNING_LEVEL = 
+     [exec]   SHOW_ALL_WARNINGS = 
+     [exec]   INCREMENTAL_BUILD = false
+     [exec]   CC_HIGHEST_OPT = 
+     [exec]   CC_HIGHER_OPT = 
+     [exec]   CC_LOWER_OPT = 
+     [exec]   CXXFLAGS =  -O2 -fPIC -DCC_NOEX -W -Wall  -Wno-unused -Wno-parentheses -fno-omit-frame-pointer -D_LITTLE_ENDIAN  
+     [exec]   CFLAGS =  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN  
+     [exec]   BOOT_JAVA_CMD = /usr/lib/jvm/java-7-openjdk-amd64/bin/java -XX:-PrintVMOptions -XX:+UnlockDiagnosticVMOptions -XX:-LogVMOutput -Xmx512m -Xms512m -XX:PermSize=32m -XX:MaxPermSize=160m
+     [exec]   BOOT_JAVAC_CMD = /usr/lib/jvm/java-7-openjdk-amd64/bin/javac  -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:-path -encoding ascii -XDignore.symbol.file=true
+     [exec]   BOOT_JAR_CMD = /usr/lib/jvm/java-7-openjdk-amd64/bin/jar
+     [exec]   BOOT_JARSIGNER_CMD = /usr/lib/jvm/java-7-openjdk-amd64/bin/jarsigner
+     [exec]   JAVAC_CMD = /usr/lib/jvm/java-7-openjdk-amd64/bin/javac  -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m  -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:./../build/linux-amd64/classes 
+     [exec]   JAVAH_CMD = /usr/lib/jvm/java-7-openjdk-amd64/bin/javah -bootclasspath ./../build/linux-amd64/classes
+     [exec]   JAVADOC_CMD = /usr/lib/jvm/java-7-openjdk-amd64/bin/javadoc -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -bootclasspath ./../build/linux-amd64/classes
+     [exec]  
+     [exec] Build Platform Settings:
+     [exec]   USER = openjdk
+     [exec]   PLATFORM = linux
+     [exec]   ARCH = amd64
+     [exec]   LIBARCH = amd64
+     [exec]   ARCH_FAMILY = amd64
+     [exec]   ARCH_DATA_MODEL = 64
+     [exec]   ARCHPROP = amd64
+     [exec]   ALSA_VERSION = 1.0.25
+     [exec]   OS_VERSION = 3.5.0-21-generic [requires at least 2.6]
+     [exec]   OS_VARIANT_NAME = Ubuntu
+     [exec]   OS_VARIANT_VERSION = 12.10
+     [exec]   MB_OF_MEMORY = 3033
+     [exec]  
+     [exec] GNU Make Settings:
+     [exec]   MAKE = make
+     [exec]   MAKE_VER = 3.81 [requires at least 3.81]
+     [exec]   MAKECMDGOALS = all
+     [exec]   MAKEFLAGS = 
+     [exec]   SHELL = /bin/sh
+     [exec]  
+     [exec] Target Build Versions:
+     [exec]   JDK_VERSION = 1.8.0
+     [exec]   MILESTONE = internal
+     [exec]   RELEASE = 1.8.0-internal
+     [exec]   FULL_VERSION = 1.8.0-internal-openjdk_2013_01_04_02_49-b00
+     [exec]   BUILD_NUMBER = b00
+     [exec]  
+     [exec] External File/Binary Locations:
+     [exec]   USRJDKINSTANCES_PATH = /opt/java
+     [exec]   BUILD_JDK_IMPORT_PATH = /NOT-SET/re/jdk/1.8.0/promoted/latest/binaries
+     [exec]     ALT_BUILD_JDK_IMPORT_PATH = 
+     [exec]   JDK_IMPORT_PATH = /usr/lib/jvm/java-7-openjdk-amd64
+     [exec]     ALT_JDK_IMPORT_PATH = /usr/lib/jvm/java-7-openjdk-amd64/
+     [exec]   LANGTOOLS_DIST = 
+     [exec]     ALT_LANGTOOLS_DIST = /home/openjdk/sources/jdk8_tl/langtools/dist
+     [exec]   CORBA_DIST = 
+     [exec]     ALT_CORBA_DIST = /home/openjdk/sources/jdk8_tl/corba/dist
+     [exec]   JAXP_DIST = 
+     [exec]     ALT_JAXP_DIST = /home/openjdk/sources/jdk8_tl/jaxp/dist
+     [exec]   JAXWS_DIST = 
+     [exec]     ALT_JAXWS_DIST = /home/openjdk/sources/jdk8_tl/jaxws/dist
+     [exec]   HOTSPOT_DOCS_IMPORT_PATH = /home/openjdk/sources/jdk8_tl/build/linux-amd64/hotspot/import/docs
+     [exec]     ALT_HOTSPOT_DOCS_IMPORT_PATH = 
+     [exec]   HOTSPOT_IMPORT_PATH = /home/openjdk/sources/jdk8_tl/build/linux-amd64/hotspot/import
+     [exec]     ALT_HOTSPOT_IMPORT_PATH = /home/openjdk/sources/jdk8_tl/build/linux-amd64/hotspot/import
+     [exec]   HOTSPOT_SERVER_PATH = /home/openjdk/sources/jdk8_tl/build/linux-amd64/hotspot/import/jre/lib/amd64/server
+     [exec]     ALT_HOTSPOT_SERVER_PATH = /home/openjdk/sources/jdk8_tl/build/linux-amd64/hotspot/import/jre/lib/amd64/server
+     [exec]   CACERTS_FILE = ./../src/share/lib/security/cacerts
+     [exec]     ALT_CACERTS_FILE = 
+     [exec]   CUPS_HEADERS_PATH = /usr/include
+     [exec]     ALT_CUPS_HEADERS_PATH = 
+     [exec]  
+     [exec] OpenJDK-specific settings:
+     [exec]   FREETYPE_HEADERS_PATH = /usr/include
+     [exec]     ALT_FREETYPE_HEADERS_PATH = 
+     [exec]   FREETYPE_LIB_PATH = /usr/lib
+     [exec]     ALT_FREETYPE_LIB_PATH = 
+     [exec]  
+     [exec] Previous JDK Settings:
+     [exec]   PREVIOUS_RELEASE_PATH = USING-PREVIOUS_RELEASE_IMAGE
+     [exec]     ALT_PREVIOUS_RELEASE_PATH = 
+     [exec]   PREVIOUS_JDK_VERSION = 1.7.0
+     [exec]     ALT_PREVIOUS_JDK_VERSION = 
+     [exec]   PREVIOUS_JDK_FILE = 
+     [exec]     ALT_PREVIOUS_JDK_FILE = 
+     [exec]   PREVIOUS_JRE_FILE = 
+     [exec]     ALT_PREVIOUS_JRE_FILE = 
+     [exec]   PREVIOUS_RELEASE_IMAGE = /usr/lib/jvm/java-7-openjdk-amd64
+     [exec]     ALT_PREVIOUS_RELEASE_IMAGE = 
+     [exec] 
+     [exec] 
+     [exec] WARNING: Possible HotSpot VM interface conflict. 
+     [exec]          HOTSPOT_IMPORT_PATH is used to import files from the VM build. 
+     [exec]          It is also used to verify that any copied files are consistent between 
+     [exec]          these two components. It has been detected that one or more of the 
+     [exec]          VM interface files inside this workspace may not match the interfaces 
+     [exec]          exported by the VM, or the VM versions could not be found. 
+     [exec]          The list of VM interface files is: 
+     [exec]              jvmti.h jvmticmlr.h. 
+     [exec]          This workspace has copies of these files at: 
+     [exec]            ./../src/share/javavm/export and ./../src/solaris/javavm/export 
+     [exec]          for build purposes, and they should contain the same interfaces 
+     [exec]          as the VM versions imported from: 
+     [exec]            $(HOTSPOT_IMPORT_PATH)/include 
+     [exec]                 (i.e. /home/openjdk/sources/jdk8_tl/build/linux-amd64/hotspot/import/include) 
+     [exec]          If an interface indeed doesn't match, then the use of this interface 
+     [exec]          at JDK runtime could cause serious errors. 
+     [exec]  
+     [exec]  
+     [exec] VM Interface Differences: ./../build/linux-amd64/tmp/jvmti.hdiffs
+     [exec] 2,23c2,22
+     [exec] <  * Copyright (c) 2003, 2011, Oracle and/or its affiliates. All rights reserved.
+     [exec] <  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+     [exec] <  *
+     [exec] <  * This code is free software; you can redistribute it and/or modify it
+     [exec] <  * under the terms of the GNU General Public License version 2 only, as
+     [exec] <  * published by the Free Software Foundation.  Oracle designates this
+     [exec] <  * particular file as subject to the "Classpath" exception as provided
+     [exec] <  * by Oracle in the LICENSE file that accompanied this code.
+     [exec] <  *
+     [exec] <  * This code is distributed in the hope that it will be useful, but WITHOUT
+     [exec] <  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+     [exec] <  * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+     [exec] <  * version 2 for more details (a copy is included in the LICENSE file that
+     [exec] <  * accompanied this code).
+     [exec] <  *
+     [exec] <  * You should have received a copy of the GNU General Public License version
+     [exec] <  * 2 along with this work; if not, write to the Free Software Foundation,
+     [exec] <  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+     [exec] <  *
+     [exec] <  * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
+     [exec] <  * or visit www.oracle.com if you need additional information or have any
+     [exec] <  * questions.
+     [exec] ---
+     [exec] >  Copyright (c) 2002, 2012, Oracle and/or its affiliates. All rights reserved.
+     [exec] >  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+     [exec] > 
+     [exec] >  This code is free software; you can redistribute it and/or modify it
+     [exec] >  under the terms of the GNU General Public License version 2 only, as
+     [exec] >  published by the Free Software Foundation.
+     [exec] > 
+     [exec] >  This code is distributed in the hope that it will be useful, but WITHOUT
+     [exec] >  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+     [exec] >  FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+     [exec] >  version 2 for more details (a copy is included in the LICENSE file that
+     [exec] >  accompanied this code).
+     [exec] > 
+     [exec] >  You should have received a copy of the GNU General Public License version
+     [exec] >  2 along with this work; if not, write to the Free Software Foundation,
+     [exec] >  Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+     [exec] > 
+     [exec] >  Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
+     [exec] >  or visit www.oracle.com if you need additional information or have any
+     [exec] >  questions.
+     [exec] >   
+     [exec] 28d26
+     [exec] < 
+     [exec] 1663c1661
+     [exec] <     const char* value);
+     [exec] ---
+     [exec] >     const char* value_ptr);
+     [exec] 2472,2473c2470,2471
+     [exec] <             const char* value) {
+     [exec] <     return functions->SetSystemProperty(this, property, value);
+     [exec] ---
+     [exec] >             const char* value_ptr) {
+     [exec] >     return functions->SetSystemProperty(this, property, value_ptr);
+     [exec]  
+     [exec] Sanity check passed.
+     [exec] Begin Processing SUBDIRS: tools java javax sun com jdk    org jpda mkdemo mksample launchers
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools'
+     [exec] Begin Processing SUBDIRS: addjsum buildmetaindex cldrconverter commentchecker compile_font_config compile_properties dir_diff dtdbuilder generate_break_iterator GenerateCharacter generatecurrencydata hasher_classes jarreorder jarsplit javazic jdwpgen makeclasslist strip_properties spp CharsetMapping generate_nimbus     
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/addjsum'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                addjsum
+     [exec] PACKAGE:                  build.tools.addjsum
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.addjsum.AddJsum
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/addjsum.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/addjsum'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/buildmetaindex'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                buildmetaindex
+     [exec] PACKAGE:                  build.tools.buildmetaindex
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.buildmetaindex.BuildMetaIndex
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/buildmetaindex.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/buildmetaindex'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/cldrconverter'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                cldrconverter
+     [exec] PACKAGE:                  build.tools.cldrconverter
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.cldrconverter.CLDRConverter
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/cldrconverter.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/cldrconverter'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/commentchecker'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                commentchecker
+     [exec] PACKAGE:                  build.tools.commentchecker
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.commentchecker.CommentChecker
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/commentchecker.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/commentchecker'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/compile_font_config'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                compilefontconfig
+     [exec] PACKAGE:                  build.tools.compilefontconfig
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.compilefontconfig.CompileFontConfig
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/compilefontconfig.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/compile_font_config'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/compile_properties'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                compileproperties
+     [exec] PACKAGE:                  build.tools.compileproperties
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.compileproperties.CompileProperties
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/compileproperties.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/compile_properties'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/dir_diff'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                dirdiff
+     [exec] PACKAGE:                  build.tools.dirdiff
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.dirdiff.DirDiff
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/dirdiff.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/dir_diff'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/dtdbuilder'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                dtdbuilder
+     [exec] PACKAGE:                  build.tools.dtdbuilder
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.dtdbuilder.DTDBuilder
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/dtdbuilder.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/dtdbuilder'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/generate_break_iterator'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                generatebreakiteratordata
+     [exec] PACKAGE:                  build.tools.generatebreakiteratordata
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.generatebreakiteratordata.GenerateBreakIteratorData
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/generatebreakiteratordata.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/generate_break_iterator'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/GenerateCharacter'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                generatecharacter
+     [exec] PACKAGE:                  build.tools.generatecharacter
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.generatecharacter.GenerateCharacter
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/generatecharacter.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/GenerateCharacter'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/generatecurrencydata'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                generatecurrencydata
+     [exec] PACKAGE:                  build.tools.generatecurrencydata
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.generatecurrencydata.GenerateCurrencyData
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/generatecurrencydata.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/generatecurrencydata'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/hasher_classes'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                hasher
+     [exec] PACKAGE:                  build.tools.hasher
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.hasher.Hasher
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/hasher.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/hasher_classes'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/jarreorder'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                jarreorder
+     [exec] PACKAGE:                  build.tools.jarreorder
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.jarreorder.JarReorder
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/jarreorder.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/jarreorder'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/jarsplit'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                jarsplit
+     [exec] PACKAGE:                  build.tools.jarsplit
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.jarsplit.JarSplit
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/jarsplit.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/jarsplit'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/javazic'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                javazic
+     [exec] PACKAGE:                  build.tools.javazic
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.javazic.Main
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/javazic.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/javazic'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/jdwpgen'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                jdwpgen
+     [exec] PACKAGE:                  build.tools.jdwpgen
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.jdwpgen.Main
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/jdwpgen.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/jdwpgen'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/makeclasslist'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                makeclasslist
+     [exec] PACKAGE:                  build.tools.makeclasslist
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.makeclasslist.MakeClasslist
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/makeclasslist.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/makeclasslist'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/strip_properties'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                stripproperties
+     [exec] PACKAGE:                  build.tools.stripproperties
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.stripproperties.StripProperties
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/stripproperties.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/strip_properties'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/spp'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                spp
+     [exec] PACKAGE:                  build.tools.spp
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.spp.Spp
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/spp.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/spp'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/CharsetMapping'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                charsetmapping
+     [exec] PACKAGE:                  build.tools.charsetmapping
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.charsetmapping.Main
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/charsetmapping.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/CharsetMapping'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/generate_nimbus'
+     [exec] =========================================================
+     [exec] BUILDTOOL:                generatenimbus
+     [exec] PACKAGE:                  build.tools.generatenimbus
+     [exec] BUILDTOOL_SOURCE_ROOT:    ../../tools/src
+     [exec] BUILTTOOL_MAINCLASS:      build.tools.generatenimbus.Generator
+     [exec] BUILDTOOL_JAR_FILE:       ../../../build/linux-amd64/btjars/generatenimbus.jar
+     [exec] =========================================================
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools/generate_nimbus'
+     [exec] Done Processing SUBDIRS: addjsum buildmetaindex cldrconverter commentchecker compile_font_config compile_properties dir_diff dtdbuilder generate_break_iterator GenerateCharacter generatecurrencydata hasher_classes jarreorder jarsplit javazic jdwpgen makeclasslist strip_properties spp CharsetMapping generate_nimbus     
+     [exec] make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/tools'
+     [exec] make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java'
+     [exec] Begin Processing SUBDIRS: version jvm redist verify fdlibm java sun_nio jli main zip security math util text net nio jar jexec awt applet beans  management npt java_crw_demo java_hprof_demo logging instrument invoke sql rmi 
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/version'
+     [exec] make[2]: Nothing to be done for `all'.
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/version'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/jvm'
+     [exec] make[2]: Nothing to be done for `all'.
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/jvm'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/redist'
+     [exec] Begin Processing SUBDIRS:  fonts    sajdi
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/redist/fonts'
+     [exec] make[3]: Nothing to be done for `all'.
+     [exec] make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/redist/fonts'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/redist/sajdi'
+     [exec] make[3]: Nothing to be done for `all'.
+     [exec] make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/redist/sajdi'
+     [exec] Done Processing SUBDIRS:  fonts    sajdi
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/redist'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/verify'
+     [exec] Building lib:../../../build/linux-amd64/lib/amd64/libverify.so
+     [exec] Begin parallel compiles: /home/openjdk/sources/jdk8_tl/jdk/make/java/verify
+     [exec] make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/verify'
+     [exec] make[3]: `../../../build/linux-amd64/tmp/java/verify/obj64/.files_compiled' is up to date.
+     [exec] make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/verify'
+     [exec] Done with parallel compiles: /home/openjdk/sources/jdk8_tl/jdk/make/java/verify
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/verify'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/fdlibm'
+     [exec] Building lib:../../../build/linux-amd64/tmp/java/fdlibm/obj64/libfdlibm.amd64.a
+     [exec] Begin parallel compiles: /home/openjdk/sources/jdk8_tl/jdk/make/java/fdlibm
+     [exec] make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/fdlibm'
+     [exec] make[3]: `../../../build/linux-amd64/tmp/java/fdlibm/obj64/.files_compiled' is up to date.
+     [exec] make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/fdlibm'
+     [exec] Done with parallel compiles: /home/openjdk/sources/jdk8_tl/jdk/make/java/fdlibm
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/fdlibm'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/java'
+     [exec] (cd  ../nio; make sources)
+     [exec] make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/nio'
+     [exec] make[3]: Nothing to be done for `sources'.
+     [exec] make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/nio'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] # Java sources to be compiled: (listed in file ../../../build/linux-amd64/tmp/java/java.lang/java/.classes.list)
+     [exec] ../../../build/linux-amd64/gensrc/java/lang/UNIXProcess.java
+     [exec] ../../../build/linux-amd64/gensrc/java/nio/DirectByteBuffer.java
+     [exec] ../../../build/linux-amd64/gensrc/java/nio/HeapByteBuffer.java
+     [exec] ../../../build/linux-amd64/gensrc/java/nio/HeapCharBuffer.java
+     [exec] ../../../build/linux-amd64/gensrc/java/nio/charset/CharsetDecoder.java
+     [exec] ../../../build/linux-amd64/gensrc/java/nio/charset/CharsetEncoder.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/misc/Version.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/util/CoreResourceBundleControl.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/util/locale/provider/LocaleDataMetaInfo.java
+     [exec] ../../../src/share/classes/java/io/Bits.java
+     [exec] ../../../src/share/classes/java/io/BufferedInputStream.java
+     [exec] ../../../src/share/classes/java/io/BufferedOutputStream.java
+     [exec] ../../../src/share/classes/java/io/BufferedReader.java
+     [exec] ../../../src/share/classes/java/io/BufferedWriter.java
+     [exec] ../../../src/share/classes/java/io/ByteArrayInputStream.java
+     [exec] ../../../src/share/classes/java/io/ByteArrayOutputStream.java
+     [exec] ../../../src/share/classes/java/io/CharArrayReader.java
+     [exec] ../../../src/share/classes/java/io/CharArrayWriter.java
+     [exec] ../../../src/share/classes/java/io/CharConversionException.java
+     [exec] ../../../src/share/classes/java/io/Closeable.java
+     [exec] ../../../src/share/classes/java/io/Console.java
+     [exec] ../../../src/share/classes/java/io/DataInput.java
+     [exec] ../../../src/share/classes/java/io/DataInputStream.java
+     [exec] ../../../src/share/classes/java/io/DataOutput.java
+     [exec] ../../../src/share/classes/java/io/DataOutputStream.java
+     [exec] ../../../src/share/classes/java/io/DeleteOnExitHook.java
+     [exec] ../../../src/share/classes/java/io/EOFException.java
+     [exec] ../../../src/share/classes/java/io/ExpiringCache.java
+     [exec] ../../../src/share/classes/java/io/Externalizable.java
+     [exec] ../../../src/share/classes/java/io/File.java
+     [exec] ../../../src/share/classes/java/io/FileFilter.java
+     [exec] ../../../src/share/classes/java/io/FileInputStream.java
+     [exec] ../../../src/share/classes/java/io/FileNotFoundException.java
+     [exec] ../../../src/share/classes/java/io/FileOutputStream.java
+     [exec] ../../../src/share/classes/java/io/FilePermission.java
+     [exec] ../../../src/share/classes/java/io/FileReader.java
+     [exec] ../../../src/share/classes/java/io/FileSystem.java
+     [exec] ../../../src/share/classes/java/io/FileWriter.java
+     [exec] ../../../src/share/classes/java/io/FilenameFilter.java
+     [exec] ../../../src/share/classes/java/io/FilterInputStream.java
+     [exec] ../../../src/share/classes/java/io/FilterOutputStream.java
+     [exec] ../../../src/share/classes/java/io/FilterReader.java
+     [exec] ../../../src/share/classes/java/io/FilterWriter.java
+     [exec] ../../../src/share/classes/java/io/Flushable.java
+     [exec] ../../../src/share/classes/java/io/IOException.java
+     [exec] ../../../src/share/classes/java/io/InputStream.java
+     [exec] ../../../src/share/classes/java/io/InputStreamReader.java
+     [exec] ../../../src/share/classes/java/io/InterruptedIOException.java
+     [exec] ../../../src/share/classes/java/io/InvalidClassException.java
+     [exec] ../../../src/share/classes/java/io/InvalidObjectException.java
+     [exec] ../../../src/share/classes/java/io/LineNumberInputStream.java
+     [exec] ../../../src/share/classes/java/io/LineNumberReader.java
+     [exec] ../../../src/share/classes/java/io/NotActiveException.java
+     [exec] ../../../src/share/classes/java/io/NotSerializableException.java
+     [exec] ../../../src/share/classes/java/io/ObjectInput.java
+     [exec] ../../../src/share/classes/java/io/ObjectInputStream.java
+     [exec] ../../../src/share/classes/java/io/ObjectInputValidation.java
+     [exec] ../../../src/share/classes/java/io/ObjectOutput.java
+     [exec] ../../../src/share/classes/java/io/ObjectOutputStream.java
+     [exec] ../../../src/share/classes/java/io/ObjectStreamClass.java
+     [exec] ../../../src/share/classes/java/io/ObjectStreamConstants.java
+     [exec] ../../../src/share/classes/java/io/ObjectStreamException.java
+     [exec] ../../../src/share/classes/java/io/ObjectStreamField.java
+     [exec] ../../../src/share/classes/java/io/OptionalDataException.java
+     [exec] ../../../src/share/classes/java/io/OutputStream.java
+     [exec] ../../../src/share/classes/java/io/OutputStreamWriter.java
+     [exec] ../../../src/share/classes/java/io/PipedInputStream.java
+     [exec] ../../../src/share/classes/java/io/PipedOutputStream.java
+     [exec] ../../../src/share/classes/java/io/PipedReader.java
+     [exec] ../../../src/share/classes/java/io/PipedWriter.java
+     [exec] ../../../src/share/classes/java/io/PrintStream.java
+     [exec] ../../../src/share/classes/java/io/PrintWriter.java
+     [exec] ../../../src/share/classes/java/io/PushbackInputStream.java
+     [exec] ../../../src/share/classes/java/io/PushbackReader.java
+     [exec] ../../../src/share/classes/java/io/RandomAccessFile.java
+     [exec] ../../../src/share/classes/java/io/Reader.java
+     [exec] ../../../src/share/classes/java/io/SequenceInputStream.java
+     [exec] ../../../src/share/classes/java/io/SerialCallbackContext.java
+     [exec] ../../../src/share/classes/java/io/Serializable.java
+     [exec] ../../../src/share/classes/java/io/SerializablePermission.java
+     [exec] ../../../src/share/classes/java/io/StreamCorruptedException.java
+     [exec] ../../../src/share/classes/java/io/StreamTokenizer.java
+     [exec] ../../../src/share/classes/java/io/StringBufferInputStream.java
+     [exec] ../../../src/share/classes/java/io/StringReader.java
+     [exec] ../../../src/share/classes/java/io/StringWriter.java
+     [exec] ../../../src/share/classes/java/io/SyncFailedException.java
+     [exec] ../../../src/share/classes/java/io/UTFDataFormatException.java
+     [exec] ../../../src/share/classes/java/io/UnsupportedEncodingException.java
+     [exec] ../../../src/share/classes/java/io/WriteAbortedException.java
+     [exec] ../../../src/share/classes/java/io/Writer.java
+     [exec] ../../../src/share/classes/java/lang/AbstractMethodError.java
+     [exec] ../../../src/share/classes/java/lang/AbstractStringBuilder.java
+     [exec] ../../../src/share/classes/java/lang/Appendable.java
+     [exec] ../../../src/share/classes/java/lang/ApplicationShutdownHooks.java
+     [exec] ../../../src/share/classes/java/lang/ArithmeticException.java
+     [exec] ../../../src/share/classes/java/lang/ArrayIndexOutOfBoundsException.java
+     [exec] ../../../src/share/classes/java/lang/ArrayStoreException.java
+     [exec] ../../../src/share/classes/java/lang/AssertionError.java
+     [exec] ../../../src/share/classes/java/lang/AssertionStatusDirectives.java
+     [exec] ../../../src/share/classes/java/lang/AutoCloseable.java
+     [exec] ../../../src/share/classes/java/lang/Boolean.java
+     [exec] ../../../src/share/classes/java/lang/Byte.java
+     [exec] ../../../src/share/classes/java/lang/CharSequence.java
+     [exec] ../../../src/share/classes/java/lang/Character.java
+     [exec] ../../../src/share/classes/java/lang/CharacterData.java
+     [exec] ../../../src/share/classes/java/lang/CharacterName.java
+     [exec] ../../../src/share/classes/java/lang/Class.java
+     [exec] ../../../src/share/classes/java/lang/ClassCastException.java
+     [exec] ../../../src/share/classes/java/lang/ClassCircularityError.java
+     [exec] ../../../src/share/classes/java/lang/ClassFormatError.java
+     [exec] ../../../src/share/classes/java/lang/ClassLoader.java
+     [exec] ../../../src/share/classes/java/lang/ClassNotFoundException.java
+     [exec] ../../../src/share/classes/java/lang/CloneNotSupportedException.java
+     [exec] ../../../src/share/classes/java/lang/Cloneable.java
+     [exec] ../../../src/share/classes/java/lang/Comparable.java
+     [exec] ../../../src/share/classes/java/lang/Compiler.java
+     [exec] ../../../src/share/classes/java/lang/ConditionalSpecialCasing.java
+     [exec] ../../../src/share/classes/java/lang/Double.java
+     [exec] ../../../src/share/classes/java/lang/Enum.java
+     [exec] ../../../src/share/classes/java/lang/EnumConstantNotPresentException.java
+     [exec] ../../../src/share/classes/java/lang/Error.java
+     [exec] ../../../src/share/classes/java/lang/Exception.java
+     [exec] ../../../src/share/classes/java/lang/ExceptionInInitializerError.java
+     [exec] ../../../src/share/classes/java/lang/Float.java
+     [exec] ../../../src/share/classes/java/lang/IllegalAccessError.java
+     [exec] ../../../src/share/classes/java/lang/IllegalAccessException.java
+     [exec] ../../../src/share/classes/java/lang/IllegalArgumentException.java
+     [exec] ../../../src/share/classes/java/lang/IllegalMonitorStateException.java
+     [exec] ../../../src/share/classes/java/lang/IllegalStateException.java
+     [exec] ../../../src/share/classes/java/lang/IllegalThreadStateException.java
+     [exec] ../../../src/share/classes/java/lang/IncompatibleClassChangeError.java
+     [exec] ../../../src/share/classes/java/lang/IndexOutOfBoundsException.java
+     [exec] ../../../src/share/classes/java/lang/InheritableThreadLocal.java
+     [exec] ../../../src/share/classes/java/lang/InstantiationError.java
+     [exec] ../../../src/share/classes/java/lang/InstantiationException.java
+     [exec] ../../../src/share/classes/java/lang/Integer.java
+     [exec] ../../../src/share/classes/java/lang/InternalError.java
+     [exec] ../../../src/share/classes/java/lang/InterruptedException.java
+     [exec] ../../../src/share/classes/java/lang/LinkageError.java
+     [exec] ../../../src/share/classes/java/lang/Long.java
+     [exec] ../../../src/share/classes/java/lang/Math.java
+     [exec] ../../../src/share/classes/java/lang/NegativeArraySizeException.java
+     [exec] ../../../src/share/classes/java/lang/NoClassDefFoundError.java
+     [exec] ../../../src/share/classes/java/lang/NoSuchFieldError.java
+     [exec] ../../../src/share/classes/java/lang/NoSuchFieldException.java
+     [exec] ../../../src/share/classes/java/lang/NoSuchMethodError.java
+     [exec] ../../../src/share/classes/java/lang/NoSuchMethodException.java
+     [exec] ../../../src/share/classes/java/lang/NullPointerException.java
+     [exec] ../../../src/share/classes/java/lang/Number.java
+     [exec] ../../../src/share/classes/java/lang/NumberFormatException.java
+     [exec] ../../../src/share/classes/java/lang/Object.java
+     [exec] ../../../src/share/classes/java/lang/OutOfMemoryError.java
+     [exec] ../../../src/share/classes/java/lang/Override.java
+     [exec] ../../../src/share/classes/java/lang/Package.java
+     [exec] ../../../src/share/classes/java/lang/Process.java
+     [exec] ../../../src/share/classes/java/lang/ProcessBuilder.java
+     [exec] ../../../src/share/classes/java/lang/Readable.java
+     [exec] ../../../src/share/classes/java/lang/ReflectiveOperationException.java
+     [exec] ../../../src/share/classes/java/lang/Runnable.java
+     [exec] ../../../src/share/classes/java/lang/Runtime.java
+     [exec] ../../../src/share/classes/java/lang/RuntimeException.java
+     [exec] ../../../src/share/classes/java/lang/RuntimePermission.java
+     [exec] ../../../src/share/classes/java/lang/SafeVarargs.java
+     [exec] ../../../src/share/classes/java/lang/SecurityException.java
+     [exec] ../../../src/share/classes/java/lang/SecurityManager.java
+     [exec] ../../../src/share/classes/java/lang/Short.java
+     [exec] ../../../src/share/classes/java/lang/Shutdown.java
+     [exec] ../../../src/share/classes/java/lang/StackOverflowError.java
+     [exec] ../../../src/share/classes/java/lang/StackTraceElement.java
+     [exec] ../../../src/share/classes/java/lang/StrictMath.java
+     [exec] ../../../src/share/classes/java/lang/String.java
+     [exec] ../../../src/share/classes/java/lang/StringBuffer.java
+     [exec] ../../../src/share/classes/java/lang/StringBuilder.java
+     [exec] ../../../src/share/classes/java/lang/StringCoding.java
+     [exec] ../../../src/share/classes/java/lang/StringIndexOutOfBoundsException.java
+     [exec] ../../../src/share/classes/java/lang/SuppressWarnings.java
+     [exec] ../../../src/share/classes/java/lang/System.java
+     [exec] ../../../src/share/classes/java/lang/Thread.java
+     [exec] ../../../src/share/classes/java/lang/ThreadDeath.java
+     [exec] ../../../src/share/classes/java/lang/ThreadGroup.java
+     [exec] ../../../src/share/classes/java/lang/ThreadLocal.java
+     [exec] ../../../src/share/classes/java/lang/Throwable.java
+     [exec] ../../../src/share/classes/java/lang/TypeNotPresentException.java
+     [exec] ../../../src/share/classes/java/lang/UnknownError.java
+     [exec] ../../../src/share/classes/java/lang/UnsatisfiedLinkError.java
+     [exec] ../../../src/share/classes/java/lang/UnsupportedClassVersionError.java
+     [exec] ../../../src/share/classes/java/lang/UnsupportedOperationException.java
+     [exec] ../../../src/share/classes/java/lang/VerifyError.java
+     [exec] ../../../src/share/classes/java/lang/VirtualMachineError.java
+     [exec] ../../../src/share/classes/java/lang/Void.java
+     [exec] ../../../src/share/classes/java/lang/ref/FinalReference.java
+     [exec] ../../../src/share/classes/java/lang/ref/Finalizer.java
+     [exec] ../../../src/share/classes/java/lang/ref/PhantomReference.java
+     [exec] ../../../src/share/classes/java/lang/ref/Reference.java
+     [exec] ../../../src/share/classes/java/lang/ref/ReferenceQueue.java
+     [exec] ../../../src/share/classes/java/lang/ref/SoftReference.java
+     [exec] ../../../src/share/classes/java/lang/ref/WeakReference.java
+     [exec] ../../../src/share/classes/java/lang/reflect/AccessibleObject.java
+     [exec] ../../../src/share/classes/java/lang/reflect/Array.java
+     [exec] ../../../src/share/classes/java/lang/reflect/Constructor.java
+     [exec] ../../../src/share/classes/java/lang/reflect/Field.java
+     [exec] ../../../src/share/classes/java/lang/reflect/InvocationTargetException.java
+     [exec] ../../../src/share/classes/java/lang/reflect/Method.java
+     [exec] ../../../src/share/classes/java/lang/reflect/Proxy.java
+     [exec] ../../../src/share/classes/java/net/URLClassLoader.java
+     [exec] ../../../src/share/classes/java/net/URLConnection.java
+     [exec] ../../../src/share/classes/java/nio/Bits.java
+     [exec] ../../../src/share/classes/java/nio/charset/Charset.java
+     [exec] ../../../src/share/classes/java/nio/charset/UnmappableCharacterException.java
+     [exec] ../../../src/share/classes/java/security/AccessController.java
+     [exec] ../../../src/share/classes/java/security/ProtectionDomain.java
+     [exec] ../../../src/share/classes/java/util/AbstractCollection.java
+     [exec] ../../../src/share/classes/java/util/AbstractList.java
+     [exec] ../../../src/share/classes/java/util/AbstractMap.java
+     [exec] ../../../src/share/classes/java/util/AbstractQueue.java
+     [exec] ../../../src/share/classes/java/util/AbstractSequentialList.java
+     [exec] ../../../src/share/classes/java/util/AbstractSet.java
+     [exec] ../../../src/share/classes/java/util/ArrayDeque.java
+     [exec] ../../../src/share/classes/java/util/ArrayList.java
+     [exec] ../../../src/share/classes/java/util/Arrays.java
+     [exec] ../../../src/share/classes/java/util/Base64.java
+     [exec] ../../../src/share/classes/java/util/BitSet.java
+     [exec] ../../../src/share/classes/java/util/Calendar.java
+     [exec] ../../../src/share/classes/java/util/Collection.java
+     [exec] ../../../src/share/classes/java/util/Collections.java
+     [exec] ../../../src/share/classes/java/util/ComparableTimSort.java
+     [exec] ../../../src/share/classes/java/util/Comparator.java
+     [exec] ../../../src/share/classes/java/util/ConcurrentModificationException.java
+     [exec] ../../../src/share/classes/java/util/Currency.java
+     [exec] ../../../src/share/classes/java/util/Date.java
+     [exec] ../../../src/share/classes/java/util/Deque.java
+     [exec] ../../../src/share/classes/java/util/Dictionary.java
+     [exec] ../../../src/share/classes/java/util/DualPivotQuicksort.java
+     [exec] ../../../src/share/classes/java/util/DuplicateFormatFlagsException.java
+     [exec] ../../../src/share/classes/java/util/EmptyStackException.java
+     [exec] ../../../src/share/classes/java/util/EnumMap.java
+     [exec] ../../../src/share/classes/java/util/EnumSet.java
+     [exec] ../../../src/share/classes/java/util/Enumeration.java
+     [exec] ../../../src/share/classes/java/util/EventListener.java
+     [exec] ../../../src/share/classes/java/util/EventListenerProxy.java
+     [exec] ../../../src/share/classes/java/util/EventObject.java
+     [exec] ../../../src/share/classes/java/util/FormatFlagsConversionMismatchException.java
+     [exec] ../../../src/share/classes/java/util/Formattable.java
+     [exec] ../../../src/share/classes/java/util/FormattableFlags.java
+     [exec] ../../../src/share/classes/java/util/Formatter.java
+     [exec] ../../../src/share/classes/java/util/FormatterClosedException.java
+     [exec] ../../../src/share/classes/java/util/GregorianCalendar.java
+     [exec] ../../../src/share/classes/java/util/HashMap.java
+     [exec] ../../../src/share/classes/java/util/HashSet.java
+     [exec] ../../../src/share/classes/java/util/Hashtable.java
+     [exec] ../../../src/share/classes/java/util/IdentityHashMap.java
+     [exec] ../../../src/share/classes/java/util/IllegalFormatCodePointException.java
+     [exec] ../../../src/share/classes/java/util/IllegalFormatConversionException.java
+     [exec] ../../../src/share/classes/java/util/IllegalFormatException.java
+     [exec] ../../../src/share/classes/java/util/IllegalFormatFlagsException.java
+     [exec] ../../../src/share/classes/java/util/IllegalFormatPrecisionException.java
+     [exec] ../../../src/share/classes/java/util/IllegalFormatWidthException.java
+     [exec] ../../../src/share/classes/java/util/IllformedLocaleException.java
+     [exec] ../../../src/share/classes/java/util/InputMismatchException.java
+     [exec] ../../../src/share/classes/java/util/InvalidPropertiesFormatException.java
+     [exec] ../../../src/share/classes/java/util/Iterator.java
+     [exec] ../../../src/share/classes/java/util/JapaneseImperialCalendar.java
+     [exec] ../../../src/share/classes/java/util/JumboEnumSet.java
+     [exec] ../../../src/share/classes/java/util/LinkedHashMap.java
+     [exec] ../../../src/share/classes/java/util/LinkedHashSet.java
+     [exec] ../../../src/share/classes/java/util/LinkedList.java
+     [exec] ../../../src/share/classes/java/util/List.java
+     [exec] ../../../src/share/classes/java/util/ListIterator.java
+     [exec] ../../../src/share/classes/java/util/ListResourceBundle.java
+     [exec] ../../../src/share/classes/java/util/Locale.java
+     [exec] ../../../src/share/classes/java/util/LocaleISOData.java
+     [exec] ../../../src/share/classes/java/util/Map.java
+     [exec] ../../../src/share/classes/java/util/MissingFormatArgumentException.java
+     [exec] ../../../src/share/classes/java/util/MissingFormatWidthException.java
+     [exec] ../../../src/share/classes/java/util/MissingResourceException.java
+     [exec] ../../../src/share/classes/java/util/NavigableMap.java
+     [exec] ../../../src/share/classes/java/util/NavigableSet.java
+     [exec] ../../../src/share/classes/java/util/NoSuchElementException.java
+     [exec] ../../../src/share/classes/java/util/Objects.java
+     [exec] ../../../src/share/classes/java/util/Observable.java
+     [exec] ../../../src/share/classes/java/util/Observer.java
+     [exec] ../../../src/share/classes/java/util/PriorityQueue.java
+     [exec] ../../../src/share/classes/java/util/Properties.java
+     [exec] ../../../src/share/classes/java/util/PropertyPermission.java
+     [exec] ../../../src/share/classes/java/util/PropertyResourceBundle.java
+     [exec] ../../../src/share/classes/java/util/Queue.java
+     [exec] ../../../src/share/classes/java/util/Random.java
+     [exec] ../../../src/share/classes/java/util/RegularEnumSet.java
+     [exec] ../../../src/share/classes/java/util/ResourceBundle.java
+     [exec] ../../../src/share/classes/java/util/Scanner.java
+     [exec] ../../../src/share/classes/java/util/ServiceConfigurationError.java
+     [exec] ../../../src/share/classes/java/util/ServiceLoader.java
+     [exec] ../../../src/share/classes/java/util/Set.java
+     [exec] ../../../src/share/classes/java/util/SimpleTimeZone.java
+     [exec] ../../../src/share/classes/java/util/SortedMap.java
+     [exec] ../../../src/share/classes/java/util/SortedSet.java
+     [exec] ../../../src/share/classes/java/util/Stack.java
+     [exec] ../../../src/share/classes/java/util/StringTokenizer.java
+     [exec] ../../../src/share/classes/java/util/TimSort.java
+     [exec] ../../../src/share/classes/java/util/TimeZone.java
+     [exec] ../../../src/share/classes/java/util/Timer.java
+     [exec] ../../../src/share/classes/java/util/TimerTask.java
+     [exec] ../../../src/share/classes/java/util/TooManyListenersException.java
+     [exec] ../../../src/share/classes/java/util/TreeMap.java
+     [exec] ../../../src/share/classes/java/util/TreeSet.java
+     [exec] ../../../src/share/classes/java/util/UUID.java
+     [exec] ../../../src/share/classes/java/util/UnknownFormatConversionException.java
+     [exec] ../../../src/share/classes/java/util/UnknownFormatFlagsException.java
+     [exec] ../../../src/share/classes/java/util/Vector.java
+     [exec] ../../../src/share/classes/java/util/WeakHashMap.java
+     [exec] ../../../src/share/classes/java/util/concurrent/AbstractExecutorService.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ArrayBlockingQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/BlockingDeque.java
+     [exec] ../../../src/share/classes/java/util/concurrent/BlockingQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/BrokenBarrierException.java
+     [exec] ../../../src/share/classes/java/util/concurrent/Callable.java
+     [exec] ../../../src/share/classes/java/util/concurrent/CancellationException.java
+     [exec] ../../../src/share/classes/java/util/concurrent/CompletionService.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ConcurrentHashMap.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ConcurrentLinkedDeque.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ConcurrentLinkedQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ConcurrentMap.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ConcurrentNavigableMap.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ConcurrentSkipListMap.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ConcurrentSkipListSet.java
+     [exec] ../../../src/share/classes/java/util/concurrent/CopyOnWriteArrayList.java
+     [exec] ../../../src/share/classes/java/util/concurrent/CopyOnWriteArraySet.java
+     [exec] ../../../src/share/classes/java/util/concurrent/CountDownLatch.java
+     [exec] ../../../src/share/classes/java/util/concurrent/CyclicBarrier.java
+     [exec] ../../../src/share/classes/java/util/concurrent/DelayQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/Delayed.java
+     [exec] ../../../src/share/classes/java/util/concurrent/Exchanger.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ExecutionException.java
+     [exec] ../../../src/share/classes/java/util/concurrent/Executor.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ExecutorCompletionService.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ExecutorService.java
+     [exec] ../../../src/share/classes/java/util/concurrent/Executors.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ForkJoinPool.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ForkJoinTask.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ForkJoinWorkerThread.java
+     [exec] ../../../src/share/classes/java/util/concurrent/Future.java
+     [exec] ../../../src/share/classes/java/util/concurrent/FutureTask.java
+     [exec] ../../../src/share/classes/java/util/concurrent/LinkedBlockingDeque.java
+     [exec] ../../../src/share/classes/java/util/concurrent/LinkedBlockingQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/LinkedTransferQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/Phaser.java
+     [exec] ../../../src/share/classes/java/util/concurrent/PriorityBlockingQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/RecursiveAction.java
+     [exec] ../../../src/share/classes/java/util/concurrent/RecursiveTask.java
+     [exec] ../../../src/share/classes/java/util/concurrent/RejectedExecutionException.java
+     [exec] ../../../src/share/classes/java/util/concurrent/RejectedExecutionHandler.java
+     [exec] ../../../src/share/classes/java/util/concurrent/RunnableFuture.java
+     [exec] ../../../src/share/classes/java/util/concurrent/RunnableScheduledFuture.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ScheduledExecutorService.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ScheduledFuture.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ScheduledThreadPoolExecutor.java
+     [exec] ../../../src/share/classes/java/util/concurrent/Semaphore.java
+     [exec] ../../../src/share/classes/java/util/concurrent/SynchronousQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ThreadFactory.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ThreadLocalRandom.java
+     [exec] ../../../src/share/classes/java/util/concurrent/ThreadPoolExecutor.java
+     [exec] ../../../src/share/classes/java/util/concurrent/TimeUnit.java
+     [exec] ../../../src/share/classes/java/util/concurrent/TimeoutException.java
+     [exec] ../../../src/share/classes/java/util/concurrent/TransferQueue.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicBoolean.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicInteger.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicIntegerArray.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicLong.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicLongArray.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicLongFieldUpdater.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicMarkableReference.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicReference.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicReferenceArray.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java
+     [exec] ../../../src/share/classes/java/util/concurrent/atomic/AtomicStampedReference.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/AbstractOwnableSynchronizer.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/Condition.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/Lock.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/LockSupport.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/ReadWriteLock.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/ReentrantLock.java
+     [exec] ../../../src/share/classes/java/util/concurrent/locks/ReentrantReadWriteLock.java
+     [exec] ../../../src/share/classes/java/util/function/BinaryOperator.java
+     [exec] ../../../src/share/classes/java/util/function/Block.java
+     [exec] ../../../src/share/classes/java/util/function/DoubleBinaryOperator.java
+     [exec] ../../../src/share/classes/java/util/function/DoubleBlock.java
+     [exec] ../../../src/share/classes/java/util/function/DoubleFunction.java
+     [exec] ../../../src/share/classes/java/util/function/DoubleSupplier.java
+     [exec] ../../../src/share/classes/java/util/function/DoubleUnaryOperator.java
+     [exec] ../../../src/share/classes/java/util/function/Function.java
+     [exec] ../../../src/share/classes/java/util/function/IntBinaryOperator.java
+     [exec] ../../../src/share/classes/java/util/function/IntBlock.java
+     [exec] ../../../src/share/classes/java/util/function/IntFunction.java
+     [exec] ../../../src/share/classes/java/util/function/IntSupplier.java
+     [exec] ../../../src/share/classes/java/util/function/IntUnaryOperator.java
+     [exec] ../../../src/share/classes/java/util/function/LongBinaryOperator.java
+     [exec] ../../../src/share/classes/java/util/function/LongBlock.java
+     [exec] ../../../src/share/classes/java/util/function/LongFunction.java
+     [exec] ../../../src/share/classes/java/util/function/LongSupplier.java
+     [exec] ../../../src/share/classes/java/util/function/LongUnaryOperator.java
+     [exec] ../../../src/share/classes/java/util/function/Predicate.java
+     [exec] ../../../src/share/classes/java/util/function/Supplier.java
+     [exec] ../../../src/share/classes/java/util/function/UnaryOperator.java
+     [exec] ../../../src/share/classes/java/util/function/package-info.java
+     [exec] ../../../src/share/classes/java/util/prefs/AbstractPreferences.java
+     [exec] ../../../src/share/classes/java/util/prefs/BackingStoreException.java
+     [exec] ../../../src/share/classes/java/util/prefs/Base64.java
+     [exec] ../../../src/share/classes/java/util/prefs/InvalidPreferencesFormatException.java
+     [exec] ../../../src/share/classes/java/util/prefs/NodeChangeEvent.java
+     [exec] ../../../src/share/classes/java/util/prefs/NodeChangeListener.java
+     [exec] ../../../src/share/classes/java/util/prefs/PreferenceChangeEvent.java
+     [exec] ../../../src/share/classes/java/util/prefs/PreferenceChangeListener.java
+     [exec] ../../../src/share/classes/java/util/prefs/Preferences.java
+     [exec] ../../../src/share/classes/java/util/prefs/PreferencesFactory.java
+     [exec] ../../../src/share/classes/java/util/prefs/XmlSupport.java
+     [exec] ../../../src/share/classes/java/util/regex/ASCII.java
+     [exec] ../../../src/share/classes/java/util/regex/MatchResult.java
+     [exec] ../../../src/share/classes/java/util/regex/Matcher.java
+     [exec] ../../../src/share/classes/java/util/regex/Pattern.java
+     [exec] ../../../src/share/classes/java/util/regex/PatternSyntaxException.java
+     [exec] ../../../src/share/classes/java/util/regex/UnicodeProp.java
+     [exec] ../../../src/share/classes/java/util/spi/CalendarDataProvider.java
+     [exec] ../../../src/share/classes/java/util/spi/CalendarNameProvider.java
+     [exec] ../../../src/share/classes/java/util/spi/CurrencyNameProvider.java
+     [exec] ../../../src/share/classes/java/util/spi/LocaleNameProvider.java
+     [exec] ../../../src/share/classes/java/util/spi/LocaleServiceProvider.java
+     [exec] ../../../src/share/classes/java/util/spi/ResourceBundleControlProvider.java
+     [exec] ../../../src/share/classes/java/util/spi/TimeZoneNameProvider.java
+     [exec] ../../../src/share/classes/sun/misc/ASCIICaseInsensitiveComparator.java
+     [exec] ../../../src/share/classes/sun/misc/FloatingDecimal.java
+     [exec] ../../../src/share/classes/sun/misc/FormattedFloatingDecimal.java
+     [exec] ../../../src/share/classes/sun/misc/GC.java
+     [exec] ../../../src/share/classes/sun/misc/Hashing.java
+     [exec] ../../../src/share/classes/sun/misc/JavaAWTAccess.java
+     [exec] ../../../src/share/classes/sun/misc/JavaIOAccess.java
+     [exec] ../../../src/share/classes/sun/misc/JavaIOFileDescriptorAccess.java
+     [exec] ../../../src/share/classes/sun/misc/JavaLangAccess.java
+     [exec] ../../../src/share/classes/sun/misc/JavaNioAccess.java
+     [exec] ../../../src/share/classes/sun/misc/Launcher.java
+     [exec] ../../../src/share/classes/sun/misc/MessageUtils.java
+     [exec] ../../../src/share/classes/sun/misc/MetaIndex.java
+     [exec] ../../../src/share/classes/sun/misc/NativeSignalHandler.java
+     [exec] ../../../src/share/classes/sun/misc/Perf.java
+     [exec] ../../../src/share/classes/sun/misc/PerfCounter.java
+     [exec] ../../../src/share/classes/sun/misc/Service.java
+     [exec] ../../../src/share/classes/sun/misc/Signal.java
+     [exec] ../../../src/share/classes/sun/misc/URLClassPath.java
+     [exec] ../../../src/share/classes/sun/misc/VM.java
+     [exec] ../../../src/share/classes/sun/misc/VMSupport.java
+     [exec] ../../../src/share/classes/sun/net/www/protocol/file/FileURLConnection.java
+     [exec] ../../../src/share/classes/sun/net/www/protocol/jar/Handler.java
+     [exec] ../../../src/share/classes/sun/net/www/protocol/jar/JarURLConnection.java
+     [exec] ../../../src/share/classes/sun/reflect/ConstantPool.java
+     [exec] ../../../src/share/classes/sun/reflect/NativeConstructorAccessorImpl.java
+     [exec] ../../../src/share/classes/sun/reflect/NativeMethodAccessorImpl.java
+     [exec] ../../../src/share/classes/sun/reflect/Reflection.java
+     [exec] ../../../src/share/classes/sun/util/BuddhistCalendar.java
+     [exec] ../../../src/share/classes/sun/util/ResourceBundleEnumeration.java
+     [exec] ../../../src/share/classes/sun/util/calendar/AbstractCalendar.java
+     [exec] ../../../src/share/classes/sun/util/calendar/BaseCalendar.java
+     [exec] ../../../src/share/classes/sun/util/calendar/CalendarDate.java
+     [exec] ../../../src/share/classes/sun/util/calendar/CalendarSystem.java
+     [exec] ../../../src/share/classes/sun/util/calendar/CalendarUtils.java
+     [exec] ../../../src/share/classes/sun/util/calendar/Era.java
+     [exec] ../../../src/share/classes/sun/util/calendar/Gregorian.java
+     [exec] ../../../src/share/classes/sun/util/calendar/ImmutableGregorianDate.java
+     [exec] ../../../src/share/classes/sun/util/calendar/JulianCalendar.java
+     [exec] ../../../src/share/classes/sun/util/calendar/LocalGregorianCalendar.java
+     [exec] ../../../src/share/classes/sun/util/calendar/TzIDOldMapping.java
+     [exec] ../../../src/share/classes/sun/util/calendar/ZoneInfo.java
+     [exec] ../../../src/share/classes/sun/util/calendar/ZoneInfoFile.java
+     [exec] ../../../src/share/classes/sun/util/cldr/CLDRLocaleProviderAdapter.java
+     [exec] ../../../src/share/classes/sun/util/locale/BaseLocale.java
+     [exec] ../../../src/share/classes/sun/util/locale/Extension.java
+     [exec] ../../../src/share/classes/sun/util/locale/InternalLocaleBuilder.java
+     [exec] ../../../src/share/classes/sun/util/locale/LanguageTag.java
+     [exec] ../../../src/share/classes/sun/util/locale/LocaleExtensions.java
+     [exec] ../../../src/share/classes/sun/util/locale/LocaleObjectCache.java
+     [exec] ../../../src/share/classes/sun/util/locale/LocaleSyntaxException.java
+     [exec] ../../../src/share/classes/sun/util/locale/LocaleUtils.java
+     [exec] ../../../src/share/classes/sun/util/locale/ParseStatus.java
+     [exec] ../../../src/share/classes/sun/util/locale/StringTokenIterator.java
+     [exec] ../../../src/share/classes/sun/util/locale/UnicodeLocaleExtension.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/AuxLocaleProviderAdapter.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/AvailableLanguageTags.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/BreakDictionary.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/BreakIteratorProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/CalendarDataProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/CalendarDataUtility.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/CalendarNameProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/CollationRules.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/CollatorProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/CurrencyNameProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/DateFormatProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/DateFormatSymbolsProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/DecimalFormatSymbolsProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/DictionaryBasedBreakIterator.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/FallbackLocaleProviderAdapter.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/HostLocaleProviderAdapter.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/JRELocaleConstants.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/JRELocaleProviderAdapter.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/LocaleNameProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/LocaleProviderAdapter.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/LocaleResources.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/LocaleServiceProviderPool.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/NumberFormatProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/RuleBasedBreakIterator.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/SPILocaleProviderAdapter.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/TimeZoneNameProviderImpl.java
+     [exec] ../../../src/share/classes/sun/util/locale/provider/TimeZoneNameUtility.java
+     [exec] ../../../src/share/classes/sun/util/spi/XmlPropertiesProvider.java
+     [exec] ../../../src/solaris/classes/java/io/DefaultFileSystem.java
+     [exec] ../../../src/solaris/classes/java/io/FileDescriptor.java
+     [exec] ../../../src/solaris/classes/java/io/UnixFileSystem.java
+     [exec] ../../../src/solaris/classes/java/lang/ClassLoaderHelper.java
+     [exec] ../../../src/solaris/classes/java/lang/ProcessEnvironment.java
+     [exec] ../../../src/solaris/classes/java/lang/ProcessImpl.java
+     [exec] ../../../src/solaris/classes/java/lang/Terminator.java
+     [exec] ../../../src/solaris/classes/java/util/prefs/FileSystemPreferences.java
+     [exec] ../../../src/solaris/classes/java/util/prefs/FileSystemPreferencesFactory.java
+     [exec] ../../../src/solaris/classes/sun/misc/FileURLMapper.java
+     [exec] ../../../src/solaris/classes/sun/net/www/protocol/file/Handler.java
+     [exec] ../../../src/solaris/classes/sun/util/locale/provider/HostLocaleProviderAdapterImpl.java
+     [exec] # Running javac: 526 files; in /home/openjdk/sources/jdk8_tl/jdk/make/java/java
+     [exec] /usr/lib/jvm/java-7-openjdk-amd64/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:all -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/java/java.lang/java/.classes.list.filtered
+     [exec] javac: invalid source release: 8
+     [exec] Usage: javac <options> <source files>
+     [exec] use -help for a list of possible options
+     [exec] make[2]: *** [.compile.classlist] Error 2
+     [exec] make[1]: *** [all] Error 1
+     [exec] make: *** [all] Error 1
+     [exec] make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/java'
+     [exec] make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java'
+
+BUILD FAILED
+/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/j2se/build.xml:40: The following error occurred while executing this line:
+/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/common/make.xml:61: exec returned: 2
+
+Total time: 9 seconds
