@@ -7,8 +7,6 @@ Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/awt2d/build.xml
 -first-init:
 
 -warn-about-bootstrap.jdk:
-     [echo] Warning: falling back to building against /usr/lib/jvm/java-7-openjdk-amd64
-     [echo] Please define bootstrap.jdk=.../recent/jdk7/snapshot in /home/openjdk/.openjdk/build.properties or /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/awt2d/nbproject/private/build.properties
 
 -project-init:
 
@@ -34,6 +32,108 @@ Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/awt2d/build.xml
      [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
      [exec] INFO: STRIP_POLICY=min_strip
      [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib
+     [exec] rm -f ../../../build/linux-amd64/lib/flavormap.properties
+     [exec] /bin/cp ../../../src/solaris/lib/flavormap.properties ../../../build/linux-amd64/lib/flavormap.properties
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/cursors.properties
+     [exec] /bin/cp ../../../src/solaris/lib/images/cursors/cursors.properties ../../../build/linux-amd64/lib/images/cursors/cursors.properties
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_CopyDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_CopyDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_CopyDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_MoveDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_MoveDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_MoveDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_LinkDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_LinkDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_LinkDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_CopyNoDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_CopyNoDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_CopyNoDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_MoveNoDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_MoveNoDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_MoveNoDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_LinkNoDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_LinkNoDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_LinkNoDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/invalid32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/invalid32x32.gif ../../../build/linux-amd64/lib/images/cursors/invalid32x32.gif
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_de.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_de.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_es.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_es.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_fr.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_fr.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_it.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_it.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_ja.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_ja.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_ko.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_ko.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_pt_BR.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_pt_BR.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_sv.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_sv.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_zh_CN.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_zh_CN.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] /usr/lib/jvm/java-7-openjdk-amd64//bin/java -XX:-PrintVMOptions -XX:+UnlockDiagnosticVMOptions -XX:-LogVMOutput -Xmx512m -Xms512m -XX:PermSize=32m -XX:MaxPermSize=160m -jar ../../../build/linux-amd64/btjars/compileproperties.jar @../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_de.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_es.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_fr.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_it.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_ja.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_ko.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_pt_BR.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_sv.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_zh_CN.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
      [exec] # Java sources to be compiled: (listed in file ../../../build/linux-amd64/tmp/sun/java.awt/.classes.list)
      [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java
      [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java
@@ -429,14 +529,33 @@ Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/awt2d/build.xml
      [exec] ../../../src/share/classes/sun/awt/geom/Order3.java
      [exec] ../../../src/share/classes/sun/awt/geom/PathConsumer2D.java
      [exec] # Running javac: 393 files; in /home/openjdk/sources/jdk8_tl/jdk/make/java/awt
-     [exec] /usr/lib/jvm/java-7-openjdk-amd64/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/sun/java.awt/.classes.list.filtered
-     [exec] javac: invalid source release: 8
-     [exec] Usage: javac <options> <source files>
-     [exec] use -help for a list of possible options
-     [exec] make: *** [.compile.classlist] Error 2
+     [exec] /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/sun/java.awt/.classes.list.filtered
+     [exec] ../../../src/share/classes/java/awt/EventDispatchThread.java:123: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+     [exec]                 final Method evaluateMethod = Class.forName("sun.lwawt.macosx.EventDispatchAccess").getMethod("evaluate", null);
+     [exec]                                                                                                                           ^
+     [exec]   cast to Class<?> for a varargs call
+     [exec]   cast to Class<?>[] for a non-varargs call and to suppress this warning
+     [exec] ../../../src/share/classes/java/awt/EventDispatchThread.java:126: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+     [exec]                         return ((Boolean)evaluateMethod.invoke(cond, null)).booleanValue();
+     [exec]                                                                      ^
+     [exec]   cast to Object for a varargs call
+     [exec]   cast to Object[] for a non-varargs call and to suppress this warning
+     [exec] Note: Some input files use or override a deprecated API.
+     [exec] Note: Recompile with -Xlint:deprecation for details.
+     [exec] Note: Some input files use unchecked or unsafe operations.
+     [exec] Note: Recompile with -Xlint:unchecked for details.
+     [exec] 2 warnings
+     [exec] # javac finished
+     [echo] Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/awt'
+     [echo] Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/sun/dcpr'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make: *** No rule to make target `../../../build/linux-amd64/classes/sun/dc/path/FastPathProducer.class', needed by `../../../build/linux-amd64/tmp/sun/sun.dc/dcpr/.classes.list'.  Stop.
 
 BUILD FAILED
-/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/awt2d/build.xml:42: The following error occurred while executing this line:
+/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/awt2d/build.xml:43: The following error occurred while executing this line:
 /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/common/make.xml:61: exec returned: 2
 
-Total time: 4 seconds
+Total time: 20 seconds
