@@ -55,7 +55,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
-					<value>hotspot ZIP_DEBUGINFO_FILES=0 LANG=C NEW_BUILD=true</value>
+					<value>hotspot NEW_BUILD=true JAVAC_MAX_WARNINGS=true ZIP_DEBUGINFO_FILES=0 LANG=C</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.stopOnError</key>
