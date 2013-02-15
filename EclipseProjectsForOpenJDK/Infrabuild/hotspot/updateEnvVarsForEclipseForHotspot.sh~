@@ -1,7 +1,12 @@
 #!/bin/bash
 
+set -eu
+
 #
-# Copyright (c) 2010, 2012, Oracle and/or its affiliates. All rights reserved.
+# updateEnvVarsForEclipseForHotspot.sh - updates the environment variables for reuse in the Hotspot Eclipse project files
+#
+# Copyright (c) 2013, Mani Sarkar <sadhak001@gmail.com> All rights reserved.
+# 
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
 #
 # This code is free software; you can redistribute it and/or modify it
@@ -19,10 +24,6 @@
 # You should have received a copy of the GNU General Public License version
 # 2 along with this work; if not, write to the Free Software Foundation,
 # Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
-#
-# Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
-# or visit www.oracle.com if you need additional information or have any
-# questions.
 #
 
 ##################################################################################################################
@@ -45,7 +46,6 @@
 #                                                                                                                #
 ##################################################################################################################
 
-
 ########################
 ## Prepare for build  ##
 ########################
@@ -65,33 +65,29 @@ export TL_FOREST_FOLDER=$SOURCE_CODE/jdk8_tl
 export HOTSPOT_MAKEFILES_LOC=$TL_FOREST_FOLDER/common/makefiles
 
 # Arguments passed to the hotspot make command
-export HOTSPOT_MAKE_ARGS='JAVAC_MAX_WARNINGS\=true NEW_BUILD\=true LANG\=C ZIP_DEBUGINFO_FILES\=0'
+export HOTSPOT_MAKE_ARGS='JAVAC_MAX_WARNINGS\=true NEW_BUILD\=true LANG\=C ZIP_DEBUGINFO_FILES\=0 '
 
 #########################
 ## Post- hotspot build ##
 #########################
 
-# Name of the OpenJDK build release
-# extract data from OpenJDK's build-infra environment variables
-export OPENJDK_RELEASE_NAME=linux-x86_64-normal-server-release
-
-# Name of the compiler sub-folder depending on the OS and CPU
-# extract data from OpenJDK's build-infra environment variables
-export OS_PLATFORM_COMPILER_FOLDER=linux_amd64_compiler2
-
-# Location where the hotspot binary can be found after a successful build
-export HOTSPOT_BINARY_LOC=$TL_FOREST_FOLDER/build/$OPENJDK_RELEASE_NAME/hotspot/$OS_PLATFORM_COMPILER_FOLDER/product
+# Location where the latest hotspot binary can be found after a successful build
+export HOTSPOT_BINARY_LOC=$(find -newer $TL_FOREST_FOLDER/build/ -name 'gamma')
+if [ "$HOTSPOT_BINARY_LOC" == "" ] then
+   echo "HOTSPOT_BINARY_LOC is not defined. Hotspot might have not been built via CLI or Eclipse. The Run/Debug launch in Eclipse will fail." 
+   echo "You have three options, followed by re-running this script:" 
+   echo "a) Build Hotspot via the command-line interface"
+   echo "b) Build Hotspot in Eclipse, shutdown Eclipse."
+   echo "c) Change the value to HOTSPOT_BINARY_LOC manually if the script or Eclipse is failing."
+fi
 
 # Java CLI arguments passed by the launcher
 # arguments that can be passed to gamma (see java or gamma usage help by running java --help or gamma --help for additional options)
 export JAVA_CLI_ARGS=-verbose\:class
 
-# Location of the test class passed to the hotspot launcher
-# This location can be anywhere on the system - depends where the 'HelloWorld.class' file or any other test class has been placed
-export TESTCLASS_LOC=$HOME
-
-# Name of a test class passed to the hotspot launcher
-export TESTCLASSNAME=HelloWorld
+# Argument containing the location and name of the test class or jar passed to the hotspot launcher.
+# This location can be anywhere on the system - depends where the 'HelloWorld.class' file or any other test class has been placed.
+export TESTCLASS_OR_JAR_ARG=-cp $HOME HelloWorld
 
 # Location of the Java JDK/JRE used by the run launcher
 # use 
@@ -100,5 +96,7 @@ export TESTCLASSNAME=HelloWorld
 # sudo update-alternatives --configure java
 # at the CLI to figure out the exact location for JAVA_HOME
 #
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
-
+export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
+if [ "$JAVA_HOME" == "" ] then
+   echo "JAVA_HOME is not defined, installed JDK/JRE folder cannot be found, please change script manually. The Run/Debug launch in Eclipse will fail."
+fi
