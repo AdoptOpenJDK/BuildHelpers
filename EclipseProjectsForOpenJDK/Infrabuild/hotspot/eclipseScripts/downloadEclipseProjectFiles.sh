@@ -46,33 +46,53 @@ if [ "$#" -eq "0" ]; then
 else
   url=$1
 
-  echo "********************************************************"
+  echo "******************************************************************************************************************"
   echo "Files will be downloaded from $url."
-  echo "********************************************************"
+  echo "******************************************************************************************************************"
 
   # wget manual (http://www.gnu.org/software/wget/manual/wget.html)
   echo "Downloading eclipseScripts..."
-  sudo wget --recursive --no-clobber $url/eclipseScripts
+  mkdir -p eclipseScripts
+  cd eclipseScripts
+  wget --no-clobber $url/eclipseScripts/downloadEclipseProjectFiles.sh
+  wget --no-clobber $url/eclipseScripts/runEclipseForHotspot.sh
+  wget --no-clobber $url/eclipseScripts/updateEnvVarsForEclipseForHotspot.sh
+  cd ..
   echo "..finished downloading the eclipseScripts folder and its contents."
-  echo "********************************************************"
+  echo "******************************************************************************************************************"
 
   echo "Downloading .project..."
-  sudo wget --no-clobber $url/.project
+  wget --no-clobber $url/.project
   echo "..finished downloading the .project folder and its contents."
-  echo "********************************************************"
+  echo "******************************************************************************************************************"
 
   echo "Downloading .cproject..."
-  sudo wget --no-clobber $url/.cproject
+  wget --no-clobber $url/.cproject
   echo "..finished downloading the .cproject folder and its contents."
-  echo "********************************************************"
+  echo "******************************************************************************************************************"
 
   echo "Downloading .settings..."
-  sudo wget --recursive --no-clobber $url/.settings/
+  mkdir -p .settings
+  cd .settings
+  wget --no-clobber $url/.settings/org.eclipse.cdt.codan.core.prefs
+  wget --no-clobber $url/.settings/org.eclipse.cdt.core.prefs
+  wget --no-clobber $url/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+  cd ..
   echo "..finished downloading the .settings folder and its contents."
-  echo "********************************************************"
+  echo "******************************************************************************************************************"
 
-  echo "Downloading metadata..."
-  sudo wget --recursive --no-clobber $url/.metadata/
+  echo "Downloading .metadata..."
+
+  mkdir -p .metadata/.plugins/org.eclipse.core.runtime/.settings
+  cd .metadata/.plugins/org.eclipse.core.runtime/.settings
+  wget --no-clobber $url/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs 
+  wget --no-clobber $url/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prj-hotspot.prefs
+  cd ../../../../
+
+  mkdir -p .metadata/.plugins/org.eclipse.debug.core/.launches
+  cd .metadata/.plugins/org.eclipse.debug.core/.launches
+  wget --no-clobber "$url/.metadata/.plugins/org.eclipse.debug.core/.launches/hotspot Default.launch"
+  cd ../../../
   echo "..finished downloading the .metadata folder and its contents."
-  echo "********************************************************"
+    echo "******************************************************************************************************************"
 fi
