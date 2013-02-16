@@ -94,7 +94,7 @@ else
   mkdir -p .metadata/.plugins/org.eclipse.debug.core/.launches
   cd .metadata/.plugins/org.eclipse.debug.core/.launches
   wget --no-clobber "$url/.metadata/.plugins/org.eclipse.debug.core/.launches/hotspot Default.launch"
-  cd ../../../
+  cd ../../../../
   echo "..finished downloading the .metadata folder and its contents."
   echo "******************************************************************************************************************"
 

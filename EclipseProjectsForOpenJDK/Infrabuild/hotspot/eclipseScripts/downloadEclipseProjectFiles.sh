@@ -104,7 +104,8 @@ else
      echo "Script has not been completed successfully."
      echo "******************************************************************************************************************"
   else
-     mv -f .metadata/ $2
+     cp .metadata/ $2 -f
+     rm -fr .metadata/
      echo "The downloaded .metadata folder is being copied to $1 successfully."
   fi
   echo "Script finished successfully."
