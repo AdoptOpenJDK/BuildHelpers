@@ -16,8 +16,8 @@
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
 <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="main"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_ARGUMENTS" value="${env_var:JAVA_CLI_ARGS} -cp ${env_var:TESTCLASS_LOC}/ ${env_var:TESTCLASSNAME}"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="${env_var:HOTSPOT_BINARY_LOC}/gamma"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_ARGUMENTS" value="${env_var:JAVA_CLI_ARGS} ${env_var:DEMOCLASS_OR_JAR_ARG}"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="${env_var:HOTSPOT_BINARY_LOC}"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="hotspot"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="0.580149743"/>

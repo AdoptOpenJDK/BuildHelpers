@@ -49,6 +49,11 @@ else
 fi
 
 #
+# Update environment variables before running eclipse
+#
+source updateEnvVarsForEclipseForHotspot.sh
+
+#
 # Run the eclipse command to load environment variables and release control
 #
-eclipse --data $workspaceName &
+eclipse -data $workspaceName &

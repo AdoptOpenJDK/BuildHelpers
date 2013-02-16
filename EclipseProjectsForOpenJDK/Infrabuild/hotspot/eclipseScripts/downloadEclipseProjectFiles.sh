@@ -41,6 +41,7 @@ set -eu
 #
 
 url=""
+echo "Script started..."
 if [ "$#" -eq "0" ]; then
   echo "No URL has been passed in as parameter, aborting script."
 else
@@ -63,12 +64,14 @@ else
 
   echo "Downloading .project..."
   wget --no-clobber $url/.project
-  echo "..finished downloading the .project folder and its contents."
+  echo "..finished downloading the .project file."
+  echo "The local copy of the .project file has been overwritten by this action."
   echo "******************************************************************************************************************"
 
   echo "Downloading .cproject..."
   wget --no-clobber $url/.cproject
-  echo "..finished downloading the .cproject folder and its contents."
+  echo "..finished downloading the .cproject file."
+  echo "The local copy of the .cproject file has been overwritten by this action."
   echo "******************************************************************************************************************"
 
   echo "Downloading .settings..."
@@ -94,5 +97,17 @@ else
   wget --no-clobber "$url/.metadata/.plugins/org.eclipse.debug.core/.launches/hotspot Default.launch"
   cd ../../../
   echo "..finished downloading the .metadata folder and its contents."
-    echo "******************************************************************************************************************"
+  echo "******************************************************************************************************************"
+
+  if [ "$#" -eq "0" ]; then
+     echo "******************************************************************************************************************"
+     echo "No workspace location has been passed in as parameter. The downloaded copy of .metadata cannot be copied. The project files haven't been fully updated, please re-run the script with the correct workspace location."
+     echo "Script has not been completed successfully."
+     echo "******************************************************************************************************************"
+  else
+     cp -rf .metadata $1
+     echo "The downloaded .metadata folder is being copied to $1 successfully."
+  fi
+  echo "Script finished successfully."
+  echo "******************************************************************************************************************"
 fi

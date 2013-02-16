@@ -88,9 +88,9 @@ echo "HOTSPOT_MAKE_ARGS has been set to '$HOTSPOT_MAKE_ARGS'"
 #
 # Location where the latest hotspot binary can be found after a successful build
 #
-export HOTSPOT_BINARY_LOC=$(find -newer $TL_FOREST_FOLDER/build/ -name 'gamma')
+export HOTSPOT_BINARY_LOC=$(find $TL_FOREST_FOLDER/build/ -name 'gamma')
 echo "************************************************************************************************************"
-if [ "$HOTSPOT_BINARY_LOC" == "" ]; then
+if [ "$HOTSPOT_BINARY_LOC" == "" ]; then   
    echo "HOTSPOT_BINARY_LOC is not defined. Hotspot might have not been built via CLI or Eclipse. The Run/Debug launch in Eclipse will fail." 
    echo "You have three options, followed by re-running this script:" 
    echo "a) Build Hotspot via the command-line interface"
@@ -112,7 +112,12 @@ echo "JAVA_CLI_ARGS has been set to '$JAVA_CLI_ARGS'"
 # Argument containing the location and name of the test class or jar passed to the hotspot launcher.
 # This location can be anywhere on the system - depends where the 'HelloWorld.class' file or any other test class has been placed.
 #
-export DEMOCLASS_OR_JAR_ARG="-cp $HOME HelloWorld"
+#
+# Uncomment this line when you have a sample class or jar to pass to gamma
+# export DEMOCLASS_OR_JAR_ARG="-cp $HOME HelloWorld"
+
+# This will invoke gamma to display the usage screen
+export DEMOCLASS_OR_JAR_ARG=""
 echo "************************************************************************************************************"
 echo "DEMOCLASS_OR_JAR_ARG has been set to '$DEMOCLASS_OR_JAR_ARG'"
 
