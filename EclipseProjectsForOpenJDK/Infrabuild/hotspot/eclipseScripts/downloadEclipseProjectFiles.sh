@@ -78,7 +78,6 @@ else
   mkdir -p .settings
   cd .settings
   wget --no-clobber $url/.settings/org.eclipse.cdt.codan.core.prefs
-  wget --no-clobber $url/.settings/org.eclipse.cdt.core.prefs
   wget --no-clobber $url/.settings/org.eclipse.cdt.managedbuilder.core.prefs
   cd ..
   echo "..finished downloading the .settings folder and its contents."
