@@ -58,6 +58,7 @@ else
   wget --no-clobber $url/eclipseScripts/downloadEclipseProjectFiles.sh
   wget --no-clobber $url/eclipseScripts/runEclipseForHotspot.sh
   wget --no-clobber $url/eclipseScripts/updateEnvVarsForEclipseForHotspot.sh
+  wget --no-clobber $url/eclipseScripts/installEclipseJunoCDTForUbuntu12.04.sh
   cd ..
   echo "..finished downloading the eclipseScripts folder and its contents."
   echo "******************************************************************************************************************"
