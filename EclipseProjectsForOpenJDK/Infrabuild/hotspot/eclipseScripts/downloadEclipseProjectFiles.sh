@@ -94,7 +94,7 @@ else
   mkdir -p .metadata/.plugins/org.eclipse.debug.core/.launches
   cd .metadata/.plugins/org.eclipse.debug.core/.launches
   wget --no-clobber "$url/.metadata/.plugins/org.eclipse.debug.core/.launches/hotspot Default.launch"
-  cd ../../../
+  cd ../../../../
   echo "..finished downloading the .metadata folder and its contents."
   echo "******************************************************************************************************************"
 
@@ -104,7 +104,7 @@ else
      echo "Script has not been completed successfully."
      echo "******************************************************************************************************************"
   else
-     mv -f .metadata $2
+     mv -f .metadata/ $2
      echo "The downloaded .metadata folder is being copied to $1 successfully."
   fi
   echo "Script finished successfully."
