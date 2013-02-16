@@ -99,13 +99,13 @@ else
   echo "..finished downloading the .metadata folder and its contents."
   echo "******************************************************************************************************************"
 
-  if [ "$#" -eq "0" ]; then
+  if [ "$#" -le "1" ]; then
      echo "******************************************************************************************************************"
      echo "No workspace location has been passed in as parameter. The downloaded copy of .metadata cannot be copied. The project files haven't been fully updated, please re-run the script with the correct workspace location."
      echo "Script has not been completed successfully."
      echo "******************************************************************************************************************"
   else
-     cp -rf .metadata $1
+     mv -rf .metadata $2
      echo "The downloaded .metadata folder is being copied to $1 successfully."
   fi
   echo "Script finished successfully."
