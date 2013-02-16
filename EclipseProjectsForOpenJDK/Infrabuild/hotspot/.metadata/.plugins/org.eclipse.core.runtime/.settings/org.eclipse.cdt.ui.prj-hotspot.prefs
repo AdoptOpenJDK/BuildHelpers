@@ -1,0 +1,3 @@
+buildConsole/keepLog=true
+buildConsole/logLocation=$HOME/sources/jdk8_tl/hotspot/hotspot.build.log
+eclipse.preferences.version=1

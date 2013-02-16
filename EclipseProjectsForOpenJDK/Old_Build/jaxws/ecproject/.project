@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jaxws</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>build.xml</name>
+			<type>1</type>
+			<location>/home/openjdk/sources/jdk8_tl/jaxws/build.xml</location>
+		</link>
+		<link>
+			<name>classes</name>
+			<type>2</type>
+			<location>/home/openjdk/sources/jdk8_tl/jaxws/build/classes</location>
+		</link>
+		<link>
+			<name>jaf_classes</name>
+			<type>2</type>
+			<location>/home/openjdk/sources/jdk8_tl/jaxws/src/share/jaf_classes</location>
+		</link>
+		<link>
+			<name>jaxws_classes</name>
+			<type>2</type>
+			<location>/home/openjdk/sources/jdk8_tl/jaxws/src/share/jaxws_classes</location>
+		</link>
+	</linkedResources>
+</projectDescription>

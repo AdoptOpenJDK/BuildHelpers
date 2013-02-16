@@ -1,0 +1,220 @@
+Running generated-configure.sh
+configure: Configuration created at Wed Dec 12 19:39:15 GMT 2012.
+configure: configure script generated at timestamp 1354106772.
+checking for basename... /usr/bin/basename
+checking for bash... /bin/bash
+checking for cat... /bin/cat
+checking for chmod... /bin/chmod
+checking for cmp... /usr/bin/cmp
+checking for cp... /bin/cp
+checking for cut... /usr/bin/cut
+checking for date... /bin/date
+checking for gdiff... no
+checking for diff... /usr/bin/diff
+checking for dirname... /usr/bin/dirname
+checking for echo... /bin/echo
+checking for expr... /usr/bin/expr
+checking for file... /usr/bin/file
+checking for find... /usr/bin/find
+checking for head... /usr/bin/head
+checking for ln... /bin/ln
+checking for ls... /bin/ls
+checking for mkdir... /bin/mkdir
+checking for mktemp... /bin/mktemp
+checking for mv... /bin/mv
+checking for printf... /usr/bin/printf
+checking for pwd... /bin/pwd
+checking for rm... /bin/rm
+checking for sh... /bin/sh
+checking for sort... /usr/bin/sort
+checking for tail... /usr/bin/tail
+checking for tar... /bin/tar
+checking for tee... /usr/bin/tee
+checking for touch... /usr/bin/touch
+checking for tr... /usr/bin/tr
+checking for uname... /bin/uname
+checking for uniq... /usr/bin/uniq
+checking for wc... /usr/bin/wc
+checking for which... /usr/bin/which
+checking for xargs... /usr/bin/xargs
+checking for gawk... no
+checking for mawk... mawk
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for a sed that does not truncate output... /bin/sed
+checking for nawk... /usr/bin/nawk
+checking for cygpath... no
+checking for readlink... /bin/readlink
+checking for df... /bin/df
+checking for SetFile... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking openjdk-build os-cpu... linux-x86_64
+checking openjdk-target os-cpu... linux-x86_64
+checking compilation type... native
+checking which variant of the JDK to build... normal
+checking which variants of the JVM to build... server
+checking which debug level to use... release
+checking what configuration name to use... linux-x86_64-normal-server-release
+checking for apt-get... apt-get
+checking for gmake... no
+checking for make... /usr/bin/make
+configure: Testing potential make at /usr/bin/make, found using make in PATH
+configure: Using GNU make 3.81 (or later) at /usr/bin/make (version: GNU Make 3.81)
+checking if find supports -delete... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for ldd... /usr/bin/ldd
+checking for otool... no
+checking for readelf... /usr/bin/readelf
+checking for hg... /usr/bin/hg
+checking for stat... /usr/bin/stat
+checking for time... /usr/bin/time
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for 7z... no
+checking for unzip... unzip
+checking for wget... wget
+checking for presence of closed sources... no
+checking if closed source is supressed (openjdk-only)... no
+checking headful support... inlude support for both headful and headless
+configure: Found potential Boot JDK using configure arguments
+checking for Boot JDK... /usr/lib/jvm/java-7-openjdk-amd64/
+checking Boot JDK version... java version "1.7.0_09" OpenJDK Runtime Environment (IcedTea7 2.3.3) (7u9-2.3.3-0ubuntu1~12.10.1) OpenJDK 64-Bit Server VM (build 23.2-b09, mixed mode) 
+checking for java in Boot JDK... ok
+checking for javac in Boot JDK... ok
+checking for javah in Boot JDK... ok
+checking for javap in Boot JDK... ok
+checking for jar in Boot JDK... ok
+checking for rmic in Boot JDK... ok
+checking for native2ascii in Boot JDK... ok
+checking for cl... no
+checking for cc... /usr/bin/cc
+checking resolved symbolic links for CC... /usr/bin/gcc-4.7
+checking if CC is disguised ccache... no, keeping CC
+configure: Using gcc-4.7 (Ubuntu/Linaro 4.7.2-2ubuntu1) C compiler version 4.7.2 (located at /usr/bin/gcc-4.7)
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc-4.7 accepts -g... yes
+checking for /usr/bin/gcc-4.7 option to accept ISO C89... none needed
+checking for cl... no
+checking for CC... no
+checking for g++... /usr/bin/g++
+checking resolved symbolic links for CXX... /usr/bin/g++-4.7
+checking if CXX is disguised ccache... no, keeping CXX
+configure: Using g++-4.7 (Ubuntu/Linaro 4.7.2-2ubuntu1) C++ compiler version 4.7.2 (located at /usr/bin/g++-4.7)
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/bin/g++-4.7 accepts -g... yes
+checking for ar... ar
+configure: Rewriting AR to "/usr/bin/ar"
+checking how to run the C preprocessor... /usr/bin/gcc-4.7 -E
+checking how to run the C++ preprocessor... /usr/bin/g++-4.7 -E
+checking for nm... nm
+configure: Rewriting NM to "/usr/bin/nm"
+checking for strip... strip
+configure: Rewriting STRIP to "/usr/bin/strip"
+checking for gobjcopy... no
+checking for objcopy... objcopy
+configure: Rewriting OBJCOPY to "/usr/bin/objcopy"
+checking for gobjdump... no
+checking for objdump... objdump
+configure: Rewriting OBJDUMP to "/usr/bin/objdump"
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking size of int *... 8
+checking for target address size... 64 bits
+checking whether byte ordering is bigendian... no
+checking if we should generate debug symbols... yes
+checking if we should zip debug-info files... yes
+checking what is not needed on Linux?... pulse
+checking for explicit Java runtime support in the OS... no
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for X11/extensions/shape.h... yes
+checking for X11/extensions/Xrender.h... yes
+checking for X11/extensions/XTest.h... yes
+checking cups/cups.h usability... yes
+checking cups/cups.h presence... yes
+checking for cups/cups.h... yes
+checking cups/ppd.h usability... yes
+checking cups/ppd.h presence... yes
+checking for cups/ppd.h... yes
+checking for FREETYPE2... yes
+checking for FT_Init_FreeType in -lfreetype... yes
+checking for ALSA... yes
+checking for main in -ljpeg... no
+configure: Will use jpeg decoder bundled with the OpenJDK source
+checking for main in -lgif... no
+configure: Will use gif decoder bundled with the OpenJDK source
+checking for compress in -lz... yes
+checking for which zlib to use... bundled
+checking for cos in -lm... yes
+checking for dlopen in -ldl... yes
+checking if dynamic link of stdc++ is possible... yes
+checking if static link of stdc++ is possible... yes
+checking how to link with libstdc++... static
+checking for number of cores... 3
+checking for memory size... 3033 MB
+checking if number of server cores must be reduced... yes, to 2 with max heap size 1200 MB
+checking whether to use sjavac... no
+checking that precompiled headers work... yes
+checking for ccache... /usr/bin/ccache
+checking if ccache supports precompiled headers... yes
+checking if C-compiler supports ccache precompiled headers... yes
+checking if build directory is on local disk... yes
+configure: creating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/config.status
+config.status: creating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/spec.gmk
+config.status: creating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/hotspot-spec.gmk
+config.status: creating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/bootcycle-spec.gmk
+config.status: creating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/compare.sh
+config.status: creating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/spec.sh
+config.status: creating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/Makefile
+config.status: creating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/config.h
+config.status: /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/config.h is unchanged
+
+====================================================
+A new configuration has been successfully created in
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release
+using configure arguments '--with-boot-jdk=/usr/lib/jvm/java-7-openjdk-amd64/'.
+
+Configuration summary:
+* Debug level:    release
+* JDK variant:    normal
+* JVM variants:   server
+* OpenJDK target: OS: linux, CPU architecture: x86, address length: 64
+
+Tools summary:
+* Boot JDK:       java version "1.7.0_09" OpenJDK Runtime Environment (IcedTea7 2.3.3) (7u9-2.3.3-0ubuntu1~12.10.1) OpenJDK 64-Bit Server VM (build 23.2-b09, mixed mode)  (at /usr/lib/jvm/java-7-openjdk-amd64/)
+* C Compiler:     gcc-4.7 (Ubuntu/Linaro 4.7.2-2ubuntu1) version 4.7.2 (at /usr/bin/gcc-4.7)
+* C++ Compiler:   g++-4.7 (Ubuntu/Linaro 4.7.2-2ubuntu1) version 4.7.2 (at /usr/bin/g++-4.7)
+
+Build performance summary:
+* Cores to use:   3
+* Memory limit:   3033 MB
+* ccache status:  installed and in use
+
+WARNING: The result of this configuration has overridden an older
+configuration. You *should* run 'make clean' to make sure you get a
+proper build. Failure to do so might result in strange build problems.
+

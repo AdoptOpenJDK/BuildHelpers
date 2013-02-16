@@ -1,0 +1,1334 @@
+Cleaning langtools build artifacts ... done
+Cleaning corba build artifacts ... done
+Cleaning jaxp build artifacts ... done
+Cleaning jaxws build artifacts ... done
+Cleaning hotspot build artifacts ... done
+Cleaning jdk build artifacts ... done
+Cleaning images build artifacts ... done
+Cleaning overlay-images build artifacts ... done
+Cleaning bootcycle-build build artifacts ... done
+Cleaning docs build artifacts ... done
+Cleaning docstemp build artifacts ... done
+Cleaned all build artifacts.
+Building OpenJDK for target 'clean jdk' in configuration 'linux-x86_64-normal-server-release'
+
+## Starting langtools
+Compiling 2 files for BUILD_TOOLS
+Compiling 23 properties into resource bundles
+Compiling 677 files for BUILD_BOOTSTRAP_LANGTOOLS
+Creating langtools/dist/bootstrap/lib/javac.jar
+Updating langtools/dist/lib/src.zip
+Creating langtools/dist/bootstrap/lib/javah.jar
+Compiling 680 files for BUILD_FULL_JAVAC
+Creating langtools/dist/bootstrap/lib/javap.jar
+Creating langtools/dist/bootstrap/lib/javadoc.jar
+Creating langtools/dist/lib/classes.jar
+## Finished langtools (build time 00:01:34)
+
+## Starting hotspot
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Creating Makefile ...
+Creating directory list ../shared_dirs.lst
+Creating flags.make ...
+Creating flags_vm.make ...
+Creating vm.make ...
+Creating adlc.make ...
+Creating jvmti.make ...
+Creating sa.make ...
+Creating env.sh ...
+Creating env.csh ...
+Creating jdkpath.sh ...
+Creating .dbxrc ...
+Creating test_gamma ...
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Creating Makefile ...
+Creating flags.make ...
+Creating flags_vm.make ...
+Creating vm.make ...
+Creating adlc.make ...
+Creating jvmti.make ...
+Creating sa.make ...
+Creating env.sh ...
+Creating env.csh ...
+Creating jdkpath.sh ...
+Creating .dbxrc ...
+Creating test_gamma ...
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Creating Makefile ...
+Creating flags.make ...
+Creating flags_vm.make ...
+Creating vm.make ...
+Creating adlc.make ...
+Creating jvmti.make ...
+Creating sa.make ...
+Creating env.sh ...
+Creating env.csh ...
+Creating jdkpath.sh ...
+Creating .dbxrc ...
+Creating test_gamma ...
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Creating Makefile ...
+Creating flags.make ...
+Creating flags_vm.make ...
+Creating vm.make ...
+Creating adlc.make ...
+Creating jvmti.make ...
+Creating sa.make ...
+Creating env.sh ...
+Creating env.csh ...
+Creating jdkpath.sh ...
+Creating .dbxrc ...
+Creating test_gamma ...
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Creating Makefile ...
+Creating flags.make ...
+Creating flags_vm.make ...
+Creating vm.make ...
+Creating adlc.make ...
+Creating jvmti.make ...
+Creating sa.make ...
+Creating env.sh ...
+Creating env.csh ...
+Creating jdkpath.sh ...
+Creating .dbxrc ...
+Creating test_gamma ...
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Creating Makefile ...
+Creating flags.make ...
+Creating flags_vm.make ...
+Creating vm.make ...
+Creating adlc.make ...
+Creating jvmti.make ...
+Creating sa.make ...
+Creating env.sh ...
+Creating env.csh ...
+Creating jdkpath.sh ...
+Creating .dbxrc ...
+Creating test_gamma ...
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/adlparse.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/archDesc.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/arena.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/dfa.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/dict2.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/filebuff.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/forms.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/formsopt.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/formssel.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/main.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/opcodes.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/output_c.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/adlc/output_h.cpp
+Making adlc
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+Generating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/hotspot/linux_amd64_compiler2/product/../generated/jvmtifiles/jvmtiEnv.hpp
+Generating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/hotspot/linux_amd64_compiler2/product/../generated/jvmtifiles/jvmtiEnter.cpp
+Generating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/hotspot/linux_amd64_compiler2/product/../generated/jvmtifiles/jvmtiEnterTrace.cpp
+Generating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/hotspot/linux_amd64_compiler2/product/../generated/jvmtifiles/bytecodeInterpreterWithChecks.cpp
+1 warning
+Generating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/hotspot/linux_amd64_compiler2/product/../generated/jvmtifiles/jvmti.h
+Generating /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/hotspot/linux_amd64_compiler2/product/../generated/jvmtifiles/jvmtiEnvRecommended.cpp
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Making /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/hotspot/linux_amd64_compiler2/product/../generated/sa-jdi.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Generating precompiled header precompiled.hpp.gch
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/compiler/abstractCompiler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/accessFlags.cpp
+Compiling ../generated/adfiles/ad_x86_64.cpp
+Compiling ../generated/adfiles/ad_x86_64_clone.cpp
+Compiling ../generated/adfiles/ad_x86_64_expand.cpp
+Compiling ../generated/adfiles/ad_x86_64_format.cpp
+Compiling ../generated/adfiles/ad_x86_64_gen.cpp
+Compiling ../generated/adfiles/ad_x86_64_misc.cpp
+Compiling ../generated/adfiles/ad_x86_64_peephole.cpp
+Compiling ../generated/adfiles/ad_x86_64_pipeline.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/adaptiveFreeList.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/adaptiveSizePolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/addnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/adjoiningGenerations.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/adjoiningVirtualSpaces.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/advancedThresholdPolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/ageTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/allocation.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/allocationStats.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/altHashing.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/annotations.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/aprofiler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/arguments.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/array.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/arrayKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/arrayOop.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/asPSOldGen.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/asPSYoungGen.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parNew/asParNewGeneration.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/asm/assembler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os_cpu/linux_x86/vm/assembler_linux_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/assembler_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/atomic.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/attachListener_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/attachListener.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/barrierSet.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/basicLock.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/bcEscapeAnalyzer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/biasedLocking.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/binaryTreeDictionary.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/bitMap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/block.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/blockOffsetTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/buildOopMap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/bytecode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/bytecodeAssembler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/bytecodeHistogram.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/bytecodeInfo.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/bytecodeInterpreter.cpp
+Compiling ../generated/jvmtifiles/bytecodeInterpreterWithChecks.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/bytecodeInterpreter_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/bytecodeStream.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/bytecodeTracer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/bytecodes.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/bytecodes_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_CFGPrinter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_Canonicalizer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c1_CodeStubs_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_Compilation.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_Compiler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_Defs.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c1_FpuStackSim_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_FrameMap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c1_FrameMap_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_GraphBuilder.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_IR.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_Instruction.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_InstructionPrinter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_LIR.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_LIRAssembler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c1_LIRAssembler_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_LIRGenerator.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c1_LIRGenerator_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_LinearScan.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c1_LinearScan_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c1_MacroAssembler_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_Optimizer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_Runtime1.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c1_Runtime1_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_ValueMap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_ValueSet.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_ValueStack.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_ValueType.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/c1/c1_globals.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/c2_globals.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/c2_init_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/c2compiler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/cSpaceCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/callGenerator.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/callnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/cardTableExtension.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/cardTableModRefBS.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/cardTableRS.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/cfgnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/chaitin.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/chaitin_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciArray.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciArrayKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciBaseObject.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciCallSite.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciConstant.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciConstantPoolCache.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciEnv.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciExceptionHandler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciField.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciFlags.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciInstance.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciInstanceKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciMemberName.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciMetadata.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciMethod.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciMethodBlocks.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciMethodData.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciMethodHandle.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciNullObject.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciObjArray.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciObjArrayKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciObject.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciReplay.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciSignature.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciObjectFactory.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciStreams.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciSymbol.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciType.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciTypeArray.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciTypeArrayKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciTypeFlow.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/ci/ciUtilities.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/classFileError.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/classFileParser.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/classFileStream.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/classLoader.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/classLoaderData.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/classLoadingService.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/cmsAdaptiveSizePolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/classes.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/cmsCollectorPolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/cmsGCAdaptivePolicyCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/cmsLockVerifier.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/coalesce.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/codeBlob.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/asm/codeBuffer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/codeCache.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_interface/collectedHeap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/collectionSetChooser.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/collectorCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/collectorPolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/compactibleFreeListSpace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/compilationPolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/compile.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/compiler/compileBroker.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/compiler/compileLog.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/compiledIC.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/compiledICHolder.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/compiler/compilerOracle.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/compressedStream.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/concurrentG1Refine.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/concurrentG1RefineThread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/concurrentGCThread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/concurrentMark.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/concurrentMarkSweepGeneration.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/concurrentMarkSweepThread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/concurrentMarkThread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/connode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/constMethod.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/constantPool.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/constantTag.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/copy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/cpCache.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/cppInterpreter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/cppInterpreter_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/debug.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/debugInfo.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/debugInfoRec.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/debug_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/decoder.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/decoder_elf.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/decoder_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/defNewGeneration.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/defaultMethods.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/deoptimization.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/dependencies.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/depChecker_x86.cpp
+Compiling ../generated/adfiles/dfa_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/diagnosticArgument.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/diagnosticCommand.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/diagnosticFramework.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/libadt/dict.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/dictionary.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/dirtyCardQueue.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/compiler/disassembler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/divnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/doCall.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/domgraph.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/dtraceAttacher.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/dtraceJSDT.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/dtraceJSDT_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/elfFile.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/elfStringTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/elfSymbolTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/errorReporter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/escape.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/events.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/evmCompat.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/exceptionHandlerTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/exceptions.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/fieldDescriptor.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/fieldType.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/filemap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/forte.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/fprofiler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/frame.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/frame_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/freeBlockDictionary.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/freeChunk.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/freeList.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1AllocRegion.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1BlockOffsetTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1CollectedHeap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1CollectorPolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1ErgoVerbose.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1GCPhaseTimes.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1HRPrinter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1Log.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1MMUTracker.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1MarkSweep.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/g1MemoryPool.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1MonitoringSupport.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1RemSet.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1SATBCardTableModRefBS.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/g1_globals.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/gSpaceCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/gcAdaptivePolicyCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_interface/gcCause.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/gcLocker.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/gcNotifier.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/gcPolicyCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/gcStats.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/gcTaskManager.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/gcTaskThread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/gcUtil.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/gcm.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/genCollectedHeap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/genMarkSweep.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/genRemSet.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/generateOopMap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/generateOptoStub.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/generation.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/generationCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/generationSpec.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/genericSignatures.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/globalDefinitions.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/globals.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/graphKit.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/growableArray.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/hSpaceCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/handles.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/hashtable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/heap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/heapDumper.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/heapInspection.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/heapRegion.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/heapRegionRemSet.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/heapRegionSeq.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/heapRegionSet.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/heapRegionSets.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/histogram.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/icBuffer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/icBuffer_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/icache.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/icache_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/idealGraphPrinter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/idealKit.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/ifg.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/ifnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/immutableSpace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/indexSet.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/init.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/instanceClassLoaderKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/instanceKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/instanceMirrorKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/instanceOop.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/instanceRefKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/intHisto.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/interfaceSupport.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/interp_masm_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/interpreter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/interpreterRT_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/interpreterRuntime.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/interpreter_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/invocationCounter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/iterator.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/java.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/javaAssertions.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/javaCalls.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/javaClasses.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jni.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jniCheck.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jniFastGetField.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/jniFastGetField_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/jniHandles.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/jniPeriodicChecker.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvm.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/jvm_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiClassFileReconstituter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiCodeBlobEvents.cpp
+Compiling ../generated/jvmtifiles/jvmtiEnter.cpp
+Compiling ../generated/jvmtifiles/jvmtiEnterTrace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiEnv.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiEnvBase.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiEnvThreadState.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiEventController.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiExport.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiExtensions.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiGetLoadedClasses.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiImpl.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiManageCapabilities.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiRawMonitor.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiRedefineClasses.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiTagMap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiThreadState.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiTrace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/jvmtiUtil.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/klass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/klassVtable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/lcm.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/library_call.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/linkResolver.cpp
+Assembling /home/openjdk/sources/jdk8_tl/hotspot/src/os_cpu/linux_x86/vm/linux_x86_64.s
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/live.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/loaderConstraints.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/location.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/locknode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/loopPredicate.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/loopTransform.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/loopUnswitch.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/loopnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/loopopts.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/lowMemoryDetector.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/machnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/macro.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/management.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/markOop.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/markSweep.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/matcher.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memBaseline.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memPtr.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memRecorder.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/memRegion.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memReporter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memSnapshot.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memTrackWorker.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memTracker.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/memnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memoryManager.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memoryPool.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/memoryService.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/memprofiler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/metadata.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/metaspace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/metaspaceCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/metaspaceShared.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/metaspaceShared_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/method.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/methodComparator.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/methodData.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/methodHandles.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/methodHandles_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/compiler/methodLiveness.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/monitorChunk.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/mulnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/multnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/mutableNUMASpace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/mutableSpace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/mutex.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/mutexLocker.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/mutex_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/nativeInst_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/nativeLookup.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/nmethod.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/nmtDCmd.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/node.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/numberSeq.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/objArrayKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/objArrayOop.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/objectMonitor.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/objectStartArray.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/oop.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/oopFactory.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/compiler/oopMap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/oopMapCache.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/oopRecorder.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/oopsHierarchy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/opcodes.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/orderAccess.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/os.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/osThread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/osThread_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/os_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os_cpu/linux_x86/vm/os_linux_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/posix/vm/os_posix.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/ostream.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/output.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parNew/parCardTableModRefBS.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/parGCAllocBuffer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/parMarkBitMap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parNew/parNewGeneration.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/parallelScavengeHeap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/park.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/parse1.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/parse2.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/parse3.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/parseHelper.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/wbtestmethods/parserTests.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/pcDesc.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/pcTasks.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/perf.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/perfData.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/perfMemory.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/perfMemory_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/phase.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/phaseX.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/placeholders.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/libadt/port.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/postaloc.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/preserveException.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/privilegedStack.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/promotionInfo.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psAdaptiveSizePolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psCompactionManager.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psGCAdaptivePolicyCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psGenerationCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psMarkSweep.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psMarkSweepDecorator.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/psMemoryPool.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psOldGen.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psParallelCompact.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psPromotionLAB.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psPromotionManager.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psScavenge.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psTasks.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psYoungGen.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/psVirtualspace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/ptrQueue.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/quickSort.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/referencePolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/referenceProcessor.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/reflection.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/reflectionUtils.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/reg_split.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/regalloc.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/asm/register.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/register_definitions_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/register_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/regmask.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/relocInfo.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/relocInfo_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/relocator.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/resolutionErrors.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/resourceArea.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/rewriter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/rframe.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/rootnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/runtime.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/runtimeService.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/runtime_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/safepoint.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/satbQueue.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/scopeDesc.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/serviceThread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/libadt/set.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/sharedHeap.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/sharedRuntime.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/sharedRuntimeTrans.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/sharedRuntimeTrig.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/sharedRuntime_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/signature.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/simpleThresholdPolicy.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/sizes.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/space.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/spaceCounters.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/spaceDecorator.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/sparsePRT.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/specialized_oop_closures.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/split_if.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/stackMapFrame.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/stackMapTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/stackValue.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/stackValueCollection.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/statSampler.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/stringopts.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/stubCodeGenerator.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/stubGenerator_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/stubRoutines.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/stubRoutines_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/stubRoutines_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/stubs.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/subnode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/superword.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/survRateGroup.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/sweeper.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/symbol.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/symbolTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/synchronizer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/systemDictionary.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/task.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/taskqueue.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/templateInterpreter.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/templateInterpreter_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/interpreter/templateTable.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/templateTable_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/tenuredGeneration.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/thread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/threadCritical_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os_cpu/linux_x86/vm/threadLS_linux_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/threadLocalAllocBuffer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/threadLocalStorage.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/services/threadService.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os_cpu/linux_x86/vm/thread_linux_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/timer.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/type.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/typeArrayKlass.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/oops/typeArrayOop.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/unhandledOops.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/memory/universe.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/unsafe.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/utf8.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/opto/vectornode.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/libadt/vectset.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/verificationType.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/verifier.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/vframe.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/vframeArray.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/vframe_hp.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/virtualspace.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/concurrentMarkSweep/vmCMSOperations.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/vmError.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os/linux/vm/vmError_linux.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/shared/vmGCOperations.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/parallelScavenge/vmPSOperations.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/vmStructs.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/classfile/vmSymbols.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/vmThread.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/vm_operations.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/gc_implementation/g1/vm_operations_g1.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/os_cpu/linux_x86/vm/vm_version_linux_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/vm_version_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/vmreg.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/vmreg_x86.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/code/vtableStubs.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/cpu/x86/vm/vtableStubs_x86_64.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/prims/whitebox.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/workgroup.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/xmlstream.cpp
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/utilities/yieldingWorkgroup.cpp
+Making signal interposition lib...
+Making SA debugger back-end...
+**NOTICE** Dtrace support disabled: /usr/include/sys/sdt.h not found
+Compiling /home/openjdk/sources/jdk8_tl/hotspot/src/share/vm/runtime/vm_version.cpp
+Linking vm...
+Linking launcher...
+All done.
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+Generating linux_amd64_docs/jvmti.html
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+## Finished hotspot (build time 00:04:06)
+
+## Starting corba
+Compiling 6 files for BUILD_LOGUTIL
+Creating corba/btjars/logutil.jar
+Compiling 141 files for BUILD_IDLJ
+Note: /home/openjdk/sources/jdk8_tl/corba/src/share/classes/com/sun/tools/corba/se/idl/som/idlemit/MetaPragma.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Creating corba/btjars/idlj.jar
+Compiling 1 files for BUILD_STRIPPROP
+Updating corba/dist/lib/src.zip
+Compiling 1504 files for BUILD_CORBA
+Creating corba/btjars/stripproperties.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Creating corba/dist/lib/classes.jar
+Creating bin.zip
+## Finished corba (build time 00:00:43)
+
+## Starting jaxp
+Updating jaxp/dist/lib/src.zip
+Compiling 1877 files for BUILD_JAXP
+/home/openjdk/sources/jdk8_tl/jaxp/src/com/sun/org/apache/xalan/internal/xslt/EnvironmentCheck.java:1008: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+      Method method = clazz.getMethod(DOM_LEVEL3_METHOD, null);
+                                                         ^
+  cast to Class for a varargs call
+  cast to Class[] for a non-varargs call and to suppress this warning
+/home/openjdk/sources/jdk8_tl/jaxp/src/javax/xml/xpath/XPathFactoryFinder.java:336: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                return creationMethod.invoke(null, null);
+                                                   ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/openjdk/sources/jdk8_tl/jaxp/src/javax/xml/validation/SchemaFactoryFinder.java:360: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                return creationMethod.invoke(null, null);
+                                                   ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/openjdk/sources/jdk8_tl/jaxp/src/javax/xml/transform/FactoryFinder.java:213: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                return creationMethod.invoke(null, null);
+                                                   ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+Creating jaxp/dist/lib/classes.jar
+## Finished jaxp (build time 00:00:30)
+
+## Starting jaxws
+Updating jaxws/dist/lib/src.zip
+Compiling 24 files for BUILD_JAF
+Compiling 2822 files for BUILD_JAXWS
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+/home/openjdk/sources/jdk8_tl/jaxws/src/share/jaxws_classes/javax/xml/ws/spi/FactoryFinder.java:199: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            java.util.Iterator iter = ((Iterable) m.invoke(null, args)).iterator();
+                                                                 ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+Creating jaxws/dist/lib/classes.jar
+## Finished jaxws (build time 00:00:44)
+
+## Starting jdk
+Compiling 169 files for BUILD_TOOLS
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Importing CORBA classes.jar
+Importing CORBA src.zip
+Importing CORBA bin.zip
+Importing JAXP src.zip
+Importing JAXP classes.jar
+Importing JAXWS src.zip
+Importing JAXWS classes.jar
+Importing LANGTOOLS src.zip
+Importing LANGTOOLS classes.jar
+Compiling 521 properties into resource bundles
+Copying and cleaning 53 properties
+Creating sun/util/LocaleDataMetaInfo.java from 421 found resources.
+Generating charsetmapping classes
+Generating buffer classes
+Generating exceptions classes
+Generating icon classes
+Generating X11 wrapper (64-bit version)
+Generating Nimbus source files
+Aliases: Table size 1024 (10 bits), shift 0, max chain depth 3
+Classes: Table size 32 (5 bits), shift 1, max chain depth 3
+Cache: Table size 32 (5 bits), shift 1, max chain depth 3
+[Error] encoded value was less than 0: encode(-8.326673E-17, 5.0, 11.0, 16.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] encoded value was greater than 3: encode(15.029411, 1.0, 14.0, 15.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] encoded value was greater than 3: encode(15.029411, 1.0, 14.0, 15.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] encoded value was greater than 3: encode(15.029411, 1.0, 14.0, 15.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] encoded value was greater than 3: encode(15.029411, 1.0, 14.0, 15.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] encoded value was greater than 3: encode(15.029411, 1.0, 14.0, 15.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] encoded value was greater than 3: encode(15.029411, 1.0, 14.0, 15.0)
+[Error] encoded value was less than 0: encode(-0.05882353, 1.0, 24.0, 25.0)
+[Error] Encountered Infinity: encode(-0.00877193, 0.0, 7.0, 7.0)
+Generating beaninfo
+/home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:43: error: package sun.util.locale.provider does not exist
+import sun.util.locale.provider.LocaleProviderAdapter;
+                               ^
+/home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:44: error: package sun.util.locale.provider does not exist
+import sun.util.locale.provider.LocaleResources;
+                               ^
+/home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:45: error: package sun.util.locale.provider does not exist
+import sun.util.locale.provider.LocaleServiceProviderPool;
+                               ^
+Compiling 4 files for BUILD_BREAKITERATOR
+Generating HTML DTD file
+[Parsed DTD html32 in 702ms]
+Compiling 9156 files for BUILD_JDK
+/home/openjdk/sources/jdk8_tl/jdk/src/share/classes/java/awt/EventDispatchThread.java:123: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                final Method evaluateMethod = Class.forName("sun.lwawt.macosx.EventDispatchAccess").getMethod("evaluate", null);
+                                                                                                                          ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+/home/openjdk/sources/jdk8_tl/jdk/src/share/classes/java/awt/EventDispatchThread.java:126: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        return ((Boolean)evaluateMethod.invoke(cond, null)).booleanValue();
+                                                                     ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/classes/sun/awt/X11/XIconWindow.java:95: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        log.finest("Icon sizes: {0}", sizeList);
+                                      ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+Generating headers for jdk base classes
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/Integer.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/Long.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/net/SocketOptions.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/sun/nio/ch/IOStatus.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/io/FileSystem.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/Number.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/Object.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/Integer$IntegerCache.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/Long$LongCache.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/String.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/io/Serializable.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/Comparable.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/lang/CharSequence.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/jdk/classes/java/io/File.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/e_pow.c: In function ‘__j__ieee754_pow’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/e_pow.c:149:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/e_sqrt.c: In function ‘__j__ieee754_sqrt’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/e_sqrt.c:174:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/s_ceil.c: In function ‘jceil’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/s_ceil.c:81:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/s_floor.c: In function ‘jfloor’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/s_floor.c:82:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/s_log1p.c: In function ‘jlog1p’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/java/lang/fdlibm/src/s_log1p.c:132:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary1Bit.c: In function ‘ByteBinary1BitToIntArgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary1Bit.c:118:3306: warning: ‘DstWrite’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary1Bit.c:118:2716: warning: ‘SrcReadrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary1Bit.c: In function ‘IntArgbToByteBinary1BitAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary1Bit.c:120:3396: warning: ‘DstWritergb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary1Bit.c:120:2802: warning: ‘SrcRead’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary1Bit.c: In function ‘ByteBinary1BitAlphaMaskFill’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary1Bit.c:122:2910: warning: ‘DstWritergb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary2Bit.c: In function ‘ByteBinary2BitToIntArgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary2Bit.c:111:3306: warning: ‘DstWrite’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary2Bit.c:111:2716: warning: ‘SrcReadrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary2Bit.c: In function ‘IntArgbToByteBinary2BitAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary2Bit.c:113:3396: warning: ‘DstWritergb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary2Bit.c:113:2802: warning: ‘SrcRead’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary2Bit.c: In function ‘ByteBinary2BitAlphaMaskFill’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary2Bit.c:115:2910: warning: ‘DstWritergb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary4Bit.c: In function ‘ByteBinary4BitToIntArgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary4Bit.c:111:3306: warning: ‘DstWrite’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary4Bit.c:111:2716: warning: ‘SrcReadrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary4Bit.c: In function ‘IntArgbToByteBinary4BitAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary4Bit.c:113:3396: warning: ‘DstWritergb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary4Bit.c:113:2802: warning: ‘SrcRead’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary4Bit.c: In function ‘ByteBinary4BitAlphaMaskFill’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteBinary4Bit.c:115:2910: warning: ‘DstWritergb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteGray.c: In function ‘IntArgbToByteGrayAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteGray.c:193:2099: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteGray.c: In function ‘IntArgbPreToByteGrayAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteGray.c:197:2108: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c: In function ‘ByteIndexedAlphaMaskFill’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c:246:3056: warning: ‘DstPixrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c: In function ‘IntArgbToByteIndexedAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c:248:3548: warning: ‘DstPixrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c:248:2766: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c: In function ‘IntArgbPreToByteIndexedAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c:250:3580: warning: ‘DstPixrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c:250:2794: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c: In function ‘IntRgbToByteIndexedAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ByteIndexed.c:252:3520: warning: ‘DstPixrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/FourByteAbgr.c: In function ‘IntArgbToFourByteAbgrAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/FourByteAbgr.c:166:2105: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/FourByteAbgr.c: In function ‘IntArgbPreToFourByteAbgrAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/FourByteAbgr.c:170:2133: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/FourByteAbgrPre.c: In function ‘IntArgbToFourByteAbgrPreAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/FourByteAbgrPre.c:174:2114: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/FourByteAbgrPre.c: In function ‘IntArgbPreToFourByteAbgrPreAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/FourByteAbgrPre.c:178:2142: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Index12Gray.c: In function ‘IntArgbToIndex12GrayAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Index12Gray.c:244:2228: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Index12Gray.c: In function ‘IntArgbPreToIndex12GrayAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Index12Gray.c:246:2237: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Index8Gray.c: In function ‘IntArgbToIndex8GrayAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Index8Gray.c:239:2225: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Index8Gray.c: In function ‘IntArgbPreToIndex8GrayAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Index8Gray.c:241:2234: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c: In function ‘IntArgbAlphaMaskFill’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c:113:2395: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c: In function ‘IntArgbToIntArgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c:117:2844: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c:117:2154: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c: In function ‘IntArgbPreToIntArgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c:121:2876: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c:121:2182: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c: In function ‘IntRgbToIntArgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgb.c:123:2816: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbBm.c: In function ‘IntArgbBmAlphaMaskFill’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbBm.c:115:2432: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbBm.c: In function ‘IntArgbToIntArgbBmAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbBm.c:117:2881: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbBm.c:117:2191: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbBm.c: In function ‘IntArgbPreToIntArgbBmAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbBm.c:119:2913: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbBm.c:119:2219: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c: In function ‘IntArgbPreAlphaMaskFill’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c:164:2423: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c: In function ‘IntArgbToIntArgbPreAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c:168:2872: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c:168:2163: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c: In function ‘IntArgbPreToIntArgbPreAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c:172:2904: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c:172:2191: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c: In function ‘IntRgbToIntArgbPreAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntArgbPre.c:174:2844: warning: ‘DstPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntRgb.c: In function ‘IntArgbToIntRgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntRgb.c:161:2082: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntRgb.c: In function ‘IntArgbPreToIntRgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntRgb.c:165:2110: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntBgr.c: In function ‘IntArgbToIntBgrAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntBgr.c:194:2082: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntBgr.c: In function ‘IntArgbPreToIntBgrAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntBgr.c:198:2110: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntRgbx.c: In function ‘IntArgbToIntRgbxAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntRgbx.c:161:2085: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntRgbx.c: In function ‘IntArgbPreToIntRgbxAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/IntRgbx.c:165:2113: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/pipe/Region.c: In function ‘RegionToYXBandedRectangles’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/pipe/Region.c:263:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ProcessPath.c: In function ‘ProcessPath’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ProcessPath.c:846:31: warning: ‘params[0]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ProcessPath.c:786:12: note: ‘params[0]’ was declared here
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ThreeByteBgr.c: In function ‘IntArgbToThreeByteBgrAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ThreeByteBgr.c:161:2100: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ThreeByteBgr.c: In function ‘IntArgbPreToThreeByteBgrAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/ThreeByteBgr.c:165:2128: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/TransformHelper.c: In function ‘Java_sun_java2d_loops_TransformHelper_Transform’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/TransformHelper.c:403:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/TransformHelper.c:493:43: warning: ‘pInterpFunc’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/TransformHelper.c:285:26: note: ‘pInterpFunc’ was declared here
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/TransformHelper.c:486:39: warning: ‘pHelperFunc’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/TransformHelper.c:284:26: note: ‘pHelperFunc’ was declared here
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/TransformHelper.c:283:10: warning: ‘maxlinepix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Ushort555Rgb.c: In function ‘IntArgbToUshort555RgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Ushort555Rgb.c:171:2100: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Ushort555Rgb.c: In function ‘IntArgbPreToUshort555RgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Ushort555Rgb.c:175:2128: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Ushort565Rgb.c: In function ‘IntArgbToUshort565RgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Ushort565Rgb.c:178:2100: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Ushort565Rgb.c: In function ‘IntArgbPreToUshort565RgbAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/Ushort565Rgb.c:180:2128: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortGray.c: In function ‘IntArgbToUshortGrayAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortGray.c:159:2451: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortGray.c: In function ‘IntArgbPreToUshortGrayAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortGray.c:163:2460: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c: In function ‘UshortIndexedAlphaMaskFill’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c:237:3070: warning: ‘DstPixrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c: In function ‘IntArgbToUshortIndexedAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c:239:3562: warning: ‘DstPixrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c:239:2780: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c: In function ‘IntArgbPreToUshortIndexedAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c:241:3594: warning: ‘DstPixrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c:241:2808: warning: ‘SrcPix’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c: In function ‘IntRgbToUshortIndexedAlphaMaskBlit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/loops/UshortIndexed.c:243:3534: warning: ‘DstPixrgb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_LoadLibrary.c:297:2: warning: type defaults to ‘int’ in declaration of ‘getAwtLockFunctions_type’ [-Wimplicit-int]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_LoadLibrary.c:303:2: warning: type defaults to ‘int’ in declaration of ‘getAwtData_type’ [-Wimplicit-int]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_LoadLibrary.c: In function ‘AWT_OnLoad’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_LoadLibrary.c:120:13: warning: ignoring return value of ‘realpath’, declared with attribute warn_unused_result [-Wunused-result]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/opengl/OGLContext.c: In function ‘Java_sun_java2d_opengl_OGLContext_getOGLIdString’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/opengl/OGLContext.c:1051:9: warning: implicit declaration of function ‘jio_snprintf’ [-Wimplicit-function-declaration]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c:59:0: warning: "MAX" redefined [enabled by default]
+In file included from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/javavm/export/jvm_md.h:35:0,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/share/javavm/export/jvm.h:32,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt.h:33,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_p.h:53,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.h:28,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c:26:
+/usr/include/x86_64-linux-gnu/sys/param.h:76:0: note: this is the location of the previous definition
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c:60:0: warning: "MIN" redefined [enabled by default]
+In file included from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/javavm/export/jvm_md.h:35:0,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/share/javavm/export/jvm.h:32,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt.h:33,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_p.h:53,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.h:28,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c:26:
+/usr/include/x86_64-linux-gnu/sys/param.h:75:0: note: this is the location of the previous definition
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c: In function ‘Java_sun_java2d_x11_X11SurfaceData_initSurface’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c:501:17: warning: assignment makes integer from pointer without a cast [enabled by default]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c: In function ‘isKPevent’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:836:5: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:836:5: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c: In function ‘dumpKeysymArray’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:840:5: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:840:5: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘KeySym’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:841:5: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:841:5: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘KeySym’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:842:5: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:842:5: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘KeySym’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:843:5: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:843:5: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘KeySym’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c: In function ‘handleKeyEventWithNumLockMask_New’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:858:13: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:861:13: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:868:13: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XWindow.c:871:13: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XlibWrapper.c: In function ‘Java_sun_awt_X11_XlibWrapper_IsXsunKPBehavior’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XlibWrapper.c:1207:9: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XlibWrapper.c: In function ‘Java_sun_awt_X11_XlibWrapper_XKeycodeToKeysym’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XlibWrapper.c:1846:5: warning: ‘XKeycodeToKeysym’ is deprecated (declared at /usr/include/X11/Xlib.h:1695) [-Wdeprecated-declarations]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XlibWrapper.c: In function ‘Java_sun_awt_X11_XlibWrapper_XSynchronize’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XlibWrapper.c:2127:12: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c: In function ‘performPoll’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c:689:15: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void (*)(const struct JNINativeInterface_ **, jlong)’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c:699:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void (*)(const struct JNINativeInterface_ **, jlong)’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c:705:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void (*)(const struct JNINativeInterface_ **, jlong)’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c:705:16: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘uint32_t’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c: In function ‘wakeUp’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c:745:15: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c: In function ‘performPoll’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/xawt/XToolkit.c:680:18: warning: ‘ret_timeout’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_Font.c: In function ‘awtJNI_GetFontData’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_Font.c:503:57: warning: comparison with string literal results in unspecified behavior [-Waddress]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/awt_Font.c:614:23: warning: comparison between pointer and integer [enabled by default]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/gtk2_interface.c:66:0: warning: "MIN" redefined [enabled by default]
+In file included from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/javavm/export/jvm_md.h:35:0,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/gtk2_interface.c:33:
+/usr/include/x86_64-linux-gnu/sys/param.h:75:0: note: this is the location of the previous definition
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/fontpath.c: In function ‘Java_sun_font_FontConfigManager_getFontConfig’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/fontpath.c:1321:50: warning: ‘fcFontArr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/fontpath.c:1146:16: note: ‘fcFontArr’ was declared here
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/bands.cpp:449:1: warning: missing initializer for member ‘band_init::defc’ [-Wmissing-field-initializers]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/bands.cpp:449:1: warning: missing initializer for member ‘band_init::index’ [-Wmissing-field-initializers]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/jni.cpp: In function ‘_jobject* Java_com_sun_java_util_jar_pack_NativeUnpack_getUnusedInput(JNIEnv*, jobject)’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/jni.cpp:228:12: warning: converting ‘false’ to pointer type ‘jobject {aka _jobject*}’ [-Wconversion-null]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/unpack.cpp: In member function ‘void unpacker::read_file_header()’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/unpack.cpp:729:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/unpack.cpp: In member function ‘void cpool::init(unpacker*, int*)’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/unpack.cpp:981:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c: In function ‘dbgsysAccept’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c:77:9: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+In file included from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c:28:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:214:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c: In function ‘dbgsysRecvFrom’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c:92:9: warning: pointer targets in passing argument 6 of ‘recvfrom’ differ in signedness [-Wpointer-sign]
+In file included from /usr/include/x86_64-linux-gnu/sys/socket.h:251:0,
+                 from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c:28:
+/usr/include/x86_64-linux-gnu/bits/socket2.h:65:1: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c: In function ‘dbgsysGetSocketName’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c:175:5: warning: pointer targets in passing argument 3 of ‘getsockname’ differ in signedness [-Wpointer-sign]
+In file included from /home/openjdk/sources/jdk8_tl/jdk/src/solaris/transport/socket/socket_md.c:28:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:119:12: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/ArrayTypeImpl.c: In function ‘newInstance’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/ArrayTypeImpl.c:124:19: warning: ‘componentClass’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/ArrayTypeImpl.c:115:16: note: ‘componentClass’ was declared here
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c: In function ‘jvmtiErrorText’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:191:9: warning: case value ‘181’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:192:9: warning: case value ‘182’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:193:9: warning: case value ‘183’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:194:9: warning: case value ‘184’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:195:9: warning: case value ‘185’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:196:9: warning: case value ‘186’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:197:9: warning: case value ‘187’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:198:9: warning: case value ‘188’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:199:9: warning: case value ‘189’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:200:9: warning: case value ‘190’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:201:9: warning: case value ‘191’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:202:9: warning: case value ‘192’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:203:9: warning: case value ‘193’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:204:9: warning: case value ‘194’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:205:9: warning: case value ‘195’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:206:9: warning: case value ‘196’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:207:9: warning: case value ‘197’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:208:9: warning: case value ‘198’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:209:9: warning: case value ‘199’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:210:9: warning: case value ‘200’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:211:9: warning: case value ‘201’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:212:9: warning: case value ‘202’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:213:9: warning: case value ‘203’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:214:9: warning: case value ‘204’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:215:9: warning: case value ‘205’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/error_messages.c:216:9: warning: case value ‘206’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/back/linker_md.c: In function ‘dll_build_name’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/back/linker_md.c:73:24: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 4 has type ‘long int’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/back/linker_md.c:73:24: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 4 has type ‘long int’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c: In function ‘map2jdwpError’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2251:9: warning: case value ‘181’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2202:9: warning: case value ‘182’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2203:9: warning: case value ‘183’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2205:9: warning: case value ‘184’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2252:9: warning: case value ‘185’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2253:9: warning: case value ‘186’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2223:9: warning: case value ‘187’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2197:9: warning: case value ‘188’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2225:9: warning: case value ‘189’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2227:9: warning: case value ‘190’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2229:9: warning: case value ‘191’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2231:9: warning: case value ‘192’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2233:9: warning: case value ‘193’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2235:9: warning: case value ‘194’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2237:9: warning: case value ‘195’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2239:9: warning: case value ‘196’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2241:9: warning: case value ‘197’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2243:9: warning: case value ‘198’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2245:9: warning: case value ‘199’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2247:9: warning: case value ‘200’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2185:9: warning: case value ‘201’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2193:9: warning: case value ‘202’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2128:9: warning: case value ‘203’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2190:9: warning: case value ‘204’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2141:9: warning: case value ‘205’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/back/util.c:2154:9: warning: case value ‘206’ not in enumerated type ‘jvmtiError’ [-Wswitch]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/tracing/dtrace/JVM.c: In function ‘Java_sun_tracing_dtrace_JVM_defineClass0’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/tracing/dtrace/JVM.c:292:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/LCMS.c: In function ‘Java_sun_java2d_cmm_lcms_LCMS_getTagData’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/LCMS.c:413:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/LCMS.c: In function ‘_getHeaderInfo’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/LCMS.c:685:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/LCMS.c: In function ‘_setHeaderInfo’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/LCMS.c:708:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/cmstypes.c: In function ‘Type_LUT8_Read’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/cmstypes.c:1809:5: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/cmstypes.c: In function ‘Type_LUT8_Write’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/cmstypes.c:1937:5: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/cmstypes.c: In function ‘Type_LUT16_Read’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/cmstypes.c:2113:5: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/cmstypes.c: In function ‘Type_LUT16_Write’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/java2d/cmm/lcms/cmstypes.c:2254:5: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/awt/image/jpeg/imageioJPEG.c: In function ‘Java_com_sun_imageio_plugins_jpeg_JPEGImageReader_readImage’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/awt/image/jpeg/imageioJPEG.c:1809:11: warning: argument ‘maxProgressivePass’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/awt/image/jpeg/imageioJPEG.c: In function ‘Java_com_sun_imageio_plugins_jpeg_JPEGImageWriter_writeImage’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/awt/image/jpeg/imageioJPEG.c:2634:13: warning: variable ‘scale’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/layout/LEGlyphStorage.cpp: In member function ‘void LEGlyphStorage::reset()’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/layout/LEGlyphStorage.cpp:73:16: warning: deleting object of polymorphic class type ‘LEInsertionList’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/layout/LEGlyphStorage.cpp: In member function ‘void LEGlyphStorage::adoptGlyphArray(LEGlyphStorage&)’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/layout/LEGlyphStorage.cpp:491:16: warning: deleting object of polymorphic class type ‘LEInsertionList’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/layout/SunLayoutEngine.cpp: In function ‘void Java_sun_font_SunLayoutEngine_nativeLayout(JNIEnv*, jclass, jobject, jobject, jfloatArray, jint, jint, jcharArray, jint, jint, jint, jint, jint, jint, jint, jobject, jobject, jlong, jlong)’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/layout/SunLayoutEngine.cpp:190:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/sunFont.c: In function ‘Java_sun_font_StrikeCache_freeIntPointer’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/sunFont.c:196:14: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/sunFont.c: In function ‘Java_sun_font_StrikeCache_freeIntMemory’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/font/sunFont.c:234:36: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/instrument/JarFacade.c: In function ‘doAttribute’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/instrument/JarFacade.c:61:13: warning: implicit declaration of function ‘isspace’ [-Wimplicit-function-declaration]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/bin/java.c: In function ‘JavaMain’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/bin/java.c:437:133: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/bin/java_md_solinux.c: In function ‘ContinueInNewThread0’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/bin/java_md_solinux.c:999:14: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/bin/parse_manifest.c: In function ‘compute_cen’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/bin/parse_manifest.c:235:7: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/bin/parse_manifest.c:278:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c: In function ‘get_totalticks’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:86:12: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 3 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:86:12: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 4 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:86:12: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 5 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:86:12: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 6 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:95:13: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 3 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:95:13: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 4 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:95:13: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 5 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:95:13: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 6 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:102:12: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 3 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:102:12: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 4 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:102:12: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 5 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/com/sun/management/LinuxOperatingSystem.c:102:12: warning: format ‘%lld’ expects argument of type ‘long long int *’, but argument 6 has type ‘uint64_t *’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/demo/jvmti/hprof/hprof_init.c: In function ‘connect_to_socket’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/demo/jvmti/hprof/hprof_init.c:244:5: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/demo/jvmti/hprof/hprof_md.c: In function ‘dll_build_name’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/demo/jvmti/hprof/hprof_md.c:398:26: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 4 has type ‘long int’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/demo/jvmti/hprof/hprof_md.c:398:26: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 4 has type ‘long int’ [-Wformat]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/nio/ch/IOUtil.c: In function ‘Java_sun_nio_ch_IOUtil_fdLimit’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/nio/ch/IOUtil.c:132:5: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/nio/ch/Net.c: In function ‘Java_sun_nio_ch_Net_poll’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/nio/ch/Net.c:648:1: warning: control reaches end of non-void function [-Wreturn-type]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c: In function ‘XShared_initSurface’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c:473:1: warning: control reaches end of non-void function [-Wreturn-type]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c: In function ‘XShared_initIDs’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/java2d/x11/X11SurfaceData.c:143:1: warning: control reaches end of non-void function [-Wreturn-type]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/fontpath.c: In function ‘Java_sun_font_FontConfigManager_getFontConfig’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/fontpath.c:1321:50: warning: ‘fcFontArr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/fontpath.c:1146:16: note: ‘fcFontArr’ was declared here
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/awt/splashscreen/splashscreen_gfx_impl.c: In function ‘initFormat’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/awt/splashscreen/splashscreen_gfx_impl.c:305:34: warning: ‘numBits’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/awt/splashscreen/splashscreen_gfx_impl.c:305:34: warning: ‘shift’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/splashscreen/splashscreen_sys.c: In function ‘SplashScreenThread’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/splashscreen/splashscreen_sys.c:730:9: warning: ignoring return value of ‘pipe’, declared with attribute warn_unused_result [-Wunused-result]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/splashscreen/splashscreen_sys.c: In function ‘sendctl’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/awt/splashscreen/splashscreen_sys.c:362:14: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/security/pkcs11/j2secmod_md.c: In function ‘findFunction’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/security/pkcs11/j2secmod_md.c:42:9: warning: implicit declaration of function ‘throwNullPointerException’ [-Wimplicit-function-declaration]
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/security/pkcs11/j2secmod_md.c: In function ‘Java_sun_security_pkcs11_Secmod_nssLoadLibrary’:
+/home/openjdk/sources/jdk8_tl/jdk/src/solaris/native/sun/security/pkcs11/j2secmod_md.c:71:9: warning: implicit declaration of function ‘throwIOException’ [-Wimplicit-function-declaration]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/security/ec/impl/mpi.c: In function ‘s_mp_fixup_reciprocal’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/security/ec/impl/mpi.c:2193:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/security/ec/impl/mpi.c:2193:51: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/security/ec/impl/mpi.c:2195:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/security/ec/impl/mpi.c: In function ‘s_mp_lshd’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/sun/security/ec/impl/mpi.c:2980:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/bands.cpp:449:1: warning: missing initializer for member ‘band_init::defc’ [-Wmissing-field-initializers]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/bands.cpp:449:1: warning: missing initializer for member ‘band_init::index’ [-Wmissing-field-initializers]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/unpack.cpp: In member function ‘void unpacker::read_file_header()’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/unpack.cpp:729:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/unpack.cpp: In member function ‘void cpool::init(unpacker*, int*)’:
+/home/openjdk/sources/jdk8_tl/jdk/src/share/native/com/sun/java/util/jar/pack/unpack.cpp:981:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+## Finished jdk (build time 00:05:48)
+
+----- Build times -------
+Start 2013-01-03 15:17:46
+End   2013-01-03 15:31:12
+00:00:43 corba
+00:04:06 hotspot
+00:00:30 jaxp
+00:00:44 jaxws
+00:05:48 jdk
+00:01:34 langtools
+00:13:26 TOTAL
+-------------------------
+Finished building OpenJDK for target 'clean jdk'

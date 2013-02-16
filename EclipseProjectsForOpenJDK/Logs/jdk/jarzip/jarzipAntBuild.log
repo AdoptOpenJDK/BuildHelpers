@@ -1,0 +1,246 @@
+Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/jarzip/build.xml
+
+-pre-init:
+
+-tstamp:
+
+-first-init:
+
+-warn-about-bootstrap.jdk:
+
+-project-init:
+
+-post-init:
+
+-init:
+
+-pre-compile:
+
+-build-ant:
+
+-pre-init.linux:
+
+-pre-init.solaris:
+
+-pre-init.windows:
+
+-make.init:
+
+-build-make:
+     [echo] Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/zip'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] # Java sources to be compiled: (listed in file ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/.classes.list)
+     [exec] ../../../src/share/classes/java/util/jar/JarFile.java
+     [exec] ../../../src/share/classes/java/util/zip/Adler32.java
+     [exec] ../../../src/share/classes/java/util/zip/CRC32.java
+     [exec] ../../../src/share/classes/java/util/zip/CheckedInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/CheckedOutputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/Checksum.java
+     [exec] ../../../src/share/classes/java/util/zip/DataFormatException.java
+     [exec] ../../../src/share/classes/java/util/zip/Deflater.java
+     [exec] ../../../src/share/classes/java/util/zip/DeflaterInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/DeflaterOutputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/GZIPInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/GZIPOutputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/Inflater.java
+     [exec] ../../../src/share/classes/java/util/zip/InflaterInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/InflaterOutputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/ZStreamRef.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipCoder.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipConstants.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipConstants64.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipEntry.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipError.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipException.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipFile.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipInputStream.java
+     [exec] ../../../src/share/classes/java/util/zip/ZipOutputStream.java
+     [exec] # Running javac: 25 files; in /home/openjdk/sources/jdk8_tl/jdk/make/java/zip
+     [exec] /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSizOpenJDK 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
+     [exec] e=32m -J-XX:MaxPermSize=160m -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/sun/java.util.zip/zip/.classes.list.filtered
+     [exec] Note: Some input files use or override a deprecated API.
+     [exec] Note: Recompile with -Xlint:deprecation for details.
+     [exec] # javac finished
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64
+     [exec] rm -f ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/.class.headers.amd64
+     [exec] # Running javah:
+     [exec] /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin/javah -bootclasspath "../../../build/linux-amd64/classes" -d ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders/ \
+     [exec] 		java.util.zip.CRC32 java.util.zip.Adler32 java.util.zip.Inflater java.util.zip.Deflater java.util.zip.ZipFile java.util.zip.ZipEntry java.util.jar.JarFile   
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] Building lib:../../../build/linux-amd64/lib/amd64/libzip.so
+     [exec] Begin parallel compiles: /home/openjdk/sources/jdk8_tl/jdk/make/java/zip
+     [exec] make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/zip'
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"CRC32.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/CRC32.o  ../../../src/share/native/java/util/zip/CRC32.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"Adler32.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/Adler32.o  ../../../src/share/native/java/util/zip/Adler32.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"Deflater.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/Deflater.o  ../../../src/share/native/java/util/zip/Deflater.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"Inflater.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/Inflater.o  ../../../src/share/native/java/util/zip/Inflater.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"ZipFile.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/ZipFile.o  ../../../src/share/native/java/util/zip/ZipFile.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"zip_util.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/zip_util.o  ../../../src/share/native/java/util/zip/zip_util.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"compress.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/compress.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/compress.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"deflate.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/deflate.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/deflate.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"gzclose.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/gzclose.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/gzclose.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"gzlib.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/gzlib.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/gzlib.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"gzread.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/gzread.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/gzread.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"gzwrite.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/gzwrite.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/gzwrite.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"infback.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/infback.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/infback.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"inffast.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/inffast.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/inffast.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"inflate.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/inflate.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/inflate.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"inftrees.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/inftrees.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/inftrees.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"trees.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/trees.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/trees.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"uncompr.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/uncompr.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/uncompr.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"zadler32.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/zadler32.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/zadler32.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"zcrc32.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/zcrc32.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/zcrc32.c
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='"zutil.c"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5  -c -o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/zutil.o  ../../../src/share/native/java/util/zip/zlib-1.2.5/zutil.c
+     [exec] make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/zip'
+     [exec] Done with parallel compiles: /home/openjdk/sources/jdk8_tl/jdk/make/java/zip
+     [exec] STATS: LIBRARY=zip, PRODUCT=sun, OPTIMIZATION_LEVEL=LOWER
+     [exec] Rebuilding ../../../build/linux-amd64/lib/amd64/libzip.so because of ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/.files_compiled mapfile-vers
+     [exec] /usr/bin/gcc  -O2   -fno-strict-aliasing -fPIC -W -Wall  -Wno-unused -Wno-parentheses -pipe -fno-omit-frame-pointer -D_LITTLE_ENDIAN -DUSE_MMAP  -DNDEBUG -DARCH='"amd64"' -Damd64 -DLINUX -DRELEASE='"1.8.0-internal"' -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -D_REENTRANT -D_LP64=1 -I. -I../../../build/linux-amd64/tmp/sun/java.util.zip/zip/CClassHeaders -I../../../src/solaris/javavm/export -I../../../src/share/javavm/export -I../../../src/share/native/common -I../../../src/solaris/native/common -I../../../src/share/native/java/util/zip -I../../../src/solaris/native/java/util/zip   -DTHIS_FILE='".files_compiled"' -UDEBUG  -I../../../src/share/native/java/io -I../../../src/solaris/native/java/io -I../../../src/share/native/java/util/zip/zlib-1.2.5 -Xlinker -O1 -Xlinker -version-script=mapfile-vers  -Wl,--hash-style=both -Xlinker -z -Xlinker origin  -Xlinker -rpath -Xlinker \$ORIGIN  -Xlinker -z -Xlinker defs -L../../../build/linux-amd64/lib/amd64 -Wl,-soname=libzip.so   -shared -o ../../../build/linux-amd64/lib/amd64/libzip.so ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/Adler32.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/CRC32.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/Deflater.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/Inflater.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/ZipFile.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/compress.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/deflate.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/gzclose.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/gzlib.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/gzread.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/gzwrite.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/infback.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/inffast.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/inflate.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/inftrees.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/trees.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/uncompr.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/zadler32.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/zcrc32.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/zip_util.o ../../../build/linux-amd64/tmp/sun/java.util.zip/zip/obj64/zutil.o -L../../../build/linux-amd64/lib/amd64/server -ljvm  -ljava -L../../../build/linux-amd64/lib/amd64/server -ljvm -lc
+     [exec] Checking for mapfile use in: ../../../build/linux-amd64/lib/amd64/libzip.so
+     [exec] Library loads for: ../../../build/linux-amd64/lib/amd64/libzip.so
+     [exec] 	linux-vdso.so.1 =>  (0x00007fff62c35000)
+     [exec] 	libjvm.so => not found
+     [exec] 	libjava.so => /home/openjdk/sources/jdk8_tl/jdk/make/java/zip/../../../build/linux-amd64/lib/amd64/libjava.so (0x00002aadebf67000)
+     [exec] 	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00002aadec194000)
+     [exec] 	libjvm.so => not found
+     [exec] 	libverify.so => /home/openjdk/sources/jdk8_tl/jdk/make/java/zip/../../../build/linux-amd64/lib/amd64/libverify.so (0x00002aadec554000)
+     [exec] 	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00002aadec763000)
+     [exec] 	/lib64/ld-linux-x86-64.so.2 (0x00002aadebb0e000)
+     [exec] 	libjvm.so => not found
+     [exec] RUNPATH for: ../../../build/linux-amd64/lib/amd64/libzip.so
+     [exec]  0x0000000000000001 (NEEDED)             Shared library: [libjvm.so]
+     [exec]  0x0000000000000001 (NEEDED)             Shared library: [libjava.so]
+     [exec]  0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]
+     [exec]  0x000000000000000f (RPATH)              Library rpath: [$ORIGIN]
+     [echo] Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/zip'
+     [echo] Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/jar'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] # Java sources to be compiled: (listed in file ../../../build/linux-amd64/tmp/sun/java.util.jar/.classes.list)
+     [exec] ../../../src/share/classes/java/util/jar/JarInputStream.java
+     [exec] ../../../src/share/classes/java/util/jar/JarOutputStream.java
+     [exec] ../../../src/share/classes/java/util/jar/Pack200.java
+     [exec] # Running javac: 3 files; in /home/openjdk/sources/jdk8_tl/jdk/make/java/jar
+     [exec] /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/sun/java.util.jar/.classes.list.filtered
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
+     [exec] # javac finished
+     [echo] Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/jar'
+     [echo] Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/sun/jar'
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar.java
+     [exec] /bin/echo INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_de.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_de.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_de.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_de.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_de.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_es.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_es.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_es.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_es.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_es.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_fr.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_fr.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_fr.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_fr.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_fr.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_it.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_it.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_it.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_it.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_it.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ja.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_ja.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ja.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_ja.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ja.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ko.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_ko.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ko.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_ko.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ko.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_pt_BR.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_pt_BR.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_pt_BR.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_pt_BR.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_pt_BR.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_sv.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_sv.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_sv.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_sv.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_sv.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_CN.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_zh_CN.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_CN.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_zh_CN.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_CN.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_TW.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_zh_TW.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_TW.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_zh_TW.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_TW.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_HK.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/tools/jar/resources/jar_zh_TW.properties -> ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_HK.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/tools/jar/resources/jar_zh_TW.properties ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_HK.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] /usr/lib/jvm/java-7-openjdk-amd64/bin/java -XX:-PrintVMOptions -XX:+UnlockDiagnosticVMOptions -XX:-LogVMOutput -Xmx512m -Xms512m -XX:PermSize=32m -XX:MaxPermSize=160m -jar ../../../build/linux-amd64/btjars/compileproperties.jar @../../../build/linux-amd64/tmp/sun/sun.tools/compile_prop_options
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_de.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_de.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_es.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_es.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_fr.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_fr.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_it.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_it.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_ja.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ja.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_ko.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ko.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_pt_BR.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_pt_BR.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_sv.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_sv.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_zh_CN.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_CN.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_zh_TW.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_TW.java
+     [exec] parsing: ../../../src/share/classes/sun/tools/jar/resources/jar_zh_TW.properties
+     [exec] inferred package name: sun.tools.jar.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_HK.java
+     [exec] # Java sources to be compiled: (listed in file ../../../build/linux-amd64/tmp/sun/sun.tools/.classes.list)
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_de.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_es.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_fr.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_it.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ja.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_ko.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_pt_BR.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_sv.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_CN.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_HK.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/tools/jar/resources/jar_zh_TW.java
+     [exec] ../../../src/share/classes/sun/tools/jar/CommandLine.java
+     [exec] ../../../src/share/classes/sun/tools/jar/JarException.java
+     [exec] ../../../src/share/classes/sun/tools/jar/Main.java
+     [exec] ../../../src/share/classes/sun/tools/jar/Manifest.java
+     [exec] ../../../src/share/classes/sun/tools/jar/SignatureFile.java
+     [exec] # Running javac: 17 files; in /home/openjdk/sources/jdk8_tl/jdk/make/sun/jar
+     [exec] /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/sun/sun.tools/.classes.list.filtered
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
+     [exec] # javac finished
+     [echo] Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/sun/jar'
+
+-post-compile:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 15 seconds

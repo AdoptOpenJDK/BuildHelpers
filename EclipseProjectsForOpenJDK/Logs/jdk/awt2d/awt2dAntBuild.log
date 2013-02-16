@@ -1,0 +1,561 @@
+Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/awt2d/build.xml
+
+-pre-init:
+
+-tstamp:
+
+-first-init:
+
+-warn-about-bootstrap.jdk:
+
+-project-init:
+
+-post-init:
+
+-init:
+
+-pre-compile:
+
+-build-ant:
+
+-pre-init.linux:
+
+-pre-init.solaris:
+
+-pre-init.windows:
+
+-make.init:
+
+-build-make-unix:
+     [echo] Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/awt'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib
+     [exec] rm -f ../../../build/linux-amd64/lib/flavormap.properties
+     [exec] /bin/cp ../../../src/solaris/lib/flavormap.properties ../../../build/linux-amd64/lib/flavormap.properties
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/cursors.properties
+     [exec] /bin/cp ../../../src/solaris/lib/images/cursors/cursors.properties ../../../build/linux-amd64/lib/images/cursors/cursors.properties
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_CopyDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_CopyDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_CopyDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_MoveDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_MoveDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_MoveDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_LinkDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_LinkDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_LinkDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_CopyNoDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_CopyNoDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_CopyNoDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_MoveNoDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_MoveNoDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_MoveNoDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/motif_LinkNoDrop32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/motif_LinkNoDrop32x32.gif ../../../build/linux-amd64/lib/images/cursors/motif_LinkNoDrop32x32.gif
+     [exec] /bin/mkdir -p ../../../build/linux-amd64/lib/images/cursors
+     [exec] rm -f ../../../build/linux-amd64/lib/images/cursors/invalid32x32.gif
+     [exec] /bin/cp ../../../src/share/lib/images/cursors/invalid32x32.gif ../../../build/linux-amd64/lib/images/cursors/invalid32x32.gif
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_de.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_de.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_es.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_es.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_fr.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_fr.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_it.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_it.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_ja.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_ja.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_ko.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_ko.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_pt_BR.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_pt_BR.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_sv.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_sv.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_zh_CN.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_zh_CN.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] rm -f ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java
+     [exec] # Adding to compile properties list: ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties -> ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java
+     [exec] /bin/echo -e "-compile ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java ListResourceBundle" >> ../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] /usr/lib/jvm/java-7-openjdk-amd64//bin/java -XX:-PrintVMOptions -XX:+UnlockDiagnosticVMOptions -XX:-LogVMOutput -Xmx512m -Xms512m -XX:PermSize=32m -XX:MaxPermSize=160m -jar ../../../build/linux-amd64/btjars/compileproperties.jar @../../../build/linux-amd64/tmp/sun/java.awt/compile_prop_options
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_de.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_es.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_fr.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_it.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_ja.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_ko.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_pt_BR.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_sv.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_zh_CN.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java
+     [exec] parsing: ../../../src/share/classes/sun/awt/resources/awt_zh_TW.properties
+     [exec] inferred package name: sun.awt.resources
+     [exec] wrote: ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+     [exec] OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=160m; support was removed in 8.0
+     [exec] # Java sources to be compiled: (listed in file ../../../build/linux-amd64/tmp/sun/java.awt/.classes.list)
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_de.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_es.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_fr.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_it.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ja.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_ko.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_pt_BR.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_sv.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_CN.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_HK.java
+     [exec] ../../../build/linux-amd64/gensrc/sun/awt/resources/awt_zh_TW.java
+     [exec] ../../../src/share/classes/java/awt/AWTError.java
+     [exec] ../../../src/share/classes/java/awt/AWTEvent.java
+     [exec] ../../../src/share/classes/java/awt/AWTEventMulticaster.java
+     [exec] ../../../src/share/classes/java/awt/AWTException.java
+     [exec] ../../../src/share/classes/java/awt/AWTKeyStroke.java
+     [exec] ../../../src/share/classes/java/awt/AWTPermission.java
+     [exec] ../../../src/share/classes/java/awt/ActiveEvent.java
+     [exec] ../../../src/share/classes/java/awt/Adjustable.java
+     [exec] ../../../src/share/classes/java/awt/AlphaComposite.java
+     [exec] ../../../src/share/classes/java/awt/AttributeValue.java
+     [exec] ../../../src/share/classes/java/awt/BasicStroke.java
+     [exec] ../../../src/share/classes/java/awt/BorderLayout.java
+     [exec] ../../../src/share/classes/java/awt/BufferCapabilities.java
+     [exec] ../../../src/share/classes/java/awt/Button.java
+     [exec] ../../../src/share/classes/java/awt/Canvas.java
+     [exec] ../../../src/share/classes/java/awt/CardLayout.java
+     [exec] ../../../src/share/classes/java/awt/Checkbox.java
+     [exec] ../../../src/share/classes/java/awt/CheckboxGroup.java
+     [exec] ../../../src/share/classes/java/awt/CheckboxMenuItem.java
+     [exec] ../../../src/share/classes/java/awt/Choice.java
+     [exec] ../../../src/share/classes/java/awt/Color.java
+     [exec] ../../../src/share/classes/java/awt/ColorPaintContext.java
+     [exec] ../../../src/share/classes/java/awt/Component.java
+     [exec] ../../../src/share/classes/java/awt/ComponentOrientation.java
+     [exec] ../../../src/share/classes/java/awt/Composite.java
+     [exec] ../../../src/share/classes/java/awt/CompositeContext.java
+     [exec] ../../../src/share/classes/java/awt/Conditional.java
+     [exec] ../../../src/share/classes/java/awt/Container.java
+     [exec] ../../../src/share/classes/java/awt/ContainerOrderFocusTraversalPolicy.java
+     [exec] ../../../src/share/classes/java/awt/Cursor.java
+     [exec] ../../../src/share/classes/java/awt/DefaultFocusTraversalPolicy.java
+     [exec] ../../../src/share/classes/java/awt/DefaultKeyboardFocusManager.java
+     [exec] ../../../src/share/classes/java/awt/Desktop.java
+     [exec] ../../../src/share/classes/java/awt/Dialog.java
+     [exec] ../../../src/share/classes/java/awt/Dimension.java
+     [exec] ../../../src/share/classes/java/awt/DisplayMode.java
+     [exec] ../../../src/share/classes/java/awt/Event.java
+     [exec] ../../../src/share/classes/java/awt/EventDispatchThread.java
+     [exec] ../../../src/share/classes/java/awt/EventFilter.java
+     [exec] ../../../src/share/classes/java/awt/EventQueue.java
+     [exec] ../../../src/share/classes/java/awt/FileDialog.java
+     [exec] ../../../src/share/classes/java/awt/FlowLayout.java
+     [exec] ../../../src/share/classes/java/awt/FocusTraversalPolicy.java
+     [exec] ../../../src/share/classes/java/awt/Font.java
+     [exec] ../../../src/share/classes/java/awt/FontFormatException.java
+     [exec] ../../../src/share/classes/java/awt/FontMetrics.java
+     [exec] ../../../src/share/classes/java/awt/Frame.java
+     [exec] ../../../src/share/classes/java/awt/GradientPaint.java
+     [exec] ../../../src/share/classes/java/awt/GradientPaintContext.java
+     [exec] ../../../src/share/classes/java/awt/Graphics.java
+     [exec] ../../../src/share/classes/java/awt/Graphics2D.java
+     [exec] ../../../src/share/classes/java/awt/GraphicsCallback.java
+     [exec] ../../../src/share/classes/java/awt/GraphicsConfigTemplate.java
+     [exec] ../../../src/share/classes/java/awt/GraphicsConfiguration.java
+     [exec] ../../../src/share/classes/java/awt/GraphicsDevice.java
+     [exec] ../../../src/share/classes/java/awt/GraphicsEnvironment.java
+     [exec] ../../../src/share/classes/java/awt/GridBagConstraints.java
+     [exec] ../../../src/share/classes/java/awt/GridBagLayout.java
+     [exec] ../../../src/share/classes/java/awt/GridBagLayoutInfo.java
+     [exec] ../../../src/share/classes/java/awt/GridLayout.java
+     [exec] ../../../src/share/classes/java/awt/HeadlessException.java
+     [exec] ../../../src/share/classes/java/awt/IllegalComponentStateException.java
+     [exec] ../../../src/share/classes/java/awt/Image.java
+     [exec] ../../../src/share/classes/java/awt/ImageCapabilities.java
+     [exec] ../../../src/share/classes/java/awt/Insets.java
+     [exec] ../../../src/share/classes/java/awt/ItemSelectable.java
+     [exec] ../../../src/share/classes/java/awt/JobAttributes.java
+     [exec] ../../../src/share/classes/java/awt/KeyEventDispatcher.java
+     [exec] ../../../src/share/classes/java/awt/KeyEventPostProcessor.java
+     [exec] ../../../src/share/classes/java/awt/KeyboardFocusManager.java
+     [exec] ../../../src/share/classes/java/awt/Label.java
+     [exec] ../../../src/share/classes/java/awt/LayoutManager.java
+     [exec] ../../../src/share/classes/java/awt/LayoutManager2.java
+     [exec] ../../../src/share/classes/java/awt/LinearGradientPaint.java
+     [exec] ../../../src/share/classes/java/awt/LinearGradientPaintContext.java
+     [exec] ../../../src/share/classes/java/awt/List.java
+     [exec] ../../../src/share/classes/java/awt/MediaTracker.java
+     [exec] ../../../src/share/classes/java/awt/Menu.java
+     [exec] ../../../src/share/classes/java/awt/MenuBar.java
+     [exec] ../../../src/share/classes/java/awt/MenuComponent.java
+     [exec] ../../../src/share/classes/java/awt/MenuContainer.java
+     [exec] ../../../src/share/classes/java/awt/MenuItem.java
+     [exec] ../../../src/share/classes/java/awt/MenuShortcut.java
+     [exec] ../../../src/share/classes/java/awt/ModalEventFilter.java
+     [exec] ../../../src/share/classes/java/awt/MouseInfo.java
+     [exec] ../../../src/share/classes/java/awt/MultipleGradientPaint.java
+     [exec] ../../../src/share/classes/java/awt/MultipleGradientPaintContext.java
+     [exec] ../../../src/share/classes/java/awt/PageAttributes.java
+     [exec] ../../../src/share/classes/java/awt/Paint.java
+     [exec] ../../../src/share/classes/java/awt/PaintContext.java
+     [exec] ../../../src/share/classes/java/awt/Panel.java
+     [exec] ../../../src/share/classes/java/awt/Point.java
+     [exec] ../../../src/share/classes/java/awt/PointerInfo.java
+     [exec] ../../../src/share/classes/java/awt/Polygon.java
+     [exec] ../../../src/share/classes/java/awt/PopupMenu.java
+     [exec] ../../../src/share/classes/java/awt/PrintGraphics.java
+     [exec] ../../../src/share/classes/java/awt/PrintJob.java
+     [exec] ../../../src/share/classes/java/awt/RadialGradientPaint.java
+     [exec] ../../../src/share/classes/java/awt/RadialGradientPaintContext.java
+     [exec] ../../../src/share/classes/java/awt/Rectangle.java
+     [exec] ../../../src/share/classes/java/awt/RenderingHints.java
+     [exec] ../../../src/share/classes/java/awt/Robot.java
+     [exec] ../../../src/share/classes/java/awt/ScrollPane.java
+     [exec] ../../../src/share/classes/java/awt/ScrollPaneAdjustable.java
+     [exec] ../../../src/share/classes/java/awt/Scrollbar.java
+     [exec] ../../../src/share/classes/java/awt/SecondaryLoop.java
+     [exec] ../../../src/share/classes/java/awt/SentEvent.java
+     [exec] ../../../src/share/classes/java/awt/SequencedEvent.java
+     [exec] ../../../src/share/classes/java/awt/Shape.java
+     [exec] ../../../src/share/classes/java/awt/SplashScreen.java
+     [exec] ../../../src/share/classes/java/awt/Stroke.java
+     [exec] ../../../src/share/classes/java/awt/SystemColor.java
+     [exec] ../../../src/share/classes/java/awt/SystemTray.java
+     [exec] ../../../src/share/classes/java/awt/TextArea.java
+     [exec] ../../../src/share/classes/java/awt/TextComponent.java
+     [exec] ../../../src/share/classes/java/awt/TextField.java
+     [exec] ../../../src/share/classes/java/awt/TexturePaint.java
+     [exec] ../../../src/share/classes/java/awt/TexturePaintContext.java
+     [exec] ../../../src/share/classes/java/awt/Toolkit.java
+     [exec] ../../../src/share/classes/java/awt/Transparency.java
+     [exec] ../../../src/share/classes/java/awt/TrayIcon.java
+     [exec] ../../../src/share/classes/java/awt/WaitDispatchSupport.java
+     [exec] ../../../src/share/classes/java/awt/Window.java
+     [exec] ../../../src/share/classes/java/awt/color/CMMException.java
+     [exec] ../../../src/share/classes/java/awt/color/ColorSpace.java
+     [exec] ../../../src/share/classes/java/awt/color/ICC_ColorSpace.java
+     [exec] ../../../src/share/classes/java/awt/color/ICC_Profile.java
+     [exec] ../../../src/share/classes/java/awt/color/ICC_ProfileGray.java
+     [exec] ../../../src/share/classes/java/awt/color/ICC_ProfileRGB.java
+     [exec] ../../../src/share/classes/java/awt/color/ProfileDataException.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/Clipboard.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/ClipboardOwner.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/DataFlavor.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/FlavorEvent.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/FlavorListener.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/FlavorMap.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/FlavorTable.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/MimeType.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/MimeTypeParameterList.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/MimeTypeParseException.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/StringSelection.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/SystemFlavorMap.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/Transferable.java
+     [exec] ../../../src/share/classes/java/awt/datatransfer/UnsupportedFlavorException.java
+     [exec] ../../../src/share/classes/java/awt/dnd/Autoscroll.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DnDConstants.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DnDEventMulticaster.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragGestureEvent.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragGestureListener.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragGestureRecognizer.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragSource.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragSourceAdapter.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragSourceContext.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragSourceDragEvent.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragSourceDropEvent.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragSourceEvent.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragSourceListener.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DragSourceMotionListener.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DropTarget.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DropTargetAdapter.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DropTargetContext.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DropTargetDragEvent.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DropTargetDropEvent.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DropTargetEvent.java
+     [exec] ../../../src/share/classes/java/awt/dnd/DropTargetListener.java
+     [exec] ../../../src/share/classes/java/awt/dnd/InvalidDnDOperationException.java
+     [exec] ../../../src/share/classes/java/awt/dnd/MouseDragGestureRecognizer.java
+     [exec] ../../../src/share/classes/java/awt/dnd/SerializationTester.java
+     [exec] ../../../src/share/classes/java/awt/dnd/peer/DragSourceContextPeer.java
+     [exec] ../../../src/share/classes/java/awt/dnd/peer/DropTargetContextPeer.java
+     [exec] ../../../src/share/classes/java/awt/dnd/peer/DropTargetPeer.java
+     [exec] ../../../src/share/classes/java/awt/event/AWTEventListener.java
+     [exec] ../../../src/share/classes/java/awt/event/AWTEventListenerProxy.java
+     [exec] ../../../src/share/classes/java/awt/event/ActionEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/ActionListener.java
+     [exec] ../../../src/share/classes/java/awt/event/AdjustmentEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/AdjustmentListener.java
+     [exec] ../../../src/share/classes/java/awt/event/ComponentAdapter.java
+     [exec] ../../../src/share/classes/java/awt/event/ComponentEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/ComponentListener.java
+     [exec] ../../../src/share/classes/java/awt/event/ContainerAdapter.java
+     [exec] ../../../src/share/classes/java/awt/event/ContainerEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/ContainerListener.java
+     [exec] ../../../src/share/classes/java/awt/event/FocusAdapter.java
+     [exec] ../../../src/share/classes/java/awt/event/FocusEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/FocusListener.java
+     [exec] ../../../src/share/classes/java/awt/event/HierarchyBoundsAdapter.java
+     [exec] ../../../src/share/classes/java/awt/event/HierarchyBoundsListener.java
+     [exec] ../../../src/share/classes/java/awt/event/HierarchyEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/HierarchyListener.java
+     [exec] ../../../src/share/classes/java/awt/event/InputEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/InputMethodEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/InputMethodListener.java
+     [exec] ../../../src/share/classes/java/awt/event/InvocationEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/ItemEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/ItemListener.java
+     [exec] ../../../src/share/classes/java/awt/event/KeyAdapter.java
+     [exec] ../../../src/share/classes/java/awt/event/KeyEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/KeyListener.java
+     [exec] ../../../src/share/classes/java/awt/event/MouseAdapter.java
+     [exec] ../../../src/share/classes/java/awt/event/MouseEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/MouseListener.java
+     [exec] ../../../src/share/classes/java/awt/event/MouseMotionAdapter.java
+     [exec] ../../../src/share/classes/java/awt/event/MouseMotionListener.java
+     [exec] ../../../src/share/classes/java/awt/event/MouseWheelEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/MouseWheelListener.java
+     [exec] ../../../src/share/classes/java/awt/event/NativeLibLoader.java
+     [exec] ../../../src/share/classes/java/awt/event/PaintEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/TextEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/TextListener.java
+     [exec] ../../../src/share/classes/java/awt/event/WindowAdapter.java
+     [exec] ../../../src/share/classes/java/awt/event/WindowEvent.java
+     [exec] ../../../src/share/classes/java/awt/event/WindowFocusListener.java
+     [exec] ../../../src/share/classes/java/awt/event/WindowListener.java
+     [exec] ../../../src/share/classes/java/awt/event/WindowStateListener.java
+     [exec] ../../../src/share/classes/java/awt/font/CharArrayIterator.java
+     [exec] ../../../src/share/classes/java/awt/font/FontRenderContext.java
+     [exec] ../../../src/share/classes/java/awt/font/GlyphJustificationInfo.java
+     [exec] ../../../src/share/classes/java/awt/font/GlyphMetrics.java
+     [exec] ../../../src/share/classes/java/awt/font/GlyphVector.java
+     [exec] ../../../src/share/classes/java/awt/font/GraphicAttribute.java
+     [exec] ../../../src/share/classes/java/awt/font/ImageGraphicAttribute.java
+     [exec] ../../../src/share/classes/java/awt/font/LayoutPath.java
+     [exec] ../../../src/share/classes/java/awt/font/LineBreakMeasurer.java
+     [exec] ../../../src/share/classes/java/awt/font/LineMetrics.java
+     [exec] ../../../src/share/classes/java/awt/font/MultipleMaster.java
+     [exec] ../../../src/share/classes/java/awt/font/NumericShaper.java
+     [exec] ../../../src/share/classes/java/awt/font/OpenType.java
+     [exec] ../../../src/share/classes/java/awt/font/ShapeGraphicAttribute.java
+     [exec] ../../../src/share/classes/java/awt/font/StyledParagraph.java
+     [exec] ../../../src/share/classes/java/awt/font/TextAttribute.java
+     [exec] ../../../src/share/classes/java/awt/font/TextHitInfo.java
+     [exec] ../../../src/share/classes/java/awt/font/TextJustifier.java
+     [exec] ../../../src/share/classes/java/awt/font/TextLayout.java
+     [exec] ../../../src/share/classes/java/awt/font/TextLine.java
+     [exec] ../../../src/share/classes/java/awt/font/TextMeasurer.java
+     [exec] ../../../src/share/classes/java/awt/font/TransformAttribute.java
+     [exec] ../../../src/share/classes/java/awt/geom/AffineTransform.java
+     [exec] ../../../src/share/classes/java/awt/geom/Arc2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/ArcIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/Area.java
+     [exec] ../../../src/share/classes/java/awt/geom/CubicCurve2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/CubicIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/Dimension2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/Ellipse2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/EllipseIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/FlatteningPathIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/GeneralPath.java
+     [exec] ../../../src/share/classes/java/awt/geom/IllegalPathStateException.java
+     [exec] ../../../src/share/classes/java/awt/geom/Line2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/LineIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/NoninvertibleTransformException.java
+     [exec] ../../../src/share/classes/java/awt/geom/Path2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/PathIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/Point2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/QuadCurve2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/QuadIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/RectIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/Rectangle2D.java
+     [exec] ../../../src/share/classes/java/awt/geom/RectangularShape.java
+     [exec] ../../../src/share/classes/java/awt/geom/RoundRectIterator.java
+     [exec] ../../../src/share/classes/java/awt/geom/RoundRectangle2D.java
+     [exec] ../../../src/share/classes/java/awt/im/InputContext.java
+     [exec] ../../../src/share/classes/java/awt/im/InputMethodHighlight.java
+     [exec] ../../../src/share/classes/java/awt/im/InputMethodRequests.java
+     [exec] ../../../src/share/classes/java/awt/im/InputSubset.java
+     [exec] ../../../src/share/classes/java/awt/im/spi/InputMethod.java
+     [exec] ../../../src/share/classes/java/awt/im/spi/InputMethodContext.java
+     [exec] ../../../src/share/classes/java/awt/im/spi/InputMethodDescriptor.java
+     [exec] ../../../src/share/classes/java/awt/image/AffineTransformOp.java
+     [exec] ../../../src/share/classes/java/awt/image/AreaAveragingScaleFilter.java
+     [exec] ../../../src/share/classes/java/awt/image/BandCombineOp.java
+     [exec] ../../../src/share/classes/java/awt/image/BandedSampleModel.java
+     [exec] ../../../src/share/classes/java/awt/image/BufferStrategy.java
+     [exec] ../../../src/share/classes/java/awt/image/BufferedImage.java
+     [exec] ../../../src/share/classes/java/awt/image/BufferedImageFilter.java
+     [exec] ../../../src/share/classes/java/awt/image/BufferedImageOp.java
+     [exec] ../../../src/share/classes/java/awt/image/ByteLookupTable.java
+     [exec] ../../../src/share/classes/java/awt/image/ColorConvertOp.java
+     [exec] ../../../src/share/classes/java/awt/image/ColorModel.java
+     [exec] ../../../src/share/classes/java/awt/image/ComponentColorModel.java
+     [exec] ../../../src/share/classes/java/awt/image/ComponentSampleModel.java
+     [exec] ../../../src/share/classes/java/awt/image/ConvolveOp.java
+     [exec] ../../../src/share/classes/java/awt/image/CropImageFilter.java
+     [exec] ../../../src/share/classes/java/awt/image/DataBuffer.java
+     [exec] ../../../src/share/classes/java/awt/image/DataBufferByte.java
+     [exec] ../../../src/share/classes/java/awt/image/DataBufferDouble.java
+     [exec] ../../../src/share/classes/java/awt/image/DataBufferFloat.java
+     [exec] ../../../src/share/classes/java/awt/image/DataBufferInt.java
+     [exec] ../../../src/share/classes/java/awt/image/DataBufferShort.java
+     [exec] ../../../src/share/classes/java/awt/image/DataBufferUShort.java
+     [exec] ../../../src/share/classes/java/awt/image/DirectColorModel.java
+     [exec] ../../../src/share/classes/java/awt/image/FilteredImageSource.java
+     [exec] ../../../src/share/classes/java/awt/image/ImageConsumer.java
+     [exec] ../../../src/share/classes/java/awt/image/ImageFilter.java
+     [exec] ../../../src/share/classes/java/awt/image/ImageObserver.java
+     [exec] ../../../src/share/classes/java/awt/image/ImageProducer.java
+     [exec] ../../../src/share/classes/java/awt/image/ImagingOpException.java
+     [exec] ../../../src/share/classes/java/awt/image/IndexColorModel.java
+     [exec] ../../../src/share/classes/java/awt/image/Kernel.java
+     [exec] ../../../src/share/classes/java/awt/image/LookupOp.java
+     [exec] ../../../src/share/classes/java/awt/image/LookupTable.java
+     [exec] ../../../src/share/classes/java/awt/image/MemoryImageSource.java
+     [exec] ../../../src/share/classes/java/awt/image/MultiPixelPackedSampleModel.java
+     [exec] ../../../src/share/classes/java/awt/image/PackedColorModel.java
+     [exec] ../../../src/share/classes/java/awt/image/PixelGrabber.java
+     [exec] ../../../src/share/classes/java/awt/image/PixelInterleavedSampleModel.java
+     [exec] ../../../src/share/classes/java/awt/image/RGBImageFilter.java
+     [exec] ../../../src/share/classes/java/awt/image/Raster.java
+     [exec] ../../../src/share/classes/java/awt/image/RasterFormatException.java
+     [exec] ../../../src/share/classes/java/awt/image/RasterOp.java
+     [exec] ../../../src/share/classes/java/awt/image/RenderedImage.java
+     [exec] ../../../src/share/classes/java/awt/image/ReplicateScaleFilter.java
+     [exec] ../../../src/share/classes/java/awt/image/RescaleOp.java
+     [exec] ../../../src/share/classes/java/awt/image/SampleModel.java
+     [exec] ../../../src/share/classes/java/awt/image/ShortLookupTable.java
+     [exec] ../../../src/share/classes/java/awt/image/SinglePixelPackedSampleModel.java
+     [exec] ../../../src/share/classes/java/awt/image/TileObserver.java
+     [exec] ../../../src/share/classes/java/awt/image/VolatileImage.java
+     [exec] ../../../src/share/classes/java/awt/image/WritableRaster.java
+     [exec] ../../../src/share/classes/java/awt/image/WritableRenderedImage.java
+     [exec] ../../../src/share/classes/java/awt/image/renderable/ContextualRenderedImageFactory.java
+     [exec] ../../../src/share/classes/java/awt/image/renderable/ParameterBlock.java
+     [exec] ../../../src/share/classes/java/awt/image/renderable/RenderContext.java
+     [exec] ../../../src/share/classes/java/awt/image/renderable/RenderableImage.java
+     [exec] ../../../src/share/classes/java/awt/image/renderable/RenderableImageOp.java
+     [exec] ../../../src/share/classes/java/awt/image/renderable/RenderableImageProducer.java
+     [exec] ../../../src/share/classes/java/awt/image/renderable/RenderedImageFactory.java
+     [exec] ../../../src/share/classes/java/awt/peer/ButtonPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/CanvasPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/CheckboxMenuItemPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/CheckboxPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/ChoicePeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/ComponentPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/ContainerPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/DesktopPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/DialogPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/FileDialogPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/FontPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/FramePeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/KeyboardFocusManagerPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/LabelPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/LightweightPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/ListPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/MenuBarPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/MenuComponentPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/MenuItemPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/MenuPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/MouseInfoPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/PanelPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/PopupMenuPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/RobotPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/ScrollPanePeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/ScrollbarPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/SystemTrayPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/TextAreaPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/TextComponentPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/TextFieldPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/TrayIconPeer.java
+     [exec] ../../../src/share/classes/java/awt/peer/WindowPeer.java
+     [exec] ../../../src/share/classes/java/awt/print/Book.java
+     [exec] ../../../src/share/classes/java/awt/print/PageFormat.java
+     [exec] ../../../src/share/classes/java/awt/print/Pageable.java
+     [exec] ../../../src/share/classes/java/awt/print/Paper.java
+     [exec] ../../../src/share/classes/java/awt/print/Printable.java
+     [exec] ../../../src/share/classes/java/awt/print/PrinterAbortException.java
+     [exec] ../../../src/share/classes/java/awt/print/PrinterException.java
+     [exec] ../../../src/share/classes/java/awt/print/PrinterGraphics.java
+     [exec] ../../../src/share/classes/java/awt/print/PrinterIOException.java
+     [exec] ../../../src/share/classes/java/awt/print/PrinterJob.java
+     [exec] ../../../src/share/classes/sun/awt/geom/AreaOp.java
+     [exec] ../../../src/share/classes/sun/awt/geom/ChainEnd.java
+     [exec] ../../../src/share/classes/sun/awt/geom/Crossings.java
+     [exec] ../../../src/share/classes/sun/awt/geom/Curve.java
+     [exec] ../../../src/share/classes/sun/awt/geom/CurveLink.java
+     [exec] ../../../src/share/classes/sun/awt/geom/Edge.java
+     [exec] ../../../src/share/classes/sun/awt/geom/Order0.java
+     [exec] ../../../src/share/classes/sun/awt/geom/Order1.java
+     [exec] ../../../src/share/classes/sun/awt/geom/Order2.java
+     [exec] ../../../src/share/classes/sun/awt/geom/Order3.java
+     [exec] ../../../src/share/classes/sun/awt/geom/PathConsumer2D.java
+     [exec] # Running javac: 393 files; in /home/openjdk/sources/jdk8_tl/jdk/make/java/awt
+     [exec] /home/openjdk/sources/jdk8_tl/build/linux-x86_64-normal-server-release/images/j2sdk-image/bin/javac -J-XX:ThreadStackSize=1536 -J-XX:-PrintVMOptions -J-XX:+UnlockDiagnosticVMOptions -J-XX:-LogVMOutput -J-Xmx512m -J-Xms512m -J-XX:PermSize=32m -J-XX:MaxPermSize=160m -Xlint:-path -source 8 -target 8 -encoding ascii -Xbootclasspath:../../../build/linux-amd64/classes -sourcepath ../../../build/linux-amd64/gensrc:../../../src/solaris/classes:../../../src/share/classes -d ../../../build/linux-amd64/classes @../../../build/linux-amd64/tmp/sun/java.awt/.classes.list.filtered
+     [exec] ../../../src/share/classes/java/awt/EventDispatchThread.java:123: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+     [exec]                 final Method evaluateMethod = Class.forName("sun.lwawt.macosx.EventDispatchAccess").getMethod("evaluate", null);
+     [exec]                                                                                                                           ^
+     [exec]   cast to Class<?> for a varargs call
+     [exec]   cast to Class<?>[] for a non-varargs call and to suppress this warning
+     [exec] ../../../src/share/classes/java/awt/EventDispatchThread.java:126: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+     [exec]                         return ((Boolean)evaluateMethod.invoke(cond, null)).booleanValue();
+     [exec]                                                                      ^
+     [exec]   cast to Object for a varargs call
+     [exec]   cast to Object[] for a non-varargs call and to suppress this warning
+     [exec] Note: Some input files use or override a deprecated API.
+     [exec] Note: Recompile with -Xlint:deprecation for details.
+     [exec] Note: Some input files use unchecked or unsafe operations.
+     [exec] Note: Recompile with -Xlint:unchecked for details.
+     [exec] 2 warnings
+     [exec] # javac finished
+     [echo] Leaving directory `/home/openjdk/sources/jdk8_tl/jdk/make/java/awt'
+     [echo] Entering directory `/home/openjdk/sources/jdk8_tl/jdk/make/sun/dcpr'
+     [exec] INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+     [exec] INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+     [exec] INFO: STRIP_POLICY=min_strip
+     [exec] INFO: ZIP_DEBUGINFO_FILES=0
+     [exec] make: *** No rule to make target `../../../build/linux-amd64/classes/sun/dc/path/FastPathProducer.class', needed by `../../../build/linux-amd64/tmp/sun/sun.dc/dcpr/.classes.list'.  Stop.
+
+BUILD FAILED
+/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/awt2d/build.xml:43: The following error occurred while executing this line:
+/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/common/make.xml:61: exec returned: 2
+
+Total time: 20 seconds

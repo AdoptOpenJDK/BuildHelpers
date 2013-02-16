@@ -1,0 +1,59 @@
+18:22:46 **** Incremental Build of configuration Default for project hotspot ****
+make hotspot JAVAC_MAX_WARNINGS=true NEW_BUILD=true LANG=C ZIP_DEBUGINFO_FILES=0 
+Building OpenJDK for target 'hotspot' in configuration 'linux-x86-normal-server-release'
+
+## Starting hotspot
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: ALT_OBJCOPY=/usr/bin/objcopy 
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=0
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: ALT_OBJCOPY=/usr/bin/objcopy 
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=0
+Rescanned ../generated/adfiles/linux_x86_32.ad  but encountered no changes.
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: ALT_OBJCOPY=/usr/bin/objcopy 
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=0
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: ALT_OBJCOPY=/usr/bin/objcopy 
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=0
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: ALT_OBJCOPY=/usr/bin/objcopy 
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=0
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: ALT_OBJCOPY=/usr/bin/objcopy 
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=0
+**NOTICE** Dtrace support disabled: /usr/include/sys/sdt.h not found
+All done.
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: ALT_OBJCOPY=/usr/bin/objcopy 
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=0
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: ALT_OBJCOPY=/usr/bin/objcopy 
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=0
+## Finished hotspot (build time 00:00:06)
+
+----- Build times -------
+Start 2013-02-16 18:22:46
+End   2013-02-16 18:22:52
+00:00:06 hotspot
+00:00:06 TOTAL
+-------------------------
+Finished building OpenJDK for target 'hotspot'
+
+18:22:52 Build Finished (took 6s.163ms)

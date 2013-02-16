@@ -1,0 +1,101 @@
+Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/jconsole/build.xml
+
+-pre-init:
+
+-tstamp:
+
+-first-init:
+
+-warn-about-bootstrap.jdk:
+
+-project-init:
+
+-post-init:
+
+-init:
+
+-pre-compile:
+     [copy] Copying 1 file to /home/openjdk/sources/jdk8_tl/jdk/build/linux-i586/gensrc/sun/tools/jconsole
+
+-build-ant:
+
+-do-build-ant:
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/common/shared.xml:128: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 61 source files to /home/openjdk/sources/jdk8_tl/jdk/build/linux-i586/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.7
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/ProxyClient.java:711: warning: [cast] redundant cast to ObjectName
+    [javac]                     ObjectName objName = (ObjectName) iterator.next();
+    [javac]                                          ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/ProxyClient.java:737: warning: [cast] redundant cast to ObjectName
+    [javac]                     ObjectName on = (ObjectName) iterator.next();
+    [javac]                                     ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/ProxyClient.java:954: warning: [rawtypes] found raw type: Class
+    [javac]                     new Class[] {SnapshotMBeanServerConnection.class},
+    [javac]                         ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/TimeComboBox.java:40: warning: [rawtypes] found raw type: JComboBox
+    [javac] public class TimeComboBox extends JComboBox implements ItemListener, PropertyChangeListener {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class JComboBox<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class JComboBox
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/TimeComboBox.java:44: warning: [unchecked] unchecked call to JComboBox(E[]) as a member of the raw type JComboBox
+    [javac]         super(Plotter.rangeNames);
+    [javac]              ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class JComboBox
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/inspector/OperationEntry.java:35: warning: [rawtypes] found raw type: JComboBox
+    [javac]     private JComboBox sigs;
+    [javac]             ^
+    [javac]   missing type arguments for generic class JComboBox<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class JComboBox
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/ThreadTab.java:317: warning: [cast] redundant cast to Long
+    [javac]         Long selected = (Long)list.getSelectedValue();
+    [javac]                         ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/inspector/TableSorter.java:149: warning: [rawtypes] found raw type: Vector
+    [javac]                 Vector data = (Vector) dataVector.elementAt(i);
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Vector<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/inspector/TableSorter.java:220: warning: [rawtypes] found raw type: Vector
+    [javac]     private Vector getRow(int row) {
+    [javac]             ^
+    [javac]   missing type arguments for generic class Vector<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/inspector/TableSorter.java:225: warning: [rawtypes] found raw type: Vector
+    [javac]     private void setRow(Vector data, int row) {
+    [javac]                         ^
+    [javac]   missing type arguments for generic class Vector<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/inspector/TableSorter.java:230: warning: [rawtypes] found raw type: Vector
+    [javac]         Vector data = getRow(i);
+    [javac]         ^
+    [javac]   missing type arguments for generic class Vector<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class Vector
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/inspector/XOpenTypeViewer.java:392: warning: [cast] redundant cast to String
+    [javac]                 String key = (String) it.next();
+    [javac]                              ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/sun/tools/jconsole/inspector/XPlottingViewer.java:79: warning: [cast] redundant cast to String
+    [javac]             String key = (String) it.next();
+    [javac]                          ^
+    [javac] 14 warnings
+     [copy] Copying 16 files to /home/openjdk/sources/jdk8_tl/jdk/build/linux-i586/classes
+
+-maybe-do-build-ant-closed:
+
+-build-make:
+
+-post-compile:
+      [jar] Building jar: /home/openjdk/sources/jdk8_tl/jdk/dist/lib/jconsole.jar
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 11 seconds

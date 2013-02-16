@@ -1,0 +1,316 @@
+cd /home/openjdk/sources/jdk8_tl/hotspot/make; \
+	make BUILD_FLAVOR=product VM_TARGET=product generic_build2 
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+mkdir -p /home/openjdk/sources/jdk8_tl/hotspot/build/linux
+cd /home/openjdk/sources/jdk8_tl/hotspot/build/linux; \
+	    make -f /home/openjdk/sources/jdk8_tl/hotspot/make/linux/Makefile \
+		       JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 OUTPUTDIR=/home/openjdk/sources/jdk8_tl/hotspot/build/linux GAMMADIR=/home/openjdk/sources/jdk8_tl/hotspot MAKE_VERBOSE=y HOTSPOT_RELEASE_VERSION=25.0-b10 JRE_RELEASE_VERSION="1.8.0" HOTSPOT_BUILD_VERSION=internal product
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+cd linux_i486_compiler2/product && make -w
+make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+../generated/adfiles/adlc -DLINUX -D_GNU_SOURCE -DIA32 -q -T -g -U_LP64 ../generated/adfiles/linux_x86_32.ad  \
+ -c../generated/adfiles/mktmp11892/ad_x86_32.cpp -h../generated/adfiles/mktmp11892/ad_x86_32.hpp -a../generated/adfiles/mktmp11892/dfa_x86_32.cpp -v../generated/adfiles/mktmp11892/adGlobals_x86_32.hpp \
+	    || { rm -rf ../generated/adfiles/mktmp11892; exit 1; }
+./adlc_updater ad_x86_32.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater ad_x86_32.hpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater ad_x86_32_clone.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater ad_x86_32_expand.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater ad_x86_32_format.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater ad_x86_32_gen.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater ad_x86_32_misc.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater ad_x86_32_peephole.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater ad_x86_32_pipeline.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater adGlobals_x86_32.hpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+./adlc_updater dfa_x86_32.cpp ../generated/adfiles/mktmp11892 ../generated/adfiles
+[ -f ../generated/adfiles/mktmp11892/made-change ] \
+		|| echo "Rescanned ../generated/adfiles/linux_x86_32.ad  but encountered no changes."
+Rescanned ../generated/adfiles/linux_x86_32.ad  but encountered no changes.
+rm -rf ../generated/adfiles/mktmp11892
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+if [ -d /home/openjdk/sources/jdk8_tl/hotspot/agent -a "x86" != "ia64" \
+             -a "x86" != "zero" ] ; then \
+	   make -f sa.make /home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product/../generated/sa-jdi.jar; \
+	fi
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[5]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+make[5]: `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product/../generated/sa-jdi.jar' is up to date.
+make[5]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+make[4]: `precompiled.hpp.gch' is up to date.
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+echo "**NOTICE** Dtrace support disabled: "/usr/include/sys/sdt.h not found""
+**NOTICE** Dtrace support disabled: /usr/include/sys/sdt.h not found
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+All done.
+make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/product'
+cd linux_i486_compiler2/product && ./test_gamma
+JAVA_HOME must point to a 32-bit OpenJDK.
+make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+cd /home/openjdk/sources/jdk8_tl/hotspot/make; \
+	make BUILD_FLAVOR=product VM_TARGET=product1 generic_build1 
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+mkdir -p /home/openjdk/sources/jdk8_tl/hotspot/build/linux
+cd /home/openjdk/sources/jdk8_tl/hotspot/build/linux; \
+	    make -f /home/openjdk/sources/jdk8_tl/hotspot/make/linux/Makefile \
+		       JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 OUTPUTDIR=/home/openjdk/sources/jdk8_tl/hotspot/build/linux GAMMADIR=/home/openjdk/sources/jdk8_tl/hotspot MAKE_VERBOSE=y HOTSPOT_RELEASE_VERSION=25.0-b10 JRE_RELEASE_VERSION="1.8.0" HOTSPOT_BUILD_VERSION=internal product1
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+cd linux_i486_compiler1/product && make -w
+make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+if [ -d /home/openjdk/sources/jdk8_tl/hotspot/agent -a "x86" != "ia64" \
+             -a "x86" != "zero" ] ; then \
+	   make -f sa.make /home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product/../generated/sa-jdi.jar; \
+	fi
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[5]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+make[5]: `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product/../generated/sa-jdi.jar' is up to date.
+make[5]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+make[4]: `precompiled.hpp.gch' is up to date.
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+echo "**NOTICE** Dtrace support disabled: "/usr/include/sys/sdt.h not found""
+**NOTICE** Dtrace support disabled: /usr/include/sys/sdt.h not found
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+All done.
+make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/product'
+cd linux_i486_compiler1/product && ./test_gamma
+JAVA_HOME must point to a 32-bit OpenJDK.
+make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+cd /home/openjdk/sources/jdk8_tl/hotspot/build/linux; \
+	    make -f /home/openjdk/sources/jdk8_tl/hotspot/make/linux/Makefile \
+		       JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 OUTPUTDIR=/home/openjdk/sources/jdk8_tl/hotspot/build/linux GAMMADIR=/home/openjdk/sources/jdk8_tl/hotspot MAKE_VERBOSE=y HOTSPOT_RELEASE_VERSION=25.0-b10 JRE_RELEASE_VERSION="1.8.0" HOTSPOT_BUILD_VERSION=internal BUILD_FLAVOR=product docs
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+/usr/lib/jvm/java-7-openjdk-amd64//bin/javap javax.xml.transform.TransformerFactory > /dev/null 2>&1; \
+	if [ $? -ne 0 ]; then \
+	   /usr/lib/jvm/java-7-openjdk-amd64//bin/java -version; \
+	  echo "*** An XSLT processor (J2SE 1.4.x or newer) is required" \
+	  "to bootstrap this build" 1>&2; \
+	  exit 1; \
+	fi
+mkdir -p linux_i486_docs
+make -f /home/openjdk/sources/jdk8_tl/hotspot/make/linux/makefiles/jvmti.make -w GAMMADIR=/home/openjdk/sources/jdk8_tl/hotspot OS_FAMILY=linux SRCARCH=x86 BUILDARCH=i486 LIBARCH=i386 HOTSPOT_RELEASE_VERSION=25.0-b10 HOTSPOT_BUILD_VERSION=internal JRE_RELEASE_VERSION=1.8.0 ENABLE_FULL_DEBUG_SYMBOLS=1 OBJCOPY=/usr/bin/objcopy STRIP_POLICY=min_strip ZIP_DEBUGINFO_FILES=1 ZIPEXE=zip JvmtiOutDir=linux_i486_docs BUILD_FLAVOR=product jvmtidocs
+make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+make[2]: Nothing to be done for `jvmtidocs'.
+make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+make BUILD_FLAVOR=product VM_SUBDIR=product \
+          generic_export
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+make[1]: Nothing to be done for `generic_export'.
+make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+cd /home/openjdk/sources/jdk8_tl/hotspot/make; \
+	make BUILD_FLAVOR=fastdebug VM_TARGET=fastdebug generic_build2 
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+mkdir -p /home/openjdk/sources/jdk8_tl/hotspot/build/linux
+cd /home/openjdk/sources/jdk8_tl/hotspot/build/linux; \
+	    make -f /home/openjdk/sources/jdk8_tl/hotspot/make/linux/Makefile \
+		       JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 OUTPUTDIR=/home/openjdk/sources/jdk8_tl/hotspot/build/linux GAMMADIR=/home/openjdk/sources/jdk8_tl/hotspot MAKE_VERBOSE=y HOTSPOT_RELEASE_VERSION=25.0-b10 JRE_RELEASE_VERSION="1.8.0" HOTSPOT_BUILD_VERSION=internal fastdebug
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+cd linux_i486_compiler2/fastdebug && make -w
+make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+../generated/adfiles/adlc -DLINUX -D_GNU_SOURCE -DIA32 -q -T -g -U_LP64 ../generated/adfiles/linux_x86_32.ad  \
+ -c../generated/adfiles/mktmp13156/ad_x86_32.cpp -h../generated/adfiles/mktmp13156/ad_x86_32.hpp -a../generated/adfiles/mktmp13156/dfa_x86_32.cpp -v../generated/adfiles/mktmp13156/adGlobals_x86_32.hpp \
+	    || { rm -rf ../generated/adfiles/mktmp13156; exit 1; }
+./adlc_updater ad_x86_32.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater ad_x86_32.hpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater ad_x86_32_clone.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater ad_x86_32_expand.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater ad_x86_32_format.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater ad_x86_32_gen.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater ad_x86_32_misc.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater ad_x86_32_peephole.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater ad_x86_32_pipeline.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater adGlobals_x86_32.hpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+./adlc_updater dfa_x86_32.cpp ../generated/adfiles/mktmp13156 ../generated/adfiles
+[ -f ../generated/adfiles/mktmp13156/made-change ] \
+		|| echo "Rescanned ../generated/adfiles/linux_x86_32.ad  but encountered no changes."
+Rescanned ../generated/adfiles/linux_x86_32.ad  but encountered no changes.
+rm -rf ../generated/adfiles/mktmp13156
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+if [ -d /home/openjdk/sources/jdk8_tl/hotspot/agent -a "x86" != "ia64" \
+             -a "x86" != "zero" ] ; then \
+	   make -f sa.make /home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug/../generated/sa-jdi.jar; \
+	fi
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[5]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+make[5]: `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug/../generated/sa-jdi.jar' is up to date.
+make[5]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+make[4]: `precompiled.hpp.gch' is up to date.
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+echo "**NOTICE** Dtrace support disabled: "/usr/include/sys/sdt.h not found""
+**NOTICE** Dtrace support disabled: /usr/include/sys/sdt.h not found
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+All done.
+make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler2/fastdebug'
+cd linux_i486_compiler2/fastdebug && ./test_gamma
+JAVA_HOME must point to a 32-bit OpenJDK.
+make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+cd /home/openjdk/sources/jdk8_tl/hotspot/make; \
+	make BUILD_FLAVOR=fastdebug VM_TARGET=fastdebug1 generic_build1 
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+mkdir -p /home/openjdk/sources/jdk8_tl/hotspot/build/linux
+cd /home/openjdk/sources/jdk8_tl/hotspot/build/linux; \
+	    make -f /home/openjdk/sources/jdk8_tl/hotspot/make/linux/Makefile \
+		       JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 OUTPUTDIR=/home/openjdk/sources/jdk8_tl/hotspot/build/linux GAMMADIR=/home/openjdk/sources/jdk8_tl/hotspot MAKE_VERBOSE=y HOTSPOT_RELEASE_VERSION=25.0-b10 JRE_RELEASE_VERSION="1.8.0" HOTSPOT_BUILD_VERSION=internal fastdebug1
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[2]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+cd linux_i486_compiler1/fastdebug && make -w
+make[3]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+if [ -d /home/openjdk/sources/jdk8_tl/hotspot/agent -a "x86" != "ia64" \
+             -a "x86" != "zero" ] ; then \
+	   make -f sa.make /home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug/../generated/sa-jdi.jar; \
+	fi
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[5]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+make[5]: `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug/../generated/sa-jdi.jar' is up to date.
+make[5]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+make[4]: `precompiled.hpp.gch' is up to date.
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[4]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+echo "**NOTICE** Dtrace support disabled: "/usr/include/sys/sdt.h not found""
+**NOTICE** Dtrace support disabled: /usr/include/sys/sdt.h not found
+make[4]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+All done.
+make[3]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux/linux_i486_compiler1/fastdebug'
+cd linux_i486_compiler1/fastdebug && ./test_gamma
+JAVA_HOME must point to a 32-bit OpenJDK.
+make[2]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/build/linux'
+make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+make BUILD_FLAVOR=fastdebug VM_SUBDIR=fastdebug \
+	  EXPORT_SUBDIR=/fastdebug \
+	  generic_export
+INFO: ENABLE_FULL_DEBUG_SYMBOLS=1
+INFO: /usr/bin/objcopy cmd found so will create .debuginfo files.
+INFO: STRIP_POLICY=min_strip
+INFO: ZIP_DEBUGINFO_FILES=1
+make[1]: Entering directory `/home/openjdk/sources/jdk8_tl/hotspot/make'
+make[1]: Nothing to be done for `generic_export'.
+make[1]: Leaving directory `/home/openjdk/sources/jdk8_tl/hotspot/make'

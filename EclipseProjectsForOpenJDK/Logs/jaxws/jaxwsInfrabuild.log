@@ -1,0 +1,86 @@
+Cleaning langtools build artifacts ... done
+Cleaning corba build artifacts ... done
+Cleaning jaxp build artifacts ... done
+Cleaning jaxws build artifacts ... done
+Cleaning hotspot build artifacts ... done
+Cleaning jdk build artifacts ... done
+Cleaning images build artifacts ... done
+Cleaning overlay-images build artifacts ... done
+Cleaning bootcycle-build build artifacts ... done
+Cleaning docs build artifacts ... done
+Cleaning docstemp build artifacts ... done
+Cleaned all build artifacts.
+Building OpenJDK for target 'clean jaxws' in configuration 'linux-x86_64-normal-server-release'
+
+## Starting langtools
+Compiling 2 files for BUILD_TOOLS
+Compiling 23 properties into resource bundles
+Compiling 677 files for BUILD_BOOTSTRAP_LANGTOOLS
+Creating langtools/dist/bootstrap/lib/javac.jar
+Updating langtools/dist/lib/src.zip
+Creating langtools/dist/bootstrap/lib/javah.jar
+Compiling 680 files for BUILD_FULL_JAVAC
+Creating langtools/dist/bootstrap/lib/javap.jar
+Creating langtools/dist/bootstrap/lib/javadoc.jar
+Creating langtools/dist/lib/classes.jar
+## Finished langtools (build time 00:00:59)
+
+## Starting jaxp
+Updating jaxp/dist/lib/src.zip
+Compiling 1877 files for BUILD_JAXP
+/home/openjdk/sources/jdk8_tl/jaxp/src/com/sun/org/apache/xalan/internal/xslt/EnvironmentCheck.java:1008: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+      Method method = clazz.getMethod(DOM_LEVEL3_METHOD, null);
+                                                         ^
+  cast to Class for a varargs call
+  cast to Class[] for a non-varargs call and to suppress this warning
+/home/openjdk/sources/jdk8_tl/jaxp/src/javax/xml/xpath/XPathFactoryFinder.java:336: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                return creationMethod.invoke(null, null);
+                                                   ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/openjdk/sources/jdk8_tl/jaxp/src/javax/xml/validation/SchemaFactoryFinder.java:360: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                return creationMethod.invoke(null, null);
+                                                   ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/openjdk/sources/jdk8_tl/jaxp/src/javax/xml/transform/FactoryFinder.java:213: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                return creationMethod.invoke(null, null);
+                                                   ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+Creating jaxp/dist/lib/classes.jar
+## Finished jaxp (build time 00:00:32)
+
+## Starting jaxws
+Updating jaxws/dist/lib/src.zip
+Compiling 24 files for BUILD_JAF
+Compiling 2822 files for BUILD_JAXWS
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+/home/openjdk/sources/jdk8_tl/jaxws/src/share/jaxws_classes/javax/xml/ws/spi/FactoryFinder.java:199: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            java.util.Iterator iter = ((Iterable) m.invoke(null, args)).iterator();
+                                                                 ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+Creating jaxws/dist/lib/classes.jar
+## Finished jaxws (build time 00:00:47)
+
+----- Build times -------
+Start 2013-01-03 15:03:30
+End   2013-01-03 15:05:48
+00:00:32 jaxp
+00:00:47 jaxws
+00:00:59 langtools
+00:02:18 TOTAL
+-------------------------
+Finished building OpenJDK for target 'clean jaxws'

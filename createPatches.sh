@@ -43,7 +43,7 @@ do
    then
      homeDir=$1
    fi
-   
+      
    # save full path name into a working variable
    javaFullPathElements=$javaFullPath
    # extract .java file name from the full path name (working variable)

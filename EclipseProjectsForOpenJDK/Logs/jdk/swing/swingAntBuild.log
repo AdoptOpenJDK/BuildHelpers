@@ -1,0 +1,535 @@
+Buildfile: /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/swing/build.xml
+
+-check-swing.windows:
+
+-pre-init:
+
+-tstamp:
+
+-first-init:
+
+-warn-about-bootstrap.jdk:
+
+-project-init:
+
+-post-init:
+
+-init:
+
+-demo-init.unix:
+
+-demo-init.windows:
+
+-demo-init:
+
+-clean-docs-tests:
+
+-clean-ant:
+
+-do-clean-ant:
+   [delete] Deleting directory /home/openjdk/sources/jdk8_tl/jdk/build/linux-i586/depcache
+
+-clean-make:
+
+shared.clean:
+
+clean:
+
+-check-swing.windows:
+
+-pre-init:
+
+-tstamp:
+
+-first-init:
+
+-warn-about-bootstrap.jdk:
+
+-project-init:
+
+-post-init:
+
+-init:
+
+-pre-compile:
+
+-build-ant:
+
+-do-build-ant:
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/make/eclipse/common/shared.xml:128: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 801 source files to /home/openjdk/sources/jdk8_tl/jdk/build/linux-i586/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/com/sun/java/swing/Painter.java:32: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac] public interface Painter<T> extends javax.swing.Painter<T> {
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JComponent.java:2114: warning: [unchecked] unchecked cast
+    [javac]                                 (WHEN_IN_FOCUSED_WINDOW_BINDINGS);
+    [javac]                                 ^
+    [javac]   required: Hashtable<KeyStroke,KeyStroke>
+    [javac]   found:    Object
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JComponent.java:2167: warning: [unchecked] unchecked cast
+    [javac]                                 (WHEN_IN_FOCUSED_WINDOW_BINDINGS);
+    [javac]                                 ^
+    [javac]   required: Hashtable<KeyStroke,KeyStroke>
+    [javac]   found:    Object
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JComponent.java:4130: warning: [unchecked] unchecked cast
+    [javac]                                             (Set<AWTKeyStroke>)value);
+    [javac]                                                                ^
+    [javac]   required: Set<AWTKeyStroke>
+    [javac]   found:    Object
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JComponent.java:4136: warning: [unchecked] unchecked cast
+    [javac]                                             (Set<AWTKeyStroke>)value);
+    [javac]                                                                ^
+    [javac]   required: Set<AWTKeyStroke>
+    [javac]   found:    Object
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JComponent.java:4718: warning: [unchecked] unchecked cast
+    [javac]             result = (T[])getAncestorListeners();
+    [javac]                                               ^
+    [javac]   required: T[]
+    [javac]   found:    AncestorListener[]
+    [javac]   where T is a type-variable:
+    [javac]     T extends EventListener declared in method <T>getListeners(Class<T>)
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JComponent.java:4722: warning: [unchecked] unchecked cast
+    [javac]             result = (T[])getVetoableChangeListeners();
+    [javac]                                                     ^
+    [javac]   required: T[]
+    [javac]   found:    VetoableChangeListener[]
+    [javac]   where T is a type-variable:
+    [javac]     T extends EventListener declared in method <T>getListeners(Class<T>)
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JComponent.java:4726: warning: [unchecked] unchecked cast
+    [javac]             result = (T[])getPropertyChangeListeners();
+    [javac]                                                     ^
+    [javac]   required: T[]
+    [javac]   found:    PropertyChangeListener[]
+    [javac]   where T is a type-variable:
+    [javac]     T extends EventListener declared in method <T>getListeners(Class<T>)
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JComponent.java:5142: warning: [deprecation] getPeer() in Component has been deprecated
+    [javac]         if(c == null || c.getPeer() == null ||
+    [javac]                          ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/RepaintManager.java:412: warning: [deprecation] getPeer() in Component has been deprecated
+    [javac]             if (!p.isVisible() || (p.getPeer() == null)) {
+    [javac]                                     ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/event/EventListenerList.java:138: warning: [unchecked] unchecked cast
+    [javac]         T[] result = (T[])Array.newInstance(t, n);
+    [javac]                                            ^
+    [javac]   required: T[]
+    [javac]   found:    Object
+    [javac]   where T is a type-variable:
+    [javac]     T extends EventListener declared in method <T>getListeners(Class<T>)
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/event/EventListenerList.java:142: warning: [unchecked] unchecked cast
+    [javac]                 result[j++] = (T)lList[i+1];
+    [javac]                                       ^
+    [javac]   required: T
+    [javac]   found:    Object
+    [javac]   where T is a type-variable:
+    [javac]     T extends EventListener declared in method <T>getListeners(Class<T>)
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/event/EventListenerList.java:164: warning: [rawtypes] found raw type: Class
+    [javac]     private int getListenerCount(Object[] list, Class t) {
+    [javac]                                                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/event/EventListenerList.java:274: warning: [unchecked] unchecked cast
+    [javac]             add((Class<EventListener>)Class.forName((String)listenerTypeOrNull, true, cl), l);
+    [javac]                                                    ^
+    [javac]   required: Class<EventListener>
+    [javac]   found:    Class<CAP#1>
+    [javac]   where CAP#1 is a fresh type-variable:
+    [javac]     CAP#1 extends Object from capture of ?
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/ArrayTable.java:136: warning: [unchecked] unchecked cast
+    [javac]                 ((Hashtable<Object,Object>)table).put(key, value);
+    [javac]                                            ^
+    [javac]   required: Hashtable<Object,Object>
+    [javac]   found:    Object
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/AbstractButton.java:373: warning: [static] static method should be qualified by type name, Thread, instead of by an expression
+    [javac]             Thread.currentThread().sleep(pressTime);
+    [javac]                                   ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/AbstractButton.java:1123: warning: [rawtypes] found raw type: Class
+    [javac]     private boolean isListener(Class c, ActionListener a) {
+    [javac]                                ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/Popup.java:255: warning: [deprecation] show() in Window has been deprecated
+    [javac]         public void show() {
+    [javac]                     ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/Popup.java:258: warning: [deprecation] show() in Window has been deprecated
+    [javac]                 super.show();
+    [javac]                      ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/Popup.java:231: warning: [serial] serializable class HeavyWeightWindow has no definition of serialVersionUID
+    [javac]     static class HeavyWeightWindow extends JWindow implements ModalExclude {
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/Popup.java:270: warning: [serial] serializable class DefaultFrame has no definition of serialVersionUID
+    [javac]     static class DefaultFrame extends Frame {
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/MenuSelectionManager.java:245: warning: [unchecked] unchecked cast
+    [javac]         tmp = (Vector<MenuElement>)selection.clone();
+    [javac]                                                   ^
+    [javac]   required: Vector<MenuElement>
+    [javac]   found:    Object
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/MenuSelectionManager.java:249: warning: [cast] redundant cast to MenuElement
+    [javac]             menuElement = (MenuElement) tmp.elementAt(i);
+    [javac]                           ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/MenuSelectionManager.java:280: warning: [cast] redundant cast to MenuElement
+    [javac]                             path[k] = (MenuElement)tmp.elementAt(k);
+    [javac]                                       ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/MenuSelectionManager.java:388: warning: [unchecked] unchecked cast
+    [javac]         tmp = (Vector<MenuElement>)selection.clone();
+    [javac]                                                   ^
+    [javac]   required: Vector<MenuElement>
+    [javac]   found:    Object
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/MenuSelectionManager.java:391: warning: [cast] redundant cast to MenuElement
+    [javac]             menuElement = (MenuElement) tmp.elementAt(i);
+    [javac]                           ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JPanel.java:236: warning: [serial] serializable class JPanel.AccessibleJPanel has no definition of serialVersionUID
+    [javac]     protected class AccessibleJPanel extends AccessibleJComponent {
+    [javac]               ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JPanel.java:65: warning: [serial] serializable class JPanel has no definition of serialVersionUID
+    [javac] public class JPanel extends JComponent implements Accessible
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/com/sun/java/swing/plaf/gtk/GTKColorChooserPanel.java:538: warning: [serial] serializable class GTKColorChooserPanel.ColorTriangle has no definition of serialVersionUID
+    [javac]     private class ColorTriangle extends JPanel {
+    [javac]             ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/com/sun/java/swing/plaf/gtk/GTKColorChooserPanel.java:1232: warning: [serial] serializable class ColorAction has no definition of serialVersionUID
+    [javac]     private static class ColorAction extends AbstractAction {
+    [javac]                    ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/com/sun/java/swing/plaf/gtk/GTKColorChooserPanel.java:1298: warning: [serial] serializable class GTKColorChooserPanel.OpaqueLabel has no definition of serialVersionUID
+    [javac]     private class OpaqueLabel extends JLabel {
+    [javac]             ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/com/sun/java/swing/plaf/gtk/GTKColorChooserPanel.java:41: warning: [serial] serializable class GTKColorChooserPanel has no definition of serialVersionUID
+    [javac] class GTKColorChooserPanel extends AbstractColorChooserPanel implements
+    [javac] ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:386: warning: [serial] serializable class JSpinner.ModelListener has no definition of serialVersionUID
+    [javac]     private class ModelListener implements ChangeListener, Serializable {
+    [javac]             ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:606: warning: [serial] serializable class DefaultEditor has no definition of serialVersionUID
+    [javac]     public static class DefaultEditor extends JPanel
+    [javac]                   ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/JTextComponent.java:1104: warning: [unchecked] unchecked cast
+    [javac]                 (HashMap<String,Keymap>)appContext.get(KEYMAP_TABLE);
+    [javac]                                                       ^
+    [javac]   required: HashMap<String,Keymap>
+    [javac]   found:    Object
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/JTextComponent.java:1230: warning: [rawtypes] found raw type: Class
+    [javac]             Class[] classes = new Class[1];
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/JTextComponent.java:2544: warning: [serial] serializable class JTextComponent.AccessibleJTextComponent has no definition of serialVersionUID
+    [javac]     public class AccessibleJTextComponent extends AccessibleJComponent
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/JTextComponent.java:3966: warning: [serial] serializable class DefaultTransferHandler has no definition of serialVersionUID
+    [javac]     static class DefaultTransferHandler extends TransferHandler implements
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/JTextComponent.java:4256: warning: [serial] serializable class KeymapWrapper has no definition of serialVersionUID
+    [javac]     static class KeymapWrapper extends InputMap {
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/JTextComponent.java:4314: warning: [serial] serializable class KeymapActionMap has no definition of serialVersionUID
+    [javac]     static class KeymapActionMap extends ActionMap {
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/JTextComponent.java:4405: warning: [serial] serializable class MutableCaretEvent has no definition of serialVersionUID
+    [javac]     static class MutableCaretEvent extends CaretEvent implements ChangeListener, FocusListener, MouseListener {
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DefaultCaret.java:108: warning: [serial] serializable class DefaultCaret has no definition of serialVersionUID
+    [javac] public class DefaultCaret extends Rectangle implements Caret, FocusListener, MouseListener, MouseMotionListener {
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/JTextComponent.java:4989: warning: [serial] serializable class JTextComponent.ComposedTextCaret has no definition of serialVersionUID
+    [javac]     class ComposedTextCaret extends DefaultCaret implements Serializable {
+    [javac]     ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JTextField.java:588: warning: [rawtypes] found raw type: Class
+    [javac]     private boolean isListener(Class c, ActionListener a) {
+    [javac]                                ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JTextField.java:684: warning: [serial] serializable class TextFieldActionPropertyChangeListener has no definition of serialVersionUID
+    [javac]     private static class TextFieldActionPropertyChangeListener extends
+    [javac]                    ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/TextAction.java:117: warning: [rawtypes] found raw type: Enumeration
+    [javac]         for (Enumeration e = h.elements() ; e.hasMoreElements() ;) {
+    [javac]              ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JTextField.java:826: warning: [serial] serializable class NotifyAction has no definition of serialVersionUID
+    [javac]     static class NotifyAction extends TextAction {
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JTextField.java:849: warning: [serial] serializable class JTextField.ScrollRepainter has no definition of serialVersionUID
+    [javac]     class ScrollRepainter implements ChangeListener, Serializable {
+    [javac]     ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JTextField.java:946: warning: [serial] serializable class JTextField.AccessibleJTextField has no definition of serialVersionUID
+    [javac]     protected class AccessibleJTextField extends AccessibleJTextComponent {
+    [javac]               ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JTextField.java:164: warning: [serial] serializable class JTextField has no definition of serialVersionUID
+    [javac] public class JTextField extends JTextComponent implements SwingConstants {
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JFormattedTextField.java:654: warning: [static] static variable should be qualified by type name, JFormattedTextField, instead of by an expression
+    [javac]                     if (fb == JFormattedTextField.this.COMMIT_OR_REVERT) {
+    [javac]                                                       ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JFormattedTextField.java:643: warning: [serial] serializable class JFormattedTextField.FocusLostHandler has no definition of serialVersionUID
+    [javac]     private class FocusLostHandler implements Runnable, Serializable {
+    [javac]             ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JFormattedTextField.java:1109: warning: [serial] serializable class CommitAction has no definition of serialVersionUID
+    [javac]     static class CommitAction extends JTextField.NotifyAction {
+    [javac]            ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JFormattedTextField.java:1147: warning: [serial] serializable class CancelAction has no definition of serialVersionUID
+    [javac]     private static class CancelAction extends TextAction {
+    [javac]                    ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JFormattedTextField.java:1178: warning: [serial] serializable class JFormattedTextField.DocumentHandler has no definition of serialVersionUID
+    [javac]     private class DocumentHandler implements DocumentListener, Serializable {
+    [javac]             ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JFormattedTextField.java:180: warning: [serial] serializable class JFormattedTextField has no definition of serialVersionUID
+    [javac] public class JFormattedTextField extends JTextField {
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DefaultFormatter.java:247: warning: [rawtypes] found raw type: Constructor
+    [javac]             Constructor cons;
+    [javac]             ^
+    [javac]   missing type arguments for generic class Constructor<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Constructor
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DefaultFormatter.java:250: warning: [rawtypes] found raw type: Class
+    [javac]                 cons = ConstructorUtil.getConstructor(vc, new Class[]{String.class});
+    [javac]                                                               ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DefaultFormatter.java:680: warning: [serial] serializable class DefaultFormatter.DefaultNavigationFilter has no definition of serialVersionUID
+    [javac]     private class DefaultNavigationFilter extends NavigationFilter
+    [javac]             ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DefaultFormatter.java:723: warning: [serial] serializable class DefaultFormatter.DefaultDocumentFilter has no definition of serialVersionUID
+    [javac]     private class DefaultDocumentFilter extends DocumentFilter implements
+    [javac]             ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DefaultFormatter.java:61: warning: [serial] serializable class DefaultFormatter has no definition of serialVersionUID
+    [javac] public class DefaultFormatter extends JFormattedTextField.AbstractFormatter
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:108: warning: [rawtypes] found raw type: Comparable
+    [javac]     private Comparable max;
+    [javac]             ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:112: warning: [rawtypes] found raw type: Comparable
+    [javac]     private Comparable min;
+    [javac]             ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:213: warning: [rawtypes] found raw type: Comparable
+    [javac]     public void setMinimum(Comparable minimum) {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:225: warning: [rawtypes] found raw type: Comparable
+    [javac]     public Comparable getMinimum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:238: warning: [rawtypes] found raw type: Comparable
+    [javac]     public void setMaximum(Comparable max) {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:250: warning: [rawtypes] found raw type: Comparable
+    [javac]     public Comparable getMaximum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:413: warning: [rawtypes] found raw type: Comparable
+    [javac]         Comparable min = getMinimum();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:416: warning: [unchecked] unchecked call to compareTo(T) as a member of the raw type Comparable
+    [javac]             if (min != null && min.compareTo(value) > 0) {
+    [javac]                                             ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:426: warning: [rawtypes] found raw type: Comparable
+    [javac]         Comparable max = getMaximum();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:428: warning: [unchecked] unchecked call to compareTo(T) as a member of the raw type Comparable
+    [javac]             if (max != null && max.compareTo(value) < 0) {
+    [javac]                                             ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:772: warning: [rawtypes] found raw type: Map
+    [javac]     boolean isLiteral(Map attributes) {
+    [javac]                       ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:799: warning: [rawtypes] found raw type: Map
+    [javac]                 Map attributes = iterator.getAttributes();
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:860: warning: [rawtypes] found raw type: Map
+    [javac]     Object getAdjustField(int start, Map attributes) {
+    [javac]                                      ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:902: warning: [rawtypes] found raw type: Map
+    [javac]     Object adjustValue(Object value, Map attributes, Object field,
+    [javac]                                      ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:1025: warning: [rawtypes] found raw type: Map
+    [javac]                         Map attributes = iterator.getAttributes();
+    [javac]                         ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:999: warning: [serial] serializable class InternationalFormatter.IncrementAction has no definition of serialVersionUID
+    [javac]     private class IncrementAction extends AbstractAction {
+    [javac]             ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/InternationalFormatter.java:95: warning: [serial] serializable class InternationalFormatter has no definition of serialVersionUID
+    [javac] public class InternationalFormatter extends DefaultFormatter {
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DateFormatter.java:110: warning: [rawtypes] found raw type: Map
+    [javac]     Object getAdjustField(int start, Map attributes) {
+    [javac]                                      ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DateFormatter.java:111: warning: [rawtypes] found raw type: Iterator
+    [javac]         Iterator attrs = attributes.keySet().iterator();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Iterator<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DateFormatter.java:129: warning: [rawtypes] found raw type: Map
+    [javac]     Object adjustValue(Object value, Map attributes, Object key,
+    [javac]                                      ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/DateFormatter.java:50: warning: [serial] serializable class DateFormatter has no definition of serialVersionUID
+    [javac] public class DateFormatter extends InternationalFormatter {
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:919: warning: [rawtypes] found raw type: Comparable
+    [javac]         public void setMinimum(Comparable min) {
+    [javac]                                ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:923: warning: [rawtypes] found raw type: Comparable
+    [javac]         public Comparable getMinimum() {
+    [javac]                ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:927: warning: [rawtypes] found raw type: Comparable
+    [javac]         public void setMaximum(Comparable max) {
+    [javac]                                ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:931: warning: [rawtypes] found raw type: Comparable
+    [javac]         public Comparable getMaximum() {
+    [javac]                ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:911: warning: [serial] serializable class DateEditorFormatter has no definition of serialVersionUID
+    [javac]     private static class DateEditorFormatter extends DateFormatter {
+    [javac]                    ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:947: warning: [serial] serializable class DateEditor has no definition of serialVersionUID
+    [javac]     public static class DateEditor extends DefaultEditor
+    [javac]                   ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/NumberFormatter.java:173: warning: [rawtypes] found raw type: Class
+    [javac]     private Object convertValueToValueClass(Object value, Class valueClass) {
+    [javac]                                                           ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/NumberFormatter.java:266: warning: [rawtypes] found raw type: Map
+    [javac]     boolean isLiteral(Map attrs) {
+    [javac]                       ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/NumberFormatter.java:327: warning: [rawtypes] found raw type: Map
+    [javac]                 Map attrs = iterator.getAttributes();
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/NumberFormatter.java:430: warning: [rawtypes] found raw type: Constructor
+    [javac]                         Constructor cons = valueClass.getConstructor(
+    [javac]                         ^
+    [javac]   missing type arguments for generic class Constructor<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Constructor
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/NumberFormatter.java:431: warning: [rawtypes] found raw type: Class
+    [javac]                                               new Class[] { String.class });
+    [javac]                                                   ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/text/NumberFormatter.java:92: warning: [serial] serializable class NumberFormatter has no definition of serialVersionUID
+    [javac] public class NumberFormatter extends InternationalFormatter {
+    [javac]        ^
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:1097: warning: [rawtypes] found raw type: Comparable
+    [javac]         public void setMinimum(Comparable min) {
+    [javac]                                ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:1101: warning: [rawtypes] found raw type: Comparable
+    [javac]         public Comparable getMinimum() {
+    [javac]                ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:1105: warning: [rawtypes] found raw type: Comparable
+    [javac]         public void setMaximum(Comparable max) {
+    [javac]                                ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:1109: warning: [rawtypes] found raw type: Comparable
+    [javac]         public Comparable getMaximum() {
+    [javac]                ^
+    [javac]   missing type arguments for generic class Comparable<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in interface Comparable
+    [javac] /home/openjdk/sources/jdk8_tl/jdk/src/share/classes/javax/swing/JSpinner.java:1088: warning: [serial] serializable class NumberEditorFormatter has no definition of serialVersionUID
+    [javac]     private static class NumberEditorFormatter extends NumberFormatter {
+    [javac]                    ^
+    [javac] Note: Some input files additionally use or override a deprecated API.
+    [javac] Note: Some input files additionally use unchecked or unsafe operations.
+    [javac] 100 warnings
+     [copy] Copying 156 files to /home/openjdk/sources/jdk8_tl/jdk/build/linux-i586/classes
+
+-maybe-do-build-ant-closed:
+
+-build-make:
+
+-post-compile:
+      [jar] Building jar: /home/openjdk/sources/jdk8_tl/jdk/dist/lib/swing.jar
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 33 seconds

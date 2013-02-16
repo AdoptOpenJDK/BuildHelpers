@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jmx</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>${jmx.demo.classes}</name>
+			<type>2</type>
+			<location>/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/jmx/${jmx.demo.classes}</location>
+		</link>
+		<link>
+			<name>${jmx.demo.src}</name>
+			<type>2</type>
+			<location>/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/jmx/${jmx.demo.src}</location>
+		</link>
+		<link>
+			<name>build.xml</name>
+			<type>1</type>
+			<location>/home/openjdk/sources/jdk8_tl/jdk/make/eclipse/jmx/build.xml</location>
+		</link>
+		<link>
+			<name>classes</name>
+			<type>2</type>
+			<location>/home/openjdk/sources/jdk8_tl/jdk/build/linux-i586/classes</location>
+		</link>
+	</linkedResources>
+</projectDescription>

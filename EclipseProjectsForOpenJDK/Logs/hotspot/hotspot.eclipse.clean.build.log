@@ -1,0 +1,18 @@
+18:36:08 **** Clean-only build of configuration Default for project hotspot ****
+make clean 
+Cleaning langtools build artifacts ... done
+Cleaning corba build artifacts ... done
+Cleaning jaxp build artifacts ... done
+Cleaning jaxws build artifacts ... done
+Cleaning hotspot build artifacts ... done
+Cleaning jdk build artifacts ... done
+Cleaning images build artifacts ... done
+Cleaning overlay-images build artifacts ... done
+Cleaning bootcycle-build build artifacts ... done
+Cleaning docs build artifacts ... done
+Cleaning docstemp build artifacts ... done
+Cleaned all build artifacts.
+
+18:36:08 Build Finished (took 555ms)
+
+
